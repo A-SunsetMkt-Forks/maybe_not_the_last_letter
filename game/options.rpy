@@ -11,7 +11,7 @@
 ##
 ## 带有 _() 的字符串表示其可被翻译。
 
-define config.name = _("maybe_not_the_last_letter")
+define config.name = _("也许不是最后一封信")
 
 
 ## 决定上面给出的标题是否显示在标题界面屏幕。设置为 False 来隐藏标题。
@@ -21,7 +21,7 @@ define gui.show_name = True
 
 ## 游戏版本号。
 
-define config.version = "1.0"
+define config.version = "v0.1-alpha"
 
 
 ## 放置在游戏“关于”屏幕的文本。将文本放在三个引号之间，并在段落之间留一个空行。
@@ -130,7 +130,7 @@ default preferences.afm_time = 15
 ##
 ## 该命令一般不应变更，若要变更，应为有效字符串而不是表达式。
 
-define config.save_directory = "maybe_not_the_last_letter-1627746212"
+define config.save_directory = "maybe_not_the_last_letter-1627730196"
 
 
 ## 图标 ##########################################################################
@@ -138,6 +138,13 @@ define config.save_directory = "maybe_not_the_last_letter-1627746212"
 ## 在任务栏或 Dock 上显示的图标。
 
 define config.window_icon = "gui/window_icon.png"
+
+## 开发者模式 ##########################################################################
+##
+## 若设置为True，启用开发者模式。开发者模式下能使用shift+D进入开发者菜单，使用shift+R重新加载脚本，以及各种不支持终端用户的功能特性。
+## 该项可以是True、False或“auto”。若设置为“auto”，Ren’Py会检查整个游戏是否已经构建打包，并设置合适的config.developer值。
+
+define config.developer = "auto"
 
 
 ## 生成配置 ########################################################################
@@ -178,6 +185,24 @@ init python:
 
     build.documentation('*.html')
     build.documentation('*.txt')
+    build.documentation('*.md')
+
+    # 定义归档文件。
+    build.archive("scripts", "all")
+    build.archive("images", "all")
+    build.archive("audio", "all")
+
+    # 将脚本放入scripts归档。
+    build.classify("game/**.rpy", "scripts")
+    build.classify("game/**.rpyc", "scripts")
+
+    # 将图片放入images归档。
+    build.classify("game/**.jpg", "images")
+    build.classify("game/**.png", "images")
+
+    # 将音乐放入audio归档。
+    build.classify("game/**.mp3", "audio")
+    build.classify("game/**.ogg", "audio")
 
 
 ## 需要一个 Google Play 授权密钥来下载扩展文件并执行应用内购。授权密钥可以在
@@ -189,3 +214,4 @@ init python:
 ## 与 itch.io 工程关联的用户名和工程名，以斜杠分隔。
 
 # define build.itch_project = "renpytom/test-project"
+
