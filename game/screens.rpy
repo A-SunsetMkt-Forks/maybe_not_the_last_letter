@@ -280,6 +280,13 @@ style quick_button_text:
 ##
 ## 该界面包含在标题菜单和游戏菜单中，并提供导航到其他菜单，以及启动游戏。
 
+init python:
+    def FinishEnterName():
+        if not player: return
+        persistent.playername = player
+        renpy.hide_screen("name_input")
+        renpy.jump_out_of_context("start")
+
 screen navigation():
 
     vbox:
@@ -292,7 +299,7 @@ screen navigation():
 
         if main_menu:
 
-            textbutton _("开始游戏") action Start()
+            textbutton _("开始游戏") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message="Please enter your name", ok_action=Function(FinishEnterName)))
 
         else:
 
@@ -1114,6 +1121,71 @@ style help_label_text:
 ## 当 Ren'Py 需要询问玩家有关确定或取消的问题时，会调用确认界面。
 ##
 ## https://www.renpy.cn/doc/screen_special.html#confirm
+
+screen name_input(message, ok_action):
+
+    ## Ensure other screens do not get input while this screen is displayed.
+    modal True
+
+    zorder 200
+
+    style_prefix "confirm"
+
+    add "gui/overlay/confirm.png"
+    key "K_RETURN" action [ok_action]
+
+    frame:
+
+        vbox:
+            xalign .5
+            yalign .5
+            spacing 30
+
+            label _(message):
+                style "confirm_prompt"
+                xalign 0.5
+
+            input default "" value VariableInputValue("player") length 12 allow "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+
+            #hbox:
+            #    xalign 0.5
+            #    style_prefix "radio_pref"
+            #    textbutton "Male" action NullAction()
+            #    textbutton "Female" action NullAction()
+            hbox:
+                xalign 0.5
+                spacing 100
+
+                textbutton _("OK") action ok_action
+
+screen dialog(message, ok_action):
+
+    ## Ensure other screens do not get input while this screen is displayed.
+    modal True
+
+    zorder 200
+
+    style_prefix "confirm"
+
+    add "gui/overlay/confirm.png"
+
+    frame:
+
+        vbox:
+            xalign .5
+            yalign .5
+            spacing 30
+
+            label _(message):
+                style "confirm_prompt"
+                xalign 0.5
+
+            hbox:
+                xalign 0.5
+                spacing 100
+
+                textbutton _("OK") action ok_action
+
 
 screen confirm(message, yes_action, no_action):
 
