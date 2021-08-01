@@ -138,6 +138,9 @@ define gui.dialogue_width = 744
 ## 对话文本的水平对齐方式。0.0 为左侧对齐，0.5 为居中显示，而 1.0 为右侧对齐。
 define gui.dialogue_text_xalign = 0.0
 
+## The horizontal alignment of the dialogue text. This can be 0.0 for left-
+## aligned, 0.5 for centered, and 1.0 for right-aligned.
+define gui.text_xalign = 0.0
 
 ## 按钮 ##########################################################################
 ##
