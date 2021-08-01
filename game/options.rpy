@@ -26,7 +26,8 @@ define config.version = "v0.1-alpha"
 
 ## 放置在游戏“关于”屏幕的文本。将文本放在三个引号之间，并在段落之间留一个空行。
 
-define gui.about = _p("""
+define gui.about = _p("""基于Renpy的互动小说游戏。
+
 """)
 
 
@@ -130,7 +131,7 @@ default preferences.afm_time = 15
 ##
 ## 该命令一般不应变更，若要变更，应为有效字符串而不是表达式。
 
-define config.save_directory = "maybe_not_the_last_letter-1627730196"
+define config.save_directory = "maybe_not_the_last_letter"
 
 
 ## 图标 ##########################################################################
