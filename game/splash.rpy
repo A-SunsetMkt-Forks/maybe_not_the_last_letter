@@ -5,23 +5,10 @@ init python:
     menu_trans_time = 1
     # Default message everyone sees in the game
     splash_message_default = "This game is an unofficial fan game, unaffiliated with Team Salvato."
-    # Used sometimes to change splash messages if called upon
-    splash_messages = [
-        "Please support Doki Doki Literature Club.",
-        "Monika is watching you code."
-    ]
 
 image splash_warning = ParameterizedText(style="splash_text", xalign=0.5, yalign=0.5)
 
 # Main Menu Images
-image menu_logo:
-    "/mod_assets/DDLCModTemplateLogo.png"
-    subpixel True
-    xcenter 240
-    ycenter 120
-    zoom 0.60
-    menu_logo_move
-
 image menu_bg:
     topleft
     "gui/menu_bg.png"
@@ -41,16 +28,6 @@ image menu_nav:
     menu_nav_move
 
 # Main Menu Effects
-
-image menu_particles:
-    2.481
-    xpos 224
-    ypos 104
-    ParticleBurst("gui/menu_particle.png", explodeTime=0, numParticles=40, particleTime=2.0, particleXSpeed=3, particleYSpeed=3).sm
-    particle_fadeout
-
-transform particle_fadeout:
-    easeout 1.5 alpha 0
 
 transform menu_bg_move:
     subpixel True
@@ -90,17 +67,6 @@ transform menu_fadeout:
     alpha 0.4
     linear 0.5 alpha 0
 
-transform menu_art_move(z, x, z2):
-    subpixel True
-    yoffset 0 + (1200 * z)
-    xoffset (740 - x) * z * 0.5
-    zoom z2 * 0.75
-    time 1.0
-    parallel:
-        ease 1.75 yoffset 0
-    parallel:
-        pause 0.75
-        ease 1.5 zoom z2 xoffset 0
 
 # Team Salvato Splash Screen
 
@@ -216,8 +182,6 @@ label splashscreen:
     show intro with Dissolve(0.5, alpha=True)
     $ pause(3.0 - (datetime.datetime.now() - starttime).total_seconds())
     hide intro with Dissolve(max(0, 3.5 - (datetime.datetime.now() - starttime).total_seconds()), alpha=True)
-    if persistent.playthrough == 2 and renpy.random.randint(0, 3) == 0:
-        $ splash_message = renpy.random.choice(splash_messages)
     show splash_warning "[splash_message]" with Dissolve(max(0, 4.0 - (datetime.datetime.now() - starttime).total_seconds()), alpha=True)
     $ pause(6.0 - (datetime.datetime.now() - starttime).total_seconds())
     hide splash_warning with Dissolve(max(0, 6.5 - (datetime.datetime.now() - starttime).total_seconds()), alpha=True)

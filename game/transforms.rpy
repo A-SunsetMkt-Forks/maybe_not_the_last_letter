@@ -392,40 +392,40 @@ define tpause = Pause(0.25)
 # White noises and effects
 image noise:
     truecenter
-    "images/images/noise1.jpg"
+    "images/noise1.jpg"
     pause 0.1
-    "images/images/noise2.jpg"
+    "images/noise2.jpg"
     pause 0.1
-    "images/images/noise3.jpg"
+    "images/noise3.jpg"
     pause 0.1
-    "images/images/noise4.jpg"
+    "images/noise4.jpg"
     pause 0.1
     xzoom -1
-    "images/images/noise1.jpg"
+    "images/noise1.jpg"
     pause 0.1
-    "images/images/noise2.jpg"
+    "images/noise2.jpg"
     pause 0.1
-    "images/images/noise3.jpg"
+    "images/noise3.jpg"
     pause 0.1
-    "images/images/noise4.jpg"
+    "images/noise4.jpg"
     pause 0.1
     yzoom -1
-    "images/images/noise1.jpg"
+    "images/noise1.jpg"
     pause 0.1
-    "images/images/noise2.jpg"
+    "images/noise2.jpg"
     pause 0.1
-    "images/images/noise3.jpg"
+    "images/noise3.jpg"
     pause 0.1
-    "images/images/noise4.jpg"
+    "images/noise4.jpg"
     pause 0.1
     xzoom 1
-    "images/images/noise1.jpg"
+    "images/noise1.jpg"
     pause 0.1
-    "images/images/noise2.jpg"
+    "images/noise2.jpg"
     pause 0.1
-    "images/images/noise3.jpg"
+    "images/noise3.jpg"
     pause 0.1
-    "images/images/noise4.jpg"
+    "images/noise4.jpg"
     pause 0.1
     yzoom 1
     repeat
@@ -443,7 +443,7 @@ transform noisefade(t=0):
 # Vignette around the edge of the screen
 image vignette:
     truecenter
-    "images/images/vignette.png"
+    "images/vignette.png"
 
 # Have the vignette fade in
 transform vignettefade(t=0):

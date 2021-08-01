@@ -21,6 +21,12 @@ style hyperlink_text:
     properties gui.text_properties("hyperlink", accent=True)
     hover_underline True
 
+style splash_text:
+    size 24
+    color "#000"
+    text_align 0.5
+    outlines []
+
 style gui_text:
     properties gui.text_properties("interface")
 
@@ -299,7 +305,7 @@ screen navigation():
 
         if main_menu:
 
-            textbutton _("开始游戏") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message="Please enter your name", ok_action=Function(FinishEnterName)))
+            textbutton _("开始游戏") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message="请输入你的名字", ok_action=Function(FinishEnterName)))
 
         else:
 

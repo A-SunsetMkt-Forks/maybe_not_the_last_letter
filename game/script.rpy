@@ -18,11 +18,6 @@ label start:
     show spirit blank
 
     # 此处显示各行对话。
-    $ consolehistory = []
-    call updateconsole ("os.remove(\"characters/yuri.chr\")", "yuri.chr deleted successfully.")
-    $ pause(1.0)
-    call updateconsole ("os.remove(\"characters/natsuki.chr\")", "natsuki.chr deleted successfully.")
-    $ pause(1.0)
 
     n "您已创建一个新的 Ren'Py 游戏。"
 
