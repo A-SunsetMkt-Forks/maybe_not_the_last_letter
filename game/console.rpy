@@ -7,6 +7,7 @@
 
 # The gray transparent overlay box on screen
 
+# 调用举例
 # $ consolehistory = []
 # call updateconsole ("os.remove(\"characters/yuri.chr\")", "yuri.chr deleted successfully.")
 # $ pause(1.0)
