@@ -13,6 +13,26 @@ style default:
     properties gui.text_properties()
     language gui.language
 
+style edited is default:
+    kerning 8
+    outlines [(10, "#000", 0, 0)]
+    xpos gui.text_xpos
+    xanchor gui.text_xalign
+    xsize gui.text_width
+    ypos gui.text_ypos
+    text_align gui.text_xalign
+    layout ("subtitle" if gui.text_xalign else "tex")
+
+style normal is default:
+    xpos gui.text_xpos
+    xanchor gui.text_xalign
+    xsize gui.text_width
+    ypos gui.text_ypos
+
+    text_align gui.text_xalign
+    layout ("subtitle" if gui.text_xalign else "tex")
+
+
 style input:
     properties gui.text_properties("input", accent=True)
     adjust_spacing False
