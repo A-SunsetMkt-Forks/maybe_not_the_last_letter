@@ -86,6 +86,9 @@ define gui.title_text_size = 50
 define gui.main_menu_background = "gui/main_menu.png"
 define gui.game_menu_background = "gui/game_menu.png"
 
+# Controls whether we show the name and version of the game
+define -2 gui.show_name = config.developer
+
 
 ## 对话 ##########################################################################
 ##
@@ -121,6 +124,13 @@ define gui.namebox_tile = False
 ## 为“0.5”来放置到正中。
 define gui.dialogue_xpos = 268
 define gui.dialogue_ypos = 50
+
+## The placement of dialogue relative to the textbox. These can be a whole
+## number of pixels relative to the left or top side of the textbox, or 0.5 to
+## center.
+define gui.text_xpos = 268
+define gui.text_ypos = 50
+
 
 ## 对话文本的最大宽度（以像素为单位）。
 define gui.dialogue_width = 744
@@ -405,8 +415,14 @@ init python:
         ## 调整对话框的位置。
         gui.textbox_height = 240
         gui.name_xpos = 80
+        gui.text_xpos = 268
+        gui.text_ypos = 50
+        gui.text_width = 744
         gui.dialogue_xpos = 90
         gui.dialogue_width = 1100
+
+        # text alignment
+        gui.text_xalign = 0.0
 
         ## 更改各元素的尺寸和间距。
         gui.slider_size = 36
