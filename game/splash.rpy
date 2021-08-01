@@ -4,7 +4,7 @@
 init python:
     menu_trans_time = 1
     # Default message everyone sees in the game
-    splash_message_default = "This game is an unofficial fan game, unaffiliated with Team Salvato."
+    splash_message_default = "此游戏仅用于技术交流，禁止分发。"
 
 image splash_warning = ParameterizedText(style="splash_text", xalign=0.5, yalign=0.5)
 
@@ -123,15 +123,15 @@ label splashscreen:
             $ quick_menu = False
             scene black
             menu:
-                "A previous save file has been found. Would you like to delete your save data and start over?"
-                "Yes, delete my existing data.":
-                    "Deleting save data...{nw}"
+                "曾经的存档文件被发现了。你希望加载存档还是重新开始？"
+                "删除存档 重新开始":
+                    "删除中...{nw}"
                     python:
                         delete_all_saves()
                         renpy.loadsave.location.unlink_persistent()
                         renpy.persistent.should_save_persistent = False
                         renpy.utter_restart()
-                "No, continue where I left off.":
+                "加载存档":
                     pass
 
     # Sets First Run to False to Show Disclaimer
@@ -148,12 +148,12 @@ label splashscreen:
         pause 1.0
         # You can edit this message but you MUST have say it's not affiliated with Team Salvato
         # must finish the official game and has spoilers, and where to get DDLC from."
-        "[config.name] is a Doki Doki Literature Club fan mod that is not affiliated in anyway with Team Salvato."
-        "It is designed to be played only after the official game has been completed, and contains spoilers for the official game."
-        "Game files for Doki Doki Literature Club are required to play this mod and can be downloaded for free at: https://ddlc.moe or on Steam."
+        "[config.name] 是一个用于技术交流的互动小说游戏。"
+        "此项目使用了未获授权的代码和资源文件。"
+        "你获得的游戏二进制文件是用于内部预览的测试分发版。"
         menu:
-            "By playing [config.name] you agree that you have completed Doki Doki Literature Club and accept any spoilers contained within."
-            "I agree.":
+            "通过游玩 [config.name] ，你同意不向非相关人士泄露关于此项目的任何内容且不对此分发包进行逆向工程。"
+            "我同意。":
                  pass
         $ persistent.first_run = True
         scene tos2
@@ -205,8 +205,8 @@ label after_load:
     if anticheat != persistent.anticheat:
         stop music
         scene black
-        "The save file could not be loaded."
-        "Are you trying to cheat?"
+        "存档无法加载"
+        "你在尝试作弊吗？"
 
         $ renpy.utter_restart()
     return
