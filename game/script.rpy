@@ -9,6 +9,7 @@ define s = Character("余晖")
 # 游戏在此开始。
 
 label start:
+    $ quick_menu = True
 
     stop music fadeout 1.0
 
