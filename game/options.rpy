@@ -145,7 +145,7 @@ define config.window_icon = "gui/window_icon.png"
 ## 若设置为True，启用开发者模式。开发者模式下能使用shift+D进入开发者菜单，使用shift+R重新加载脚本，以及各种不支持终端用户的功能特性。
 ## 该项可以是True、False或“auto”。若设置为“auto”，Ren’Py会检查整个游戏是否已经构建打包，并设置合适的config.developer值。
 
-define config.developer = "auto"
+# define config.developer = "auto"
 
 
 ## 生成配置 ########################################################################

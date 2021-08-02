@@ -5,6 +5,12 @@ init python:
     menu_trans_time = 1
     # Default message everyone sees in the game
     splash_message_default = "此游戏仅用于技术交流，禁止分发。"
+    # Used sometimes to change splash messages if called upon
+    splash_messages = [
+        "你好？",
+        "请支持《心跳文学部》。",
+        "ERROR"
+    ]
 
 image splash_warning = ParameterizedText(style="splash_text", xalign=0.5, yalign=0.5)
 
@@ -182,6 +188,8 @@ label splashscreen:
     show intro with Dissolve(0.5, alpha=True)
     $ pause(3.0 - (datetime.datetime.now() - starttime).total_seconds())
     hide intro with Dissolve(max(0, 3.5 - (datetime.datetime.now() - starttime).total_seconds()), alpha=True)
+    if persistent.splashegg and renpy.random.randint(0, 1) == 0:
+        $ splash_message = renpy.random.choice(splash_messages)
     show splash_warning "[splash_message]" with Dissolve(max(0, 4.0 - (datetime.datetime.now() - starttime).total_seconds()), alpha=True)
     $ pause(6.0 - (datetime.datetime.now() - starttime).total_seconds())
     hide splash_warning with Dissolve(max(0, 6.5 - (datetime.datetime.now() - starttime).total_seconds()), alpha=True)
