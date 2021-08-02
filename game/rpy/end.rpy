@@ -1,6 +1,6 @@
 label ending:
     show end
     $ pause(1.0)
-    hide end
+    show black
     with dissolve
     jump credits
