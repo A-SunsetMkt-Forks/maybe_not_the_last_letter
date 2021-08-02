@@ -16,4 +16,5 @@ label test0:
     scene bg basic
     show sunset explain
     s "123"
+    jump ending
     return

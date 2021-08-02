@@ -10,6 +10,8 @@ define s = Character("余晖")
 
 label start:
 
+    stop music fadeout 1.0
+
     # 显示一个背景。
 
     # scene bg black
@@ -23,6 +25,8 @@ label start:
     # n "您已创建一个新的 Ren'Py 游戏。"
 
     # n "当您完善了故事、图片和音乐之后，您就可以向全世界发布了！"
+
+    n "这是一个未完成的作品。"
 
     jump test0
 

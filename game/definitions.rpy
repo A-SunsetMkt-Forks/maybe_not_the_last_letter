@@ -52,7 +52,7 @@ init python:
 # t1 - tells Ren'Py the label of the music/sound file
 # <loop 22.073> - tells Ren'Py to loop the song at that time interval
 # "audio/1.ogg" - location of your music
-# define audio.t1 = "<loop 22.073>audio/1.ogg" # Doki Doki Literature Club! - Main Theme
+define audio.menu = "<loop 0.0>audio/menu.ogg"
 
 # Backgrounds
 # To define a new color background do like so

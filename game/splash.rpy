@@ -148,11 +148,11 @@ label splashscreen:
         pause 1.0
         # You can edit this message but you MUST have say it's not affiliated with Team Salvato
         # must finish the official game and has spoilers, and where to get DDLC from."
-        "[config.name] 是一个用于技术交流的互动小说游戏。"
+        "《[config.name]》是一个用于技术交流的互动小说游戏。"
         "此项目使用了未获授权的代码和资源文件。"
         "你获得的游戏二进制文件是用于内部预览的测试分发版。"
         menu:
-            "通过游玩 [config.name] ，你同意不向非相关人士泄露关于此项目的任何内容且不对此分发包进行逆向工程。"
+            "通过游玩《[config.name]》，你同意不向非相关人士泄露关于此项目的任何内容且不对此分发包进行逆向工程。"
             "我同意。":
                  pass
         $ persistent.first_run = True
@@ -176,7 +176,7 @@ label splashscreen:
 
     show white
     $ splash_message = splash_message_default
-#    $ config.main_menu_music = audio.t1
+    $ config.main_menu_music = audio.menu
     $ renpy.music.play(config.main_menu_music)
     $ starttime = datetime.datetime.now()
     show intro with Dissolve(0.5, alpha=True)
@@ -234,7 +234,7 @@ label autoload:
 
 # starts the menu music once started
 label before_main_menu:
-#    $ config.main_menu_music = audio.t1
+    $ config.main_menu_music = audio.menu
     return
 
 # Basic Quit.

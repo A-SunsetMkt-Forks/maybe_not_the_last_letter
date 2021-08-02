@@ -20,7 +20,7 @@ image credits_ts:
 # Style fonts for the credits
 style credits_header:
     # font "gui/font/RifficFree-Bold.ttf"
-    color "#ffaae6"
+    color "#fff"
     size 36
     text_align 0.5
     outlines []
@@ -94,7 +94,7 @@ label credits:
 label credits2:
     scene black
     $ consolehistory = []
-    # play music "<from 50.0>audio/credits.ogg" noloop
+    play music "audio/end.ogg" noloop
     $ starttime = datetime.datetime.now()
     pause 0.88
     
@@ -139,23 +139,23 @@ label credits2:
     
     # $ pause(80.60 - (datetime.datetime.now() - starttime).total_seconds())
 
-    $ pause(88.00 - (datetime.datetime.now() - starttime).total_seconds())
+    $ pause(80.60 - (datetime.datetime.now() - starttime).total_seconds())
     
     show credits_header "Special Thanks" as credits_header_1 at credits_text_scroll_middle
     show credits_text "Alecia Bardachino\nMatt Naples" as credits_text_1 at credits_text_scroll_middle
     
-    $ pause(95.00 - (datetime.datetime.now() - starttime).total_seconds())
+    $ pause(88.00 - (datetime.datetime.now() - starttime).total_seconds())
     
     show credits_header "Special Thanks" as credits_header_2 at credits_text_scroll_middle
     show credits_text "Monika\n[player]" as credits_text_2 at credits_text_scroll_middle
     
-    $ pause(104.10 - (datetime.datetime.now() - starttime).total_seconds())
+    $ pause(95.10 - (datetime.datetime.now() - starttime).total_seconds())
 
     call updateconsole ("os.remove(\"game/screens.rpy\")", "screens.rpy deleted successfully.")
     call updateconsole ("os.remove(\"game/gui.rpy\")", "gui.rpy deleted successfully.")
     call updateconsole ("os.remove(\"game/menu.rpy\")", "menu.rpy deleted successfully.")
     call updateconsole ("os.remove(\"game/script.rpy\")", "script.rpy deleted successfully.")
-    $ pause(115.72 - (datetime.datetime.now() - starttime).total_seconds())
+    $ pause(104.72 - (datetime.datetime.now() - starttime).total_seconds())
     
     # Hides console and shows the Team Salvato Logo/Thank You
     call hideconsole
