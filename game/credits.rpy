@@ -151,14 +151,14 @@ label credits2:
     
     $ pause(95.10 - (datetime.datetime.now() - starttime).total_seconds())
 
-    call updateconsole ("os.remove(\"game/screens.rpy\")", "screens.rpy deleted successfully.")
-    call updateconsole ("os.remove(\"game/gui.rpy\")", "gui.rpy deleted successfully.")
-    call updateconsole ("os.remove(\"game/menu.rpy\")", "menu.rpy deleted successfully.")
-    call updateconsole ("os.remove(\"game/script.rpy\")", "script.rpy deleted successfully.")
+    call updateconsole ("os.remove(\"game/screens.rpy\")", "screens.rpy deleted successfully.") from _call_updateconsole_2
+    call updateconsole ("os.remove(\"game/gui.rpy\")", "gui.rpy deleted successfully.") from _call_updateconsole_3
+    call updateconsole ("os.remove(\"game/menu.rpy\")", "menu.rpy deleted successfully.") from _call_updateconsole_4
+    call updateconsole ("os.remove(\"game/script.rpy\")", "script.rpy deleted successfully.") from _call_updateconsole_5
     $ pause(104.72 - (datetime.datetime.now() - starttime).total_seconds())
     
     # Hides console and shows the Team Salvato Logo/Thank You
-    call hideconsole
+    call hideconsole from _call_hideconsole_1
     show credits_ts
     show credits_text "made with love by":
         zoom 0.75 xalign 0.5 yalign 0.25 alpha 0 subpixel True
