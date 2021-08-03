@@ -28,7 +28,7 @@ label zcredits2:
     $ pause(44.25 - (datetime.datetime.now() - starttime).total_seconds())
     
     show credits_header "" as credits_header_1 at credits_text_scroll_middle
-    show credits_text "音乐\nEasy Breeze (StarSight Remix) Player_275x / Thomas Greenberg\n穏やかに過ぎゆく時 小林俊太郎\n电影《你的名字》主题曲《前前前世》 Bilibili用户@Ayasa绚沙（UID:321056219）\n更多信息请查看项目存储库" as credits_text_1 at credits_text_scroll_middle
+    show credits_text "音乐\nEasy Breeze (StarSight Remix)  Player_275x / Thomas Greenberg\n穏やかに過ぎゆく時  小林俊太郎\n电影《你的名字》主题曲《前前前世》  Bilibili用户@Ayasa绚沙\n更多信息请查看项目存储库" as credits_text_1 at credits_text_scroll_middle
 
     $ pause(53.35 - (datetime.datetime.now() - starttime).total_seconds())
     
