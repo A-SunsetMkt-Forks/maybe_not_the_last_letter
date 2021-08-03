@@ -1,4 +1,7 @@
 label zcredits2:
+    image zcreditend:
+        truecenter
+        "gui/end.png"
     scene black
     $ consolehistory = []
     play music "audio/eggend.ogg" noloop
@@ -92,6 +95,7 @@ label zcredits2:
         scene black
 
         # Shows either Monika's or Dan's Goodbye Message
+        show zcreditend
         $ pause()
         
         # Fakes Error Corruption. Makes the player quit the game.

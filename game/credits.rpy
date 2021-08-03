@@ -36,6 +36,10 @@ style credits_text:
 image credits_header = ParameterizedText(style="credits_header", ypos=-40)
 image credits_text = ParameterizedText(style="credits_text", ypos=40)
 
+image creditend:
+    truecenter
+    "gui/end.png"
+
 # Credit animations to make the credits and images move.
 transform credits_scroll:
     subpixel True
@@ -187,6 +191,7 @@ label credits2:
         scene black
 
         # Shows either Monika's or Dan's Goodbye Message
+        show creditend
         $ pause()
         
         # Fakes Error Corruption. Makes the player quit the game.
