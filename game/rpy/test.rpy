@@ -14,6 +14,7 @@ label test0:
     $ pause(1.0)
     call hideconsole() from _call_hideconsole
     scene bg basic
+    $ zegg = True
     show sunset explain
     s "123"
     jump ending

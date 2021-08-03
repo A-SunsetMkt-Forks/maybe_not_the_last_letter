@@ -177,5 +177,5 @@ default currentpos = 0
 default faint_effect = None
 
 # 这里是给神秘人的彩蛋变量
-default zegg = 0
+default zegg = False
 default splashegg = False
