@@ -41,4 +41,5 @@ label graduate:
     jump author
 
 label reason:
+    jump credits
     return

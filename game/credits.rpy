@@ -102,54 +102,55 @@ label credits2:
     pause 0.88
     
     # Actual names for Credits, where you plug in stuff
-    show credits_header "Concept & Game Design" as credits_header_1 at credits_text_scroll_middle
-    show credits_text "Dan Salvato" as credits_text_1 at credits_text_scroll_middle
+    show credits_header "也许不是最后一封信" as credits_header_1 at credits_text_scroll_middle
+    show credits_text "By ProjectZ Studio" as credits_text_1 at credits_text_scroll_middle
     
     $ pause(16.95 - (datetime.datetime.now() - starttime).total_seconds())
     
-    show credits_header "Character Art" as credits_header_2 at credits_text_scroll_middle
-    show credits_text "Satchely" as credits_text_2 at credits_text_scroll_middle
+    show credits_header "理念和游戏设计" as credits_header_2 at credits_text_scroll_middle
+    show credits_text "余晖" as credits_text_2 at credits_text_scroll_middle
 
     $ pause(26.05 - (datetime.datetime.now() - starttime).total_seconds())
     
-    show credits_header "Background Art" as credits_header_1 at credits_text_scroll_middle
-    show credits_text "Velinquent" as credits_text_1 at credits_text_scroll_middle
+    show credits_header "故事" as credits_header_1 at credits_text_scroll_middle
+    show credits_text "余晖" as credits_text_1 at credits_text_scroll_middle
     
     $ pause(35.15 - (datetime.datetime.now() - starttime).total_seconds())
     
-    show credits_header "Writing" as credits_header_2 at credits_text_scroll_middle
-    show credits_text "Dan Salvato" as credits_text_2 at credits_text_scroll_middle
+    show credits_header "主要程序员" as credits_header_2 at credits_text_scroll_middle
+    show credits_text "lwd-temp" as credits_text_2 at credits_text_scroll_middle
     
     $ pause(44.25 - (datetime.datetime.now() - starttime).total_seconds())
     
-    show credits_header "Music" as credits_header_1 at credits_text_scroll_middle
-    show credits_text "Dan Salvato" as credits_text_1 at credits_text_scroll_middle
+    show credits_header "音乐" as credits_header_1 at credits_text_scroll_middle
+    show credits_text "Easy Breeze (StarSight Remix) Player_275x / Thomas Greenberg\nhttps://music.163.com/song?id=450556052\n穏やかに過ぎゆく時 小林俊太郎\nhttps://music.163.com/song?id=29364479\n
+所念皆星河 CMJ\nhttps://music.163.com/song?id=1384026889\n更多信息请查看项目存储库" as credits_text_1 at credits_text_scroll_middle
 
     $ pause(53.35 - (datetime.datetime.now() - starttime).total_seconds())
     
-    show credits_header "Vocals" as credits_header_2 at credits_text_scroll_middle
-    show credits_text "Jillian Ashcraft" as credits_text_2 at credits_text_scroll_middle
+    show credits_header "策划" as credits_header_2 at credits_text_scroll_middle
+    show credits_text "余晖" as credits_text_2 at credits_text_scroll_middle
     
     $ pause(62.45 - (datetime.datetime.now() - starttime).total_seconds())
     
-    show credits_header "Special Thanks" as credits_header_1 at credits_text_scroll_middle
+    show credits_header "特别感谢" as credits_header_1 at credits_text_scroll_middle
     show credits_text "Masha Gutin\nKagefumi" as credits_text_1 at credits_text_scroll_middle
     
     $ pause(71.55 - (datetime.datetime.now() - starttime).total_seconds())
     
-    show credits_header "Special Thanks" as credits_header_2 at credits_text_scroll_middle
+    show credits_header "特别感谢" as credits_header_2 at credits_text_scroll_middle
     show credits_text "David Evelyn\nCorey Shin" as credits_text_2 at credits_text_scroll_middle
     
     # $ pause(80.60 - (datetime.datetime.now() - starttime).total_seconds())
 
     $ pause(80.60 - (datetime.datetime.now() - starttime).total_seconds())
     
-    show credits_header "Special Thanks" as credits_header_1 at credits_text_scroll_middle
+    show credits_header "特别感谢" as credits_header_1 at credits_text_scroll_middle
     show credits_text "Alecia Bardachino\nMatt Naples" as credits_text_1 at credits_text_scroll_middle
     
     $ pause(88.00 - (datetime.datetime.now() - starttime).total_seconds())
     
-    show credits_header "Special Thanks" as credits_header_2 at credits_text_scroll_middle
+    show credits_header "特别感谢" as credits_header_2 at credits_text_scroll_middle
     show credits_text "Monika\n[player]" as credits_text_2 at credits_text_scroll_middle
     
     $ pause(95.10 - (datetime.datetime.now() - starttime).total_seconds())
