@@ -103,7 +103,7 @@ label credits2:
     
     # Actual names for Credits, where you plug in stuff
     show credits_header "也许不是最后一封信" as credits_header_1 at credits_text_scroll_middle
-    show credits_text "By ProjectZ Studio" as credits_text_1 at credits_text_scroll_middle
+    show credits_text "ProjectZ Studio出品" as credits_text_1 at credits_text_scroll_middle
     
     $ pause(16.95 - (datetime.datetime.now() - starttime).total_seconds())
     
