@@ -140,19 +140,19 @@ label credits2:
     $ pause(62.45 - (datetime.datetime.now() - starttime).total_seconds())
     
     show credits_header "特别感谢" as credits_header_1 at credits_text_scroll_middle
-    show credits_text "Masha Gutin\nKagefumi" as credits_text_1 at credits_text_scroll_middle
+    show credits_text "Starlight Glimmer\nTwilight Sparkle" as credits_text_1 at credits_text_scroll_middle
     
     $ pause(71.55 - (datetime.datetime.now() - starttime).total_seconds())
     
     show credits_header "特别感谢" as credits_header_2 at credits_text_scroll_middle
-    show credits_text "David Evelyn\nCorey Shin" as credits_text_2 at credits_text_scroll_middle
+    show credits_text "Princess Celestian\nPrincess Luna" as credits_text_2 at credits_text_scroll_middle
     
     # $ pause(80.60 - (datetime.datetime.now() - starttime).total_seconds())
 
     $ pause(80.60 - (datetime.datetime.now() - starttime).total_seconds())
     
     show credits_header "特别感谢" as credits_header_1 at credits_text_scroll_middle
-    show credits_text "Alecia Bardachino\nMatt Naples" as credits_text_1 at credits_text_scroll_middle
+    show credits_text "Applejack\nPinkie Pie" as credits_text_1 at credits_text_scroll_middle
     
     $ pause(88.00 - (datetime.datetime.now() - starttime).total_seconds())
     
@@ -170,7 +170,7 @@ label credits2:
     # Hides console and shows the Team Salvato Logo/Thank You
     call hideconsole from _call_hideconsole_1
     show credits_ts
-    show credits_text "made with love by":
+    show credits_text "带着爱创作":
         zoom 0.75 xalign 0.5 yalign 0.25 alpha 0 subpixel True
         linear 2.0 alpha 1
         4.5
