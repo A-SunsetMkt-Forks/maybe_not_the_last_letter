@@ -1,7 +1,7 @@
 label test0:
     scene bg basic
     s "你好？"
-    show sunset explain
+    show sunset explain0
     s "Hello,world!"
     hide sunset
     scene bg sunset stare
@@ -14,7 +14,7 @@ label test0:
     $ pause(1.0)
     call hideconsole() from _call_hideconsole
     scene bg basic
-    $ zegg = True
+    $ zeggcount = 6
     show sunset explain
     s "123"
     jump ending

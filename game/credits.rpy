@@ -91,6 +91,9 @@ label credits:
     $ config.skipping = False
     $ config.allow_skipping = False
     scene black
+    
+    if zeggcount >= 6:
+        $ zegg = True
 
     if zegg:
         jump zcredits2

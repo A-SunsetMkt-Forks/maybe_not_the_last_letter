@@ -179,3 +179,4 @@ default faint_effect = None
 # 这里是给神秘人的彩蛋变量
 default zegg = False
 default splashegg = False
+default zeggcount = 0

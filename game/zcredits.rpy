@@ -5,7 +5,6 @@ label zcredits2:
     scene black
     $ consolehistory = []
     play music "audio/eggend.ogg" noloop
-    queue music "audio/egg.ogg" noloop
     $ starttime = datetime.datetime.now()
     pause 0.88
     
@@ -54,11 +53,64 @@ label zcredits2:
     
     show credits_header "特别感谢" as credits_header_1 at credits_text_scroll_middle
     show credits_text "Alecia Bardachino\nMatt Naples" as credits_text_1 at credits_text_scroll_middle
-    
+
     $ pause(88.00 - (datetime.datetime.now() - starttime).total_seconds())
-    
-    show credits_header "特别感谢" as credits_header_2 at credits_text_scroll_middle
-    show credits_text "Monika\n[player]" as credits_text_2 at credits_text_scroll_middle
+    play sound "audio/egg.ogg"
+    show noise zorder 9:
+        alpha 0.0
+        linear 1.5 alpha 1.0
+        time 2.0
+        parallel:
+            0.05
+            choice:
+                alpha 0.5
+            choice:
+                alpha 0.75
+            choice:
+                alpha 1.0
+            repeat
+        parallel:
+            linear 0.375 alpha 0.7
+            linear 0.375 alpha 1.0
+        time 2.75
+        alpha 0.95
+        time 6.45
+        alpha 0.3
+        time 6.95
+        alpha 0.9
+        time 8.65
+        linear 0.8 alpha 0
+        alpha 0.5
+        time 22.1
+        alpha 0.85
+        time 22.35
+        alpha 0.5
+        time 28.20
+        alpha 0.3
+        linear 0.45 alpha 0.9
+        alpha 0.4
+    show vignette zorder 10:
+        alpha 0.75
+        parallel:
+            0.36
+            alpha 0.75
+            repeat
+        parallel:
+            0.49
+            alpha 0.7
+            repeat
+    show black as bar zorder 9:
+        alpha 0.3
+        size (1280,500)
+        block:
+            ypos 720
+            linear 15 ypos -500
+            repeat
+    $ gtext = glitchtext(6)
+    $ gstr = glitchtext(15)
+    $ gchar = glitchtext(4)
+    show credits_header "" as credits_header_2 at credits_text_scroll_middle
+    show credits_text "特别感谢\nMonika\n[player]\n[gtext]（[gstr]：5[gchar]45[gchar]18[gchar]2[gchar]98[gchar]8[gchar]2[gchar]）[gchar]" as credits_text_2 at credits_text_scroll_middle
     
     $ pause(95.10 - (datetime.datetime.now() - starttime).total_seconds())
 
