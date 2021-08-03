@@ -14,7 +14,7 @@ label ch0:
 label author:
     n "请允许我介绍本项目的作者..."
     show sunset smile0
-    s "（脸怼镜头）"
+    "（未知）" "（脸怼镜头）"
     n "余晖！"
     show sunset explain7
     s "你好！如果吓到你很抱歉。"
