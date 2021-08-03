@@ -31,8 +31,18 @@ label start:
 
     n "这是一个未完成的作品。"
 
-    jump test0
+    menu:
+        "运行测试脚本。":
+            jump test0
+        "进入游戏流程。":
+            jump ch0
+
+    jump ch0
 
     # 此处为游戏结尾。
 
+    n "你永远都不应该看到这句话。"
+    n "请将此错误报告给开发者或自行修复。"
+    jump end
+    
     return

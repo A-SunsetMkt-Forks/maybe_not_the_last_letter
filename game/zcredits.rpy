@@ -2,6 +2,7 @@ label zcredits2:
     scene black
     $ consolehistory = []
     play music "audio/eggend.ogg" noloop
+    queue music "audio/egg.ogg" noloop
     $ starttime = datetime.datetime.now()
     pause 0.88
     
