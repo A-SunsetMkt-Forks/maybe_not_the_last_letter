@@ -9,7 +9,7 @@ init python:
     splash_messages = [
         "你好？",
         "请支持《心跳文学部》。",
-        "ERROR"
+        "我们会在没有黑暗的地方见面。"
     ]
 
 image splash_warning = ParameterizedText(style="splash_text", xalign=0.5, yalign=0.5)

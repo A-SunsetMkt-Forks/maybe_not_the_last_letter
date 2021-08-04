@@ -1,4 +1,5 @@
 label ch1:
+    $ persistent.splashegg = True
     menu:
         "你的简介上写着...你是计算机科学初学者？谈谈你的作品吧。":
             jump program0
@@ -158,7 +159,7 @@ label inmemoryof:
             s "额..."
             show sunset smile0
             s "好吧..."
-            jump other0
+            jump other1
 
 label reallyinmemoryof:
     # 下面提到的名字全部使用SHA-256计算hash
@@ -198,12 +199,33 @@ label reallyinmemoryof:
             s "（看向你）"
             show sunset smile0
             s "好吧..."
-            jump other0
+            jump other1
         "你还好吗？":
             jump reallyinmemoryofz
 
 label reallyinmemoryofz:
+    show sunset upset3
     s "还有..."
     s "还有...."
     s "还有....."
     s "e04e141499000d4d40bdf3d58379319d1615d392f40582e62e90d4dd69032eee..."
+    $ zeggcount = zeggcount + 1
+    s ""
+    ###########################################################################################
+    # 删掉这个！
+    $ zeggcount = zeggcount + 5
+    jump ending
+
+label other0:
+    menu:
+        "你有想怀念的人吗？":
+            jump inmemoryof
+        "其他问题，会直接离开ch1":
+            jump ending
+
+label other1:
+    menu:
+        "你的简介上写着...你是计算机科学初学者？谈谈你的作品吧。":
+            jump program0
+        "其他问题，会直接离开ch1":
+            jump ending
