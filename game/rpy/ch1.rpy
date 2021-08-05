@@ -11,7 +11,7 @@ label ch1:
 label program0:
     $ programflag = True
     show sunset clap0
-    s "我就等着你谈这个呢~"
+    s "[player]，我就等着你谈这个呢~"
     s "虽然只要打开我们的GitHub资料页就能了解这些..."
     s "我还是想亲自说给你听。"
     show sunset explain7
@@ -142,7 +142,7 @@ label program1:
     show sunset smile0
     s "AutoRing.py仍然是我最引以为傲，同时使用时间最长的作品。"
     s "当然还有你面前的——maybe_not_the_last_letter，基于Renpy的互动小说游戏。"
-    s "谢谢你问了这个问题，"
+    s "谢谢你问了这个问题，[player]。"
     show sunset explain5
     s "我一直在找机会把它们介绍一遍。"
     jump other0
@@ -152,7 +152,7 @@ label inmemoryof:
     show sunset explain2
     s "“怀念”？"
     s "听起来好奇怪..."
-    s "不过...我明白你的意思。"
+    s "不过...我明白你的意思，[player]。"
     s "答案是：真的有。"
     s "你真的想听吗？"
     menu:
@@ -221,7 +221,7 @@ label reallyinmemoryofz:
     show sunset think0
     s "......"
     show sunset look4
-    n "你面前的讲述者似乎不太正常..."
+    n "[player]，我需要提醒你，你面前的讲述者似乎不太正常..."
     s "你不希望我在这里提起你...对吧？"
     s "......"
     hide sunset
@@ -234,12 +234,12 @@ label other0:
     menu:
         "你的简介上写着...你是计算机科学初学者？谈谈你的作品吧。":
             if programflag == True:
-                s "我们不是已经聊过了么？"
+                s "[player]，我们不是已经聊过了么？"
                 jump other0
             jump program0
         "你有想怀念的人吗？":
             if inmemoryofflag == True:
-                s "我...现在不太想谈。"
+                s "[player]，我...现在不太想谈。"
                 jump other0
             jump inmemoryof
         "其他问题，会离开ch1":
