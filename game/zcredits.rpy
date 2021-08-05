@@ -110,6 +110,7 @@ label zcredits2:
     $ gtext = glitchtext(6)
     $ gstr = glitchtext(15)
     $ gchar = glitchtext(4)
+    show monika basic
     show credits_header "" as credits_header_2 at credits_text_scroll_middle
     show credits_text "特别感谢\nMonika\n[player]\n[gtext]（[gstr]：5[gchar]45[gchar]18[gchar]2[gchar]98[gchar]8[gchar]2[gchar]）[gchar]" as credits_text_2 at credits_text_scroll_middle
     
@@ -120,6 +121,7 @@ label zcredits2:
     call updateconsole ("os.remove(\"game/menu.rpy\")", "menu.rpy deleted successfully.") from _call_updateconsole_8
     call updateconsole ("os.remove(\"game/script.rpy\")", "script.rpy deleted successfully.") from _call_updateconsole_9
     $ pause(104.72 - (datetime.datetime.now() - starttime).total_seconds())
+    hide monika
     
     # Hides console and shows the Team Salvato Logo/Thank You
     call hideconsole from _call_hideconsole_2
