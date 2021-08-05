@@ -242,5 +242,5 @@ label other0:
                 s "[player]，我...现在不太想谈。"
                 jump other0
             jump inmemoryof
-        "其他问题，会离开ch1":
-            jump ending
+        "关于你的志愿选择...":
+            jump ch2
