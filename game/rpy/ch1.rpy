@@ -1,5 +1,7 @@
 label ch1:
     $ persistent.splashegg = True
+    $ programflag = False
+    $ inmemoryofflag = False
     menu:
         "你的简介上写着...你是计算机科学初学者？谈谈你的作品吧。":
             jump program0
@@ -7,6 +9,7 @@ label ch1:
             jump inmemoryof
 
 label program0:
+    $ programflag = True
     show sunset clap0
     s "我就等着你谈这个呢~"
     s "虽然只要打开我们的GitHub资料页就能了解这些..."
@@ -145,6 +148,7 @@ label program1:
     jump other0
 
 label inmemoryof:
+    $ inmemoryofflag = True
     show sunset explain2
     s "“怀念”？"
     s "听起来好奇怪..."
@@ -159,7 +163,7 @@ label inmemoryof:
             s "额..."
             show sunset smile0
             s "好吧..."
-            jump other1
+            jump other0
 
 label reallyinmemoryof:
     # 下面提到的名字全部使用SHA-256计算hash
@@ -186,8 +190,11 @@ label reallyinmemoryof:
     s "d88702965eb2acf84424cd64d9bba294a8c2a00d0b4604496723fd2063bf78cf、83235ec96fa3b9c0631863c5e3f998aef8e89c28698a8fc2843509627cb0d295..."
     s "学校里的Brony不多..."
     s "你们是我认识的两个。"
+    show sunset look2
     s "还有被我吓到的一些人..."
+    show sunset look4
     s "221c63aa425164d25f6d2fc5d79d7e06403f1716e93cacb394f32caf451916f0..."
+    show sunset upset2
     s "62818288f696eb3eddc601010b407153f2594ddf86858bbad9492fcfd3e7c072..."
     s "以及其他的一些人..."
     s "也许...我成功地将自己最令人意外的形象刻入你们的记忆..."
@@ -199,33 +206,41 @@ label reallyinmemoryof:
             s "（看向你）"
             show sunset smile0
             s "好吧..."
-            jump other1
+            jump other0
         "你还好吗？":
             jump reallyinmemoryofz
 
 label reallyinmemoryofz:
     show sunset upset3
+    s "我没事！"
     s "还有..."
     s "还有...."
     s "还有....."
     s "e04e141499000d4d40bdf3d58379319d1615d392f40582e62e90d4dd69032eee..."
     $ zeggcount = zeggcount + 1
-    s ""
-    ###########################################################################################
-    # 删掉这个！
-    $ zeggcount = zeggcount + 5
-    jump ending
+    show sunset think0
+    s "......"
+    show sunset look4
+    n "你面前的讲述者似乎不太正常..."
+    s "你不希望我在这里提起你...对吧？"
+    s "......"
+    hide sunset
+    $ gtext = glitchtext(100)
+    s "[gtext]"
+    jump other0
 
 label other0:
-    menu:
-        "你有想怀念的人吗？":
-            jump inmemoryof
-        "其他问题，会直接离开ch1":
-            jump ending
-
-label other1:
+    show sunset look4
     menu:
         "你的简介上写着...你是计算机科学初学者？谈谈你的作品吧。":
+            if programflag == True:
+                s "我们不是已经聊过了么？"
+                jump other0
             jump program0
-        "其他问题，会直接离开ch1":
+        "你有想怀念的人吗？":
+            if inmemoryofflag == True:
+                s "我...现在不太想谈。"
+                jump other0
+            jump inmemoryof
+        "其他问题，会离开ch1":
             jump ending

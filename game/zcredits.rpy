@@ -55,7 +55,8 @@ label zcredits2:
     show credits_text "Applejack\nPinkie Pie" as credits_text_1 at credits_text_scroll_middle
 
     $ pause(88.00 - (datetime.datetime.now() - starttime).total_seconds())
-    play sound "audio/egg.ogg"
+    if zeggcount >= 7:
+        play sound "audio/egg.ogg"
     show noise zorder 9:
         alpha 0.0
         linear 1.5 alpha 1.0
