@@ -196,6 +196,7 @@ init python:
     # 将脚本放入scripts归档。
     build.classify("game/**.rpy", "scripts")
     build.classify("game/**.rpyc", "scripts")
+    build.classify("game/**.chr", "scripts")
 
     # 将图片放入images归档。
     build.classify("game/**.jpg", "images")

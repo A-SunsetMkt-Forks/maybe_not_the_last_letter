@@ -221,7 +221,7 @@ label reallyinmemoryofz:
     show sunset think0
     s "......"
     show sunset look4
-    n "[player]，我需要提醒你，你面前的讲述者似乎不太正常..."
+    n "[player]，我需要提醒你，你面前的讲述者似乎不太正常..." # 每当我想到你，就越来越不像自己。
     s "你不希望我在这里提起你...对吧？"
     s "......"
     hide sunset
