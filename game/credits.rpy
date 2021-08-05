@@ -139,20 +139,20 @@ label credits2:
     
     $ pause(62.45 - (datetime.datetime.now() - starttime).total_seconds())
     
-    show credits_header "特别感谢" as credits_header_1 at credits_text_scroll_middle
-    show credits_text "Starlight Glimmer\nTwilight Sparkle" as credits_text_1 at credits_text_scroll_middle
+    show credits_header "" as credits_header_1 at credits_text_scroll_middle
+    show credits_text "早期测试人员\n840a8dbdddece6a56fb9b1f925eac7a75cb274b85e7eddafdfb97573170e5a8b\nEXPLORER\n83235ec96fa3b9c0631863c5e3f998aef8e89c28698a8fc2843509627cb0d295" as credits_text_1 at credits_text_scroll_middle
     
     $ pause(71.55 - (datetime.datetime.now() - starttime).total_seconds())
     
-    show credits_header "特别感谢" as credits_header_2 at credits_text_scroll_middle
-    show credits_text "Princess Celestian\nPrincess Luna" as credits_text_2 at credits_text_scroll_middle
+    show credits_header "" as credits_header_2 at credits_text_scroll_middle
+    show credits_text "特别感谢\nRen'Py\nTeam Salvato\nHasbro, Inc\n" as credits_text_2 at credits_text_scroll_middle
     
     # $ pause(80.60 - (datetime.datetime.now() - starttime).total_seconds())
 
     $ pause(80.60 - (datetime.datetime.now() - starttime).total_seconds())
     
-    show credits_header "特别感谢" as credits_header_1 at credits_text_scroll_middle
-    show credits_text "Applejack\nPinkie Pie" as credits_text_1 at credits_text_scroll_middle
+    show credits_header "" as credits_header_1 at credits_text_scroll_middle
+    show credits_text "此项目的部分代码来自DDLCModTemplate2.0，原则上禁止用于除《心跳文学部》第三方模组的其他用途\n除此之外的其他代码使用 GNU General Public License v3.0 发布\n此项目的故事和文案部分使用 Creative Commons Attribution Share Alike 4.0 International 授权" as credits_text_1 at credits_text_scroll_middle
     
     $ pause(88.00 - (datetime.datetime.now() - starttime).total_seconds())
     
