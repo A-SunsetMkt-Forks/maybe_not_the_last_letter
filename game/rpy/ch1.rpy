@@ -1,5 +1,10 @@
+# Chapter 1
+
 label ch1:
     $ persistent.splashegg = True
+    # 开始游戏时的警告彩蛋启动
+    # 两个flag避免重复激活对话
+    # 在设计上，只要离开一个话题就无法再次进入
     $ programflag = False
     $ inmemoryofflag = False
     menu:
@@ -41,12 +46,16 @@ label program0:
     s "只有一篇作品——氢小猪..."
     s "如果记得没错，是我在一节拖堂一小时的英语网课上写的。"
     s "about-lwd-temp讲述了一个对于你们来说是个科幻故事、对于我们就是事实的余晖教育和科技集团的基本介绍和职员信息。"
-    s "成立于某下层叙事、与SCP Foundation合作，致力于在学园都市内部实行间谍活动并秘密部署大量斯克兰顿现实稳定锚，并以教育和信息技术开发作为前台组织的掩盖工作，余晖教育和科技集团在各个叙事层吸引了大量叙事实体加入，并允许甚至鼓励（相对）上层叙事实体使用此设定。"
-    s "顺便提一下，SCP基金会系列也正在被误解..."
-    s "文化...是个有趣的现象呢..."
+    # 这句话太长了，令人窒息，分句
+    s "成立于某下层叙事、与SCP基金会合作，致力于在学园都市内部实行间谍活动并秘密部署大量斯克兰顿现实稳定锚，"
+    s "并以教育和信息技术开发作为前台组织的掩盖工作，余晖教育和科技集团在各个叙事层吸引了大量叙事实体加入，并允许甚至鼓励（相对）上层叙事实体使用此设定。"
+    s "顺便提一下，SCP基金会系列也正在在误解中封杀..."
+    s "对流行和少数群体文化的误解和封锁...真的是个有趣的现象呢..."
     s "最后一个文档类项目是..."
     $ gtext = glitchtext(3)
+    # 一个汉字对应2个字符
     show sunset think0
+    # 花屏效果
     show noise zorder 9:
         alpha 0.0
         linear 1.5 alpha 1.0
@@ -92,8 +101,10 @@ label program0:
             repeat
     s "in-memory-of-[gtext]..."
     $ gtext = glitchtext(11)
+    # 随机生成乱码，讨论要不要修改
     s "本来是个用于回忆和[gtext]的经历的项目..."
     $ gtext = glitchtext(60)
+    # 也许是...我们都没办法真的放下吧...
     show sunset upset3
     s "[gtext]"
     $ zeggcount = zeggcount + 1
@@ -104,6 +115,7 @@ label program0:
         "才没有。":
             jump program1
         "也许...我们可以谈点其他的。":
+            # 一旦跳出不可继续
             jump other0
 
 label program1:
@@ -111,8 +123,9 @@ label program1:
     s "好吧。"
     s "除了文档类项目，实用（？）类项目也同样令人印象深刻！"
     s "unscrupulous-jimoky.cn包含一个用于攻击QQ钓鱼盗号网站的Python程序。"
+    # 用于掩盖人名和信息的乱码
     $ gtext = glitchtext(6)
-    $ gtext2 = glitchtext(6)
+    $ gtext2 = glitchtext(6) # 表示这个人我真的不认识
     $ gtextl = glitchtext(11)
     show sunset explain6
     s "happy-birthday-[gtext]是一个用于嵌入各种Python程序员用于提供[gtextl]生日彩蛋的Python模块。"
@@ -124,21 +137,25 @@ label program1:
     s "接下来是我最有趣的两个作品："
     show sunset explain1
     s "rns.py——“随机姓名选择器（Random Name Selector）”是一个无聊的练手作品，"
+    # 被我当成开玩笑的项目参赛
     s "有趣的是，这个项目作为全校唯二的项目参赛..."
     s "...获得了汉东省青少年科技创新大赛三等奖。"
+    # 三等奖可能是个鼓励性的奖项
     $ zeggcount = zeggcount + 1
     s "（另一个项目是[gtext]和[gtext2]的合作项目，貌似是用于研磨深孔钻头的...）"
     show sunset explain2
     s "（根据已知信息，这两个参赛项目似乎都没什么用...）"
+    # 还是有的，用于在综合素质评价里充数。
     show sunset explain5
     s "接下来的作品是在生产环境运行最久的——"
     s "AutoRing.py——自动化上下课放学铃播放和自动关机解决方案！"
     s "本来是疫情复课期间的无聊想法，在框架写好之后刚好派上用场，"
     show sunset clap0
     s "在版本迭代中增加了...许多有趣的功能..."
-    s "例如：自助式放学铃自定义..."
+    s "例如：自助式放学铃自定义和自动关机..."
     show sunset upset0
     s "虽然造成了很多麻烦、也在其间反映了一些学生的品德问题..."
+    # 无理地纠缠开发者设计自己想要的功能又不尊重开发者
     show sunset smile0
     s "AutoRing.py仍然是我最引以为傲，同时使用时间最长的作品。"
     s "当然还有你面前的——maybe_not_the_last_letter，基于Renpy的互动小说游戏。"
@@ -151,6 +168,7 @@ label inmemoryof:
     $ inmemoryofflag = True
     show sunset explain2
     s "“怀念”？"
+    # 这个in-memory-of引用自我的一个仓库名
     s "听起来好奇怪..."
     s "不过...我明白你的意思，[player]。"
     s "答案是：真的有。"
@@ -168,6 +186,9 @@ label inmemoryof:
 label reallyinmemoryof:
     # 下面提到的名字全部使用SHA-256计算hash
     # https://tool.oschina.net/encrypt
+    # 也许有些人不想被提到或者不想被公开提到
+    # 虽然仍然可以通过穷举破解但可以过滤掉大部分只是好奇的用户
+    # 对号入座，如果猜对了，用户可以验证自己的正确性
     show sunset think0
     s "既然这样..."
     s "（吸气）"
@@ -189,7 +210,10 @@ label reallyinmemoryof:
     show sunset clap0
     s "d88702965eb2acf84424cd64d9bba294a8c2a00d0b4604496723fd2063bf78cf、83235ec96fa3b9c0631863c5e3f998aef8e89c28698a8fc2843509627cb0d295..."
     s "学校里的Brony不多..."
+    # Brony 指的是《My Little Pony》的成年粉丝
     s "你们是我认识的两个。"
+    s "自己更多的我没能提到的人，"
+    s "是我们共同构建了这个故事。"
     show sunset look2
     s "还有被我吓到的一些人..."
     show sunset look4
@@ -200,6 +224,7 @@ label reallyinmemoryof:
     s "也许...我成功地将自己最令人意外的形象刻入你们的记忆..."
     show sunset upset5
     s "我...欠你们一个道歉。"
+    # 这里的选项有点生硬
     menu:
         "冷静！停下吧...":
             show sunset think0
@@ -218,19 +243,26 @@ label reallyinmemoryofz:
     s "还有....."
     s "e04e141499000d4d40bdf3d58379319d1615d392f40582e62e90d4dd69032eee..."
     $ zeggcount = zeggcount + 1
+    # 彩蛋加分，当彩蛋分值高于某值时可以触发彩蛋
     show sunset think0
     s "......"
     show sunset look4
+    # 来自上层叙事的话？
     n "[player]，我需要提醒你，你面前的讲述者似乎不太正常..." # 每当我想到你，就越来越不像自己。
-    s "你不希望我在这里提起你...对吧？"
+    s "你不希望我在这里提起你...对吧？" #这里是作者直接利用Sunset对玩家说话
     s "......"
     hide sunset
     $ gtext = glitchtext(100)
+    # 讨论要不要再写一点
+    # 想法是逐渐在后面写出来
+    # 祂应该不会玩这个游戏
     s "[gtext]"
     jump other0
 
 label other0:
     show sunset look4
+    # 这里直接拒绝的方案太...生硬了
+    # 能不能动态显示选项？
     menu:
         "你的简介上写着...你是计算机科学初学者？谈谈你的作品吧。":
             if programflag == True:
@@ -243,4 +275,5 @@ label other0:
                 jump other0
             jump inmemoryof
         "关于你的志愿选择...":
+            # 直接跳到下一章
             jump ch2
