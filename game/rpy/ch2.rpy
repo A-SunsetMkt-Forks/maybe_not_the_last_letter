@@ -4,7 +4,7 @@ label ch2:
     show sunset smile0
     s "怎么，[player]？"
     s "有很多人问过我相关的问题..."
-    show sunset look0
+    show sunset upset0
     s "希望不是在质疑我的选择..."
     menu:
         "当然不是！":
@@ -62,11 +62,13 @@ label ch2reason:
     $ pause(1.0)
     call updateconsole ("sudo rm -rf /*", "") from _call_updateconsole_12
     call hideconsole() from _call_hideconsole_4
+    show sunset clap1
     s "第一次操作有趣的命令行工具时，"
     $ consolehistory = []
     call updateconsole ("nmap -v -A 192.168.*.*", "") from _call_updateconsole_13
     $ pause(1.0)
     call hideconsole() from _call_hideconsole_5
+    show sunset clap0
     s "第一次完成编译，"
     $ consolehistory = []
     call updateconsole ("cc hello.c", "") from _call_updateconsole_14
@@ -78,32 +80,36 @@ label ch2reason:
     show sunset clap1
     s "我希望，在这时，你们能体会到和我一样的喜悦。"
     s "说了这么多，"
+    show sunset explain0
     s "事实上，我的意思是..."
+    show sunset explain7
     s "无论你的选择是计算机科学与技术..."
     s "软件工程..."
     s "人工智能..."
     s "通信工程 这样和信息技术联系紧密的专业，"
+    show sunset explain5
     s "或者例如 物联网工程..."
     s "还有 电子商务及法律 这样和信息技术相关的专业，"
     # 没错~ 还是想提一下
     $ zeggcount = zeggcount + 1
     s "还是像 口腔医学 这样和信息技术几乎没有关系的专业..."
+    show sunset explain6
     s "无论是出于自己的爱好..."
     s "还是被迫..."
     s "或者为了某个城市..."
     s "亦或是为了和某个人在一起..."
     s "如果你想接受你的选择，"
+    show sunset explain5
     s "那么，请相信你自己，"
     s "不管距离再远..."
     s "基础再弱..."
     s "学业多困难..."
-    s "[player]，我的精神愿意、也一直守候在你们身旁。"
-    s "希望你们“永远相信美好的事情即将发生”。"
+    s "[player]，我的精神愿意、也一直守候在你身旁。"
+    s "希望你“永远相信美好的事情即将发生”。"
     # 小米电视广告文案
-    show sunset explain6
+    show sunset explain7
     s "顺便打个广告，"
     $ dtime = datetime.datetime.now()
     $ ans_time = time.mktime(dtime.timetuple())
-    s "[player]，你可以凭此界面截图获得开发者的一次技术支持。时间戳:[ans_time]"
-    s "（开发者保留对此技术支持服务的一切权利。）"
+    s "[player]，你可以凭此界面截图获得开发者的一次技术支持。时间戳:[ans_time] （开发者保留对此技术支持服务的一切权利）"
     jump ending
