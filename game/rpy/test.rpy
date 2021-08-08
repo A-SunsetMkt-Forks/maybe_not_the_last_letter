@@ -4,6 +4,27 @@ label test0:
     show sunset explain0
     s "Hello,world!"
     hide sunset
+    jump testmenu
+label testmenu:
+    menu:
+        "回到start":
+            jump start
+        "config.developer设为True":
+            $ config.developer = True
+            n "尝试设置完成"
+            n "使用分发版的用户可以通过此选项尝试开启开发者模式"
+            n "使用Shift+D开启开发者菜单"
+            jump testmenu
+        "zeggcount自加1":
+            $ zeggcount = zeggcount + 1
+            jump testmenu
+        "raise Exception":
+            $ raise Exception
+            jump testmenu
+        "交互演示":
+            jump testdemo
+    jump start
+label testdemo:
     scene bg sunset stare
     with dissolve
     s "233"
@@ -14,7 +35,6 @@ label test0:
     $ pause(1.0)
     call hideconsole() from _call_hideconsole
     scene bg basic
-    $ zeggcount = 6
     show sunset explain
     s "123"
     jump ending
