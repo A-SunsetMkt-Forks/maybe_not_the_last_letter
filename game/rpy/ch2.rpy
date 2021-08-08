@@ -32,6 +32,8 @@ label maybeyes:
     jump ch2reason
     
 label ch2reason:
+    $ import time
+    $ import datetime
     show sunset explain5
     s "理由比你想象的简单..."
     s "我很难接受自己写的项目完全不符合自己的需求。"
@@ -56,10 +58,9 @@ label ch2reason:
     call hideconsole() from _call_hideconsole_3
     s "第一次了解GNU/Linux时，"
     $ consolehistory = []
-    call updateconsole ("echo 危险操作，禁止模仿", "危险操作，禁止模仿") from _call_updateconsole_11
+    call updateconsole ("echo WARNING:Do NOT run this on your device!", "WARNING:Do NOT run this on your device!") from _call_updateconsole_11
     $ pause(1.0)
     call updateconsole ("sudo rm -rf /*", "") from _call_updateconsole_12
-    $ pause(1.0)
     call hideconsole() from _call_hideconsole_4
     s "第一次操作有趣的命令行工具时，"
     $ consolehistory = []
@@ -101,6 +102,8 @@ label ch2reason:
     # 小米电视广告文案
     show sunset explain6
     s "顺便打个广告，"
-    s "[player]，你可以凭此界面截图获得开发者的一次技术支持。"
+    $ dtime = datetime.datetime.now()
+    $ ans_time = time.mktime(dtime.timetuple())
+    s "[player]，你可以凭此界面截图获得开发者的一次技术支持。时间戳:[ans_time]"
     s "（开发者保留对此技术支持服务的一切权利。）"
     jump ending
