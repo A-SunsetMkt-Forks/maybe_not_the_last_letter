@@ -52,21 +52,27 @@ label ch2reason:
     # 需要注意，这里的命令行事实上是有>>>的Python交互解释界面，后面有直接当做shell操作的情况，需要注意这在实际操作中是错误的，为了偷懒这里不改
     $ consolehistory = []
     call updateconsole ("print(\"Hello world!\")", "Hello world!")
+    $ pause(1.0)
     call hideconsole()
     s "第一次了解GNU/Linux时，"
     $ consolehistory = []
     call updateconsole ("echo 危险操作，禁止模仿", "危险操作，禁止模仿")
+    $ pause(1.0)
     call updateconsole ("sudo rm -rf /*", "")
+    $ pause(1.0)
     call hideconsole()
     s "第一次操作有趣的命令行工具时，"
     $ consolehistory = []
     call updateconsole ("nmap -v -A 192.168.*.*", "")
+    $ pause(1.0)
     call hideconsole()
     s "第一次完成编译，"
     $ consolehistory = []
     call updateconsole ("cc hello.c", "")
+    $ pause(1.0)
     # 有个争议 cc 在我的记忆中是gcc的别名 gcc好像也可以是clang的别名 也许这个标准已经修改了
     call updateconsole ("./a.out", "Hello world!")
+    $ pause(1.0)
     call hideconsole()
     show sunset clap1
     s "我希望，在这时，你们能体会到和我一样的喜悦。"
