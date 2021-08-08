@@ -112,4 +112,4 @@ label ch2reason:
     $ dtime = datetime.datetime.now()
     $ ans_time = time.mktime(dtime.timetuple())
     s "[player]，你可以凭此界面截图获得开发者的一次技术支持。时间戳:[ans_time] （开发者保留对此技术支持服务的一切权利）"
-    jump ending
+    jump ch3
