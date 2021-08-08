@@ -21,5 +21,6 @@ label endingshow:
 
 label endinghappy:
     $ gtext = glitchtext(6)
+    n "等一下..."
     n "生日快乐，[gtext]。"
     jump endingshow
