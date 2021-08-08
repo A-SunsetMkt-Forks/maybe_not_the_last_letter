@@ -12,8 +12,8 @@ label testmenu:
         "config.developer设为True":
             $ config.developer = True
             n "尝试设置完成"
-            n "使用分发版的用户可以通过此选项尝试开启开发者模式"
-            n "使用Shift+D开启开发者菜单"
+            n "使用分发版的用户并不能通过此选项尝试开启开发者模式"
+            n "使用Shift+D开启开发者菜单时会报错"
             jump testmenu
         "zeggcount自加1":
             $ zeggcount = zeggcount + 1
