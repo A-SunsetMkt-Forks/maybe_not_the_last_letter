@@ -51,29 +51,29 @@ label ch2reason:
     s "当你第一次运行Hello world!时，"
     # 需要注意，这里的命令行事实上是有>>>的Python交互解释界面，后面有直接当做shell操作的情况，需要注意这在实际操作中是错误的，为了偷懒这里不改
     $ consolehistory = []
-    call updateconsole ("print(\"Hello world!\")", "Hello world!")
+    call updateconsole ("print(\"Hello world!\")", "Hello world!") from _call_updateconsole_10
     $ pause(1.0)
-    call hideconsole()
+    call hideconsole() from _call_hideconsole_3
     s "第一次了解GNU/Linux时，"
     $ consolehistory = []
-    call updateconsole ("echo 危险操作，禁止模仿", "危险操作，禁止模仿")
+    call updateconsole ("echo 危险操作，禁止模仿", "危险操作，禁止模仿") from _call_updateconsole_11
     $ pause(1.0)
-    call updateconsole ("sudo rm -rf /*", "")
+    call updateconsole ("sudo rm -rf /*", "") from _call_updateconsole_12
     $ pause(1.0)
-    call hideconsole()
+    call hideconsole() from _call_hideconsole_4
     s "第一次操作有趣的命令行工具时，"
     $ consolehistory = []
-    call updateconsole ("nmap -v -A 192.168.*.*", "")
+    call updateconsole ("nmap -v -A 192.168.*.*", "") from _call_updateconsole_13
     $ pause(1.0)
-    call hideconsole()
+    call hideconsole() from _call_hideconsole_5
     s "第一次完成编译，"
     $ consolehistory = []
-    call updateconsole ("cc hello.c", "")
+    call updateconsole ("cc hello.c", "") from _call_updateconsole_14
     $ pause(1.0)
     # 有个争议 cc 在我的记忆中是gcc的别名 gcc好像也可以是clang的别名 也许这个标准已经修改了
-    call updateconsole ("./a.out", "Hello world!")
+    call updateconsole ("./a.out", "Hello world!") from _call_updateconsole_15
     $ pause(1.0)
-    call hideconsole()
+    call hideconsole() from _call_hideconsole_6
     show sunset clap1
     s "我希望，在这时，你们能体会到和我一样的喜悦。"
     s "说了这么多，"
@@ -95,7 +95,7 @@ label ch2reason:
     s "那么，请相信你自己，"
     s "不管距离再远..."
     s "基础再弱..."
-    s "学业多难..."
+    s "学业多困难..."
     s "[player]，我的精神愿意、也一直守候在你们身旁。"
     s "希望你们“永远相信美好的事情即将发生”。"
     # 小米电视广告文案
@@ -103,4 +103,4 @@ label ch2reason:
     s "顺便打个广告，"
     s "[player]，你可以凭此界面截图获得开发者的一次技术支持。"
     s "（开发者保留对此技术支持服务的一切权利。）"
-    
+    jump ending

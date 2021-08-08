@@ -638,3 +638,47 @@ translate english strings:
     old "关于你的志愿选择..."
     new ""
 
+# TODO: Translation updated at 2021-08-08 19:58
+
+# game/rpy/ch1.rpy:50
+translate english program0_84a53d1f:
+
+    # s "成立于某下层叙事、与SCP基金会合作，致力于在学园都市内部实行间谍活动并秘密部署大量斯克兰顿现实稳定锚，"
+    s ""
+
+# game/rpy/ch1.rpy:51
+translate english program0_b8e70b28:
+
+    # s "并以教育和信息技术开发作为前台组织的掩盖工作，余晖教育和科技集团在各个叙事层吸引了大量叙事实体加入，并允许甚至鼓励（相对）上层叙事实体使用此设定。"
+    s ""
+
+# game/rpy/ch1.rpy:52
+translate english program0_e0f844e9:
+
+    # s "顺便提一下，SCP基金会系列也正在在误解中封杀..."
+    s ""
+
+# game/rpy/ch1.rpy:53
+translate english program0_f9aed6c6:
+
+    # s "对流行和少数群体文化的误解和封锁...真的是个有趣的现象呢..."
+    s ""
+
+# game/rpy/ch1.rpy:155
+translate english program1_83edeb6a:
+
+    # s "例如：自助式放学铃自定义和自动关机..."
+    s ""
+
+# game/rpy/ch1.rpy:215
+translate english reallyinmemoryof_38aff2b2:
+
+    # s "自己更多的我没能提到的人，"
+    s ""
+
+# game/rpy/ch1.rpy:216
+translate english reallyinmemoryof_e72e48ee:
+
+    # s "是我们共同构建了这个故事。"
+    s ""
+
