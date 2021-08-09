@@ -1,8 +1,9 @@
 SourceHanSansLite.ttf
-cgs.rpyc
 console.rpy
+console.rpy.bak
 console.rpyc
 credits.rpy
+credits.rpy.bak
 credits.rpyc
 definitions.rpy
 definitions.rpyc
@@ -11,10 +12,13 @@ effects.rpyc
 glitchtext.rpy
 glitchtext.rpyc
 gui.rpy
+gui.rpy.1.bak
 gui.rpyc
+monika.chr
 options.rpy
 options.rpyc
 screens.rpy
+screens.rpy.1.bak
 screens.rpyc
 script.rpy
 script.rpyc
@@ -22,7 +26,17 @@ splash.rpy
 splash.rpyc
 transforms.rpy
 transforms.rpyc
+zcredits.rpy
+zcredits.rpy.bak
+zcredits.rpyc
 audio\.gitkeep
+audio\README.md
+audio\egg.ogg
+audio\eggend.ogg
+audio\end.ogg
+audio\game0.ogg
+audio\game1.ogg
+audio\menu.ogg
 cache\bytecode.rpyb
 cache\pyanalysis.rpyb
 cache\screens.rpyb
@@ -30,93 +44,170 @@ cache\shaders.txt
 gui\blood_drop.png
 gui\end.png
 gui\frame.png
+gui\frame.png.1.bak
 gui\game_menu.png
 gui\main_menu.png
 gui\namebox.png
+gui\namebox.png.1.bak
 gui\notify.png
+gui\notify.png.1.bak
 gui\nvl.png
+gui\nvl.png.1.bak
 gui\skip.png
+gui\skip.png.1.bak
 gui\textbox.png
+gui\textbox.png.1.bak
 gui\window_icon.png
 gui\bar\bottom.png
+gui\bar\bottom.png.1.bak
 gui\bar\left.png
+gui\bar\left.png.1.bak
 gui\bar\right.png
+gui\bar\right.png.1.bak
 gui\bar\top.png
+gui\bar\top.png.1.bak
 gui\button\check_foreground.png
+gui\button\check_foreground.png.1.bak
 gui\button\check_selected_foreground.png
+gui\button\check_selected_foreground.png.1.bak
 gui\button\choice_hover_background.png
+gui\button\choice_hover_background.png.1.bak
 gui\button\choice_idle_background.png
+gui\button\choice_idle_background.png.1.bak
 gui\button\hover_background.png
+gui\button\hover_background.png.1.bak
 gui\button\idle_background.png
+gui\button\idle_background.png.1.bak
 gui\button\quick_hover_background.png
+gui\button\quick_hover_background.png.1.bak
 gui\button\quick_idle_background.png
+gui\button\quick_idle_background.png.1.bak
 gui\button\radio_foreground.png
+gui\button\radio_foreground.png.1.bak
 gui\button\radio_selected_foreground.png
+gui\button\radio_selected_foreground.png.1.bak
 gui\button\slot_hover_background.png
+gui\button\slot_hover_background.png.1.bak
 gui\button\slot_idle_background.png
+gui\button\slot_idle_background.png.1.bak
 gui\font\F25_Bank_Printer.ttf
-gui\font\Halogen.ttf
-gui\font\RifficFree-Bold.ttf
-gui\font\m1.TTF
+gui\font\SourceHanSansCN-Normal.otf
 gui\overlay\confirm.png
+gui\overlay\confirm.png.1.bak
 gui\overlay\game_menu.png
+gui\overlay\game_menu.png.1.bak
 gui\overlay\main_menu.png
+gui\overlay\main_menu.png.1.bak
 gui\phone\nvl.png
+gui\phone\nvl.png.1.bak
 gui\phone\textbox.png
+gui\phone\textbox.png.1.bak
 gui\phone\bar\bottom.png
+gui\phone\bar\bottom.png.1.bak
 gui\phone\bar\left.png
+gui\phone\bar\left.png.1.bak
 gui\phone\bar\right.png
+gui\phone\bar\right.png.1.bak
 gui\phone\bar\top.png
+gui\phone\bar\top.png.1.bak
 gui\phone\button\check_foreground.png
+gui\phone\button\check_foreground.png.1.bak
 gui\phone\button\check_selected_foreground.png
+gui\phone\button\check_selected_foreground.png.1.bak
 gui\phone\button\choice_hover_background.png
+gui\phone\button\choice_hover_background.png.1.bak
 gui\phone\button\choice_idle_background.png
+gui\phone\button\choice_idle_background.png.1.bak
 gui\phone\button\hover_background.png
+gui\phone\button\hover_background.png.1.bak
 gui\phone\button\idle_background.png
+gui\phone\button\idle_background.png.1.bak
 gui\phone\button\radio_foreground.png
+gui\phone\button\radio_foreground.png.1.bak
 gui\phone\button\radio_selected_foreground.png
+gui\phone\button\radio_selected_foreground.png.1.bak
 gui\phone\button\slot_hover_background.png
+gui\phone\button\slot_hover_background.png.1.bak
 gui\phone\button\slot_idle_background.png
+gui\phone\button\slot_idle_background.png.1.bak
 gui\phone\overlay\game_menu.png
+gui\phone\overlay\game_menu.png.1.bak
 gui\phone\overlay\main_menu.png
+gui\phone\overlay\main_menu.png.1.bak
 gui\phone\scrollbar\horizontal_hover_bar.png
+gui\phone\scrollbar\horizontal_hover_bar.png.1.bak
 gui\phone\scrollbar\horizontal_hover_thumb.png
+gui\phone\scrollbar\horizontal_hover_thumb.png.1.bak
 gui\phone\scrollbar\horizontal_idle_bar.png
+gui\phone\scrollbar\horizontal_idle_bar.png.1.bak
 gui\phone\scrollbar\horizontal_idle_thumb.png
+gui\phone\scrollbar\horizontal_idle_thumb.png.1.bak
 gui\phone\scrollbar\vertical_hover_bar.png
+gui\phone\scrollbar\vertical_hover_bar.png.1.bak
 gui\phone\scrollbar\vertical_hover_thumb.png
+gui\phone\scrollbar\vertical_hover_thumb.png.1.bak
 gui\phone\scrollbar\vertical_idle_bar.png
+gui\phone\scrollbar\vertical_idle_bar.png.1.bak
 gui\phone\scrollbar\vertical_idle_thumb.png
+gui\phone\scrollbar\vertical_idle_thumb.png.1.bak
 gui\phone\slider\horizontal_hover_bar.png
+gui\phone\slider\horizontal_hover_bar.png.1.bak
 gui\phone\slider\horizontal_hover_thumb.png
+gui\phone\slider\horizontal_hover_thumb.png.1.bak
 gui\phone\slider\horizontal_idle_bar.png
+gui\phone\slider\horizontal_idle_bar.png.1.bak
 gui\phone\slider\horizontal_idle_thumb.png
+gui\phone\slider\horizontal_idle_thumb.png.1.bak
 gui\phone\slider\vertical_hover_bar.png
+gui\phone\slider\vertical_hover_bar.png.1.bak
 gui\phone\slider\vertical_hover_thumb.png
+gui\phone\slider\vertical_hover_thumb.png.1.bak
 gui\phone\slider\vertical_idle_bar.png
+gui\phone\slider\vertical_idle_bar.png.1.bak
 gui\phone\slider\vertical_idle_thumb.png
+gui\phone\slider\vertical_idle_thumb.png.1.bak
 gui\scrollbar\horizontal_hover_bar.png
+gui\scrollbar\horizontal_hover_bar.png.1.bak
 gui\scrollbar\horizontal_hover_thumb.png
+gui\scrollbar\horizontal_hover_thumb.png.1.bak
 gui\scrollbar\horizontal_idle_bar.png
+gui\scrollbar\horizontal_idle_bar.png.1.bak
 gui\scrollbar\horizontal_idle_thumb.png
+gui\scrollbar\horizontal_idle_thumb.png.1.bak
 gui\scrollbar\vertical_hover_bar.png
+gui\scrollbar\vertical_hover_bar.png.1.bak
 gui\scrollbar\vertical_hover_thumb.png
+gui\scrollbar\vertical_hover_thumb.png.1.bak
 gui\scrollbar\vertical_idle_bar.png
+gui\scrollbar\vertical_idle_bar.png.1.bak
 gui\scrollbar\vertical_idle_thumb.png
+gui\scrollbar\vertical_idle_thumb.png.1.bak
 gui\slider\horizontal_hover_bar.png
+gui\slider\horizontal_hover_bar.png.1.bak
 gui\slider\horizontal_hover_thumb.png
+gui\slider\horizontal_hover_thumb.png.1.bak
 gui\slider\horizontal_idle_bar.png
+gui\slider\horizontal_idle_bar.png.1.bak
 gui\slider\horizontal_idle_thumb.png
+gui\slider\horizontal_idle_thumb.png.1.bak
 gui\slider\vertical_hover_bar.png
+gui\slider\vertical_hover_bar.png.1.bak
 gui\slider\vertical_hover_thumb.png
+gui\slider\vertical_hover_thumb.png.1.bak
 gui\slider\vertical_idle_bar.png
+gui\slider\vertical_idle_bar.png.1.bak
 gui\slider\vertical_idle_thumb.png
+gui\slider\vertical_idle_thumb.png.1.bak
+images\bg basic.jpg
 images\bg black.jpg
 images\bsod.png
+images\game_menu.jpg
 images\glitch-blue.png
 images\glitch-green.png
 images\glitch-red.png
 images\glitch.jpg
+images\main_menu.jpg
+images\main_menu.psd
 images\noise1.jpg
 images\noise2.jpg
 images\noise3.jpg
@@ -124,18 +215,86 @@ images\noise4.jpg
 images\spirit blank.png
 images\splash-white.png
 images\splash.png
+images\splash.psd
 images\veinmask.png
 images\veinmaskb.png
 images\vignette.png
 images\warning.png
+images\warning.psd
 images\warning2.png
+images\monika\monika basic.png
+images\sunset\README.md
+images\sunset\bg\bg sunset stare.png
+images\sunset\spirit\sunset bye.png
+images\sunset\spirit\sunset clap0.png
+images\sunset\spirit\sunset clap1.png
+images\sunset\spirit\sunset explain.png
+images\sunset\spirit\sunset explain0.png
+images\sunset\spirit\sunset explain1.png
+images\sunset\spirit\sunset explain2.png
+images\sunset\spirit\sunset explain3.png
+images\sunset\spirit\sunset explain4.png
+images\sunset\spirit\sunset explain5.png
+images\sunset\spirit\sunset explain6.png
+images\sunset\spirit\sunset explain7.png
+images\sunset\spirit\sunset look0.png
+images\sunset\spirit\sunset look1.png
+images\sunset\spirit\sunset look2.png
+images\sunset\spirit\sunset look3.png
+images\sunset\spirit\sunset look4.png
+images\sunset\spirit\sunset smile0.png
+images\sunset\spirit\sunset think0.png
+images\sunset\spirit\sunset upset0.png
+images\sunset\spirit\sunset upset1.png
+images\sunset\spirit\sunset upset2.png
+images\sunset\spirit\sunset upset3.png
+images\sunset\spirit\sunset upset4.png
+images\sunset\spirit\sunset upset5.png
 python-packages\singleton.py
 rpy\.gitkeep
-saves\auto-1-LT1.save
+rpy\ch0.rpy
+rpy\ch0.rpyc
+rpy\ch1.rpy
+rpy\ch1.rpyc
+rpy\ch2.rpy
+rpy\ch2.rpy.bak
+rpy\ch2.rpyc
+rpy\ch3.rpy
+rpy\ch3.rpyc
+rpy\end.rpy
+rpy\end.rpyc
+rpy\test.rpy
+rpy\test.rpy.bak
+rpy\test.rpyc
+saves\_reload-2-LT1.save
+saves\auto-10-LT1.save
 saves\auto-2-LT1.save
 saves\auto-3-LT1.save
 saves\auto-4-LT1.save
+saves\auto-5-LT1.save
+saves\auto-6-LT1.save
+saves\auto-7-LT1.save
+saves\auto-8-LT1.save
+saves\auto-9-LT1.save
 saves\navigation.json
 saves\persistent
 tl\None\common.rpym
 tl\None\common.rpymc
+tl\english\common.rpy
+tl\english\common.rpyc
+tl\english\options.rpy
+tl\english\options.rpyc
+tl\english\screens.rpy
+tl\english\screens.rpyc
+tl\english\script.rpy
+tl\english\script.rpyc
+tl\english\splash.rpy
+tl\english\splash.rpyc
+tl\english\rpy\ch0.rpy
+tl\english\rpy\ch0.rpyc
+tl\english\rpy\ch1.rpy
+tl\english\rpy\ch1.rpyc
+tl\english\rpy\ch2.rpy
+tl\english\rpy\ch2.rpyc
+tl\english\rpy\test.rpy
+tl\english\rpy\test.rpyc
