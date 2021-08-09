@@ -1,5 +1,6 @@
 label ending:
     show sunset bye
+    stop music fadeout 5.0
     s "游戏到这里就要结束了。"
     s "感谢游玩..."
     s "我们下封信再见。"
@@ -12,7 +13,6 @@ label ending:
 
 
 label endingshow:
-    stop music fadeout 1.0
     show end
     $ pause(1.0)
     show black
