@@ -1,6 +1,7 @@
 label ending:
     show sunset bye
     stop music fadeout 5.0
+    s "到目前为止，您已经完成了大部分的游戏流程。"
     s "游戏到这里就要结束了。"
     s "感谢游玩..."
     s "我们下封信再见。"

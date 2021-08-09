@@ -22,6 +22,10 @@ label ofcoursenot:
     s "那么...你的问题是？"
     menu:
         "没什么...":
+            s "额..."
+            s "好吧。"
+            show sunset explain5
+            s "让我们忘掉刚才的对话~"
             jump ch3
         "为什么你选择了...？":
             jump ch2reason

@@ -212,8 +212,52 @@ label reallyinmemoryof:
     s "学校里的Brony不多..."
     # Brony 指的是《My Little Pony》的成年粉丝
     s "你们是我认识的两个。"
-    s "自己更多的我没能提到的人，"
+    s "还有更多的我没能提到的人，"
     s "是我们共同构建了这个故事。"
+    # 花屏效果
+    show noise zorder 9:
+        alpha 0.0
+        linear 1.5 alpha 1.0
+        time 2.0
+        parallel:
+            0.05
+            choice:
+                alpha 0.5
+            choice:
+                alpha 0.75
+            choice:
+                alpha 1.0
+            repeat
+        parallel:
+            linear 0.375 alpha 0.7
+            linear 0.375 alpha 1.0
+        time 2.75
+        alpha 0.95
+        time 6.45
+        alpha 0.3
+        time 6.95
+        alpha 0.9
+        time 8.65
+        linear 0.8 alpha 0
+        alpha 0.5
+        time 22.1
+        alpha 0.85
+        time 22.35
+        alpha 0.5
+        time 28.20
+        alpha 0.3
+        linear 0.45 alpha 0.9
+        alpha 0.4
+    show vignette zorder 10:
+        alpha 0.75
+        parallel:
+            0.36
+            alpha 0.75
+            repeat
+        parallel:
+            0.49
+            alpha 0.7
+            repeat
     show sunset look2
     s "还有被我吓到的一些人..."
     show sunset look4
@@ -257,6 +301,8 @@ label reallyinmemoryofz:
     # 想法是逐渐在后面写出来
     # 祂应该不会玩这个游戏
     s "[gtext]"
+    hide noise
+    hide vignette
     jump other0
 
 label other0:
