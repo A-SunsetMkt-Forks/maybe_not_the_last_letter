@@ -2,7 +2,7 @@
 
 label ch2:
     show sunset smile0
-    stop music fadeout 5.0
+    stop music fadeout 3.0
     s "怎么，[player]？"
     play music "<loop 0.0>audio/game1.ogg" fadein 20.0
     s "有很多人问过我相关的问题..."
@@ -68,13 +68,11 @@ label ch2reason:
     s "第一次操作有趣的命令行工具时，"
     $ consolehistory = []
     call updateconsole ("nmap -v -A 192.168.*.*", "") from _call_updateconsole_13
-    $ pause(1.0)
     call hideconsole() from _call_hideconsole_5
     show sunset clap0
     s "第一次完成编译，"
     $ consolehistory = []
     call updateconsole ("cc hello.c", "") from _call_updateconsole_14
-    $ pause(1.0)
     # 有个争议 cc 在我的记忆中是gcc的别名 gcc好像也可以是clang的别名 也许这个标准已经修改了
     call updateconsole ("./a.out", "Hello world!") from _call_updateconsole_15
     $ pause(1.0)
