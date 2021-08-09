@@ -13,7 +13,7 @@ label start:
 
     stop music fadeout 1.0
 
-    play music "<loop 0.0>audio/game.ogg" fadein 1.0
+    play music "<loop 0.0>audio/game0.ogg" fadein 1.0
 
     # 显示一个背景。
 
