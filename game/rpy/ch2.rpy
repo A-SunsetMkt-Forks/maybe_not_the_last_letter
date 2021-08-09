@@ -2,7 +2,9 @@
 
 label ch2:
     show sunset smile0
+    stop music fadeout 5.0
     s "怎么，[player]？"
+    play music "<loop 0.0>audio/game1.ogg" fadein 20.0
     s "有很多人问过我相关的问题..."
     show sunset upset0
     s "希望不是在质疑我的选择..."
