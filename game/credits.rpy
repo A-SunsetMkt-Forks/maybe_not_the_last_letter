@@ -49,7 +49,7 @@ transform credits_scroll:
 transform credits_text_scroll:
     anchor (0.5, 0.5) subpixel True
     yoffset 920
-    linear 15 yoffset -200
+    linear 15 yoffset -300
 
 transform credits_sticker_scroll:
     subpixel True
