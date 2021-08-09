@@ -24,7 +24,7 @@ label unforgettablehub:
     s "让我回忆一下..."
     $ pause(1.0 + random.randint(0,2))
     # 随机一个已经准备好的对话编号，注意randint是闭区间
-    $ unforgettablerandnum = random.randint(1,5)
+    $ unforgettablerandnum = random.randint(1,3)
     $ unforgettablelabel = "unforgettable" + str(unforgettablerandnum)
     $ renpy.jump(unforgettablelabel)
 
@@ -62,24 +62,49 @@ label unforgettable2:
     s "记得当时还想建议几个同学也写点程序交上去..."
     s "当天根据Git提交纪录写了研究报告..."
     s "大概写了开发过程吧..."
-    s "更不幸的是，开发时我并没有想到我有一天会回来翻历史记录..."
+    s "不幸的是，开发时我并没有想到我有一天会回来翻历史记录..."
     show sunset explain7
     s "所以我的每个commit都完全没写有用的备注..."
     s "当时翻历史+写报告用了几个小时吧..."
     s "最后交上去的时候还是没抱希望的。"
-    s ""
+    if aboutarflag:
+        s "当然，后面的事情你已经知道了。"
+        jump other1
+    else:
+        s "直到疫情期间被通知通过市级竞赛，要提交省级竞赛..."
+        s "也是在那时，我才注意到全校似乎只有两个参赛项目..."
+        s "然后就出人意料地拿了个奖..."
+        s "很有可能只是个鼓励性的奖项。"
+        jump other1
 
 label unforgettable3:
     show sunset explain6
     s "最难忘的事..."
+    $ gtext = glitchtext(6)
+    show sunset think0
+    s "是和[gtext]经历的每一件事。"
+    $ zeggcount = zeggcount + 1
+    s "每一次相遇..."
+    s "每一次对视..."
+    s "和每一次冲突..."
+    s "躲避..."
+    s "尴尬..."
+    s "和分别..."
+    s "以及最后也没能原谅的..."
+    s "结局。"
+    jump other1
 
 label unforgettable4:
     show sunset explain6
     s "最难忘的事..."
+    s "写好之后请修改随机数生成范围！！！！！！"
+    jump other1
 
 label unforgettable5:
     show sunset explain6
     s "最难忘的事..."
+    s "写好之后请修改随机数生成范围！！！！！！"
+    jump other1
 
 label aboutteachers:
     if aboutteachersflag:
@@ -87,6 +112,8 @@ label aboutteachers:
         jump other1
     $ aboutteachersflag = True
     show sunset explain6
+    s "这里还没写完"
+    jump other1
 
 label other1:
     show sunset smile0

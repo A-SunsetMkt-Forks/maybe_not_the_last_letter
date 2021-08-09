@@ -130,7 +130,7 @@ label credits2:
     $ pause(44.25 - (datetime.datetime.now() - starttime).total_seconds())
     
     show credits_header "" as credits_header_1 at credits_text_scroll_middle
-    show credits_text "音乐\nEasy Breeze (StarSight Remix)  Player_275x / Thomas Greenberg\n穏やかに過ぎゆく時  小林俊太郎\n所念皆星河  CMJ\n更多信息请查看项目存储库" as credits_text_1 at credits_text_scroll_middle
+    show credits_text "音乐\nEasy Breeze (StarSight Remix)  Player_275x / Thomas Greenberg\n穏やかに過ぎゆく時  小林俊太郎\n【Animenz】secret base 〜你给我的所有〜 - 未闻花名 ED 钢琴版  Bilibili用户@Animenzzz\nLeaves in the Wind  Isaac Shepard\n所念皆星河  CMJ\n更多信息请查看项目存储库" as credits_text_1 at credits_text_scroll_middle
 
     $ pause(53.35 - (datetime.datetime.now() - starttime).total_seconds())
     

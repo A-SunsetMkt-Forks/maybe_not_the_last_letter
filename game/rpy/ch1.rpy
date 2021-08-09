@@ -7,6 +7,7 @@ label ch1:
     # 在设计上，只要离开一个话题就无法再次进入
     $ programflag = False
     $ inmemoryofflag = False
+    $ aboutarflag = False
     menu:
         "你的简介上写着...你是计算机科学初学者？谈谈你的作品吧。":
             jump program0
@@ -138,6 +139,7 @@ label program1:
     show sunset explain1
     s "rns.py——“随机姓名选择器（Random Name Selector）”是一个无聊的练手作品，"
     # 被我当成开玩笑的项目参赛
+    $ aboutarflag = True
     s "有趣的是，这个项目作为全校唯二的项目参赛..."
     s "...获得了汉东省青少年科技创新大赛三等奖。"
     # 三等奖可能是个鼓励性的奖项
