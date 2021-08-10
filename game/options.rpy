@@ -205,7 +205,10 @@ init python:
     # 将图片放入images归档。
     build.classify("game/**.jpg", "images")
     build.classify("game/**.png", "images")
-    build.classify("game/**.psd", "images")
+    #build.classify("game/**.psd", "images")
+
+    # 排除所有其他psd文件。
+    build.classify("**.psd", None)
 
     # 将音乐放入audio归档。
     build.classify("game/**.mp3", "audio")
