@@ -92,7 +92,7 @@ label credits:
     $ config.allow_skipping = False
     scene black
     
-    if zeggcount >= 5:
+    if zeggcount >= 7:
         $ zegg = True
 
     if zegg:
