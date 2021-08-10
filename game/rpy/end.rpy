@@ -1,4 +1,10 @@
 label ending:
+    if expeggcount >= 2:
+        s "在游戏结束之前，EXPLORER也有些话要说..."
+        jump chexp
+    jump realending
+
+label realending:
     show sunset bye
     stop music fadeout 5.0
     s "到目前为止，您已经完成了大部分的游戏流程。"

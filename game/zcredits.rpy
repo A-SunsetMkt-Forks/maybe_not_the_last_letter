@@ -1,4 +1,5 @@
 label zcredits2:
+    $ persistent.autoload = "zcredits2"
     image zcreditend:
         truecenter
         "gui/end.png"
@@ -137,7 +138,7 @@ label zcredits2:
     # Fade to black and make the player quit
     label zpostcredits_loop:
         # Game reloads to the postcredits_loop
-        $ persistent.autoload = "postcredits_loop"
+        $ persistent.autoload = "zpostcredits_loop"
 
         # Disables Main Menu, Quick Menu, Everything
         $ config.keymap['game_menu'] = []

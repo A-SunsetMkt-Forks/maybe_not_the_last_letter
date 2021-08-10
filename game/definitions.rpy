@@ -180,3 +180,5 @@ default faint_effect = None
 default zegg = False
 default persistent.splashegg = False
 default zeggcount = 0
+
+default expeggcount = 0

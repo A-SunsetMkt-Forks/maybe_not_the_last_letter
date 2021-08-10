@@ -206,6 +206,7 @@ label reallyinmemoryof:
     show sunset smile0
     s "还记得那朵封存在透明有机物块中的云状物体吗？"
     s "b5f0b1a060a51d4bfaa5b3375a6ba0a8e632c0946066af94a9c47082811ac14c，你帮助了我实施我疯狂的计划..."
+    $ expeggcount = expeggcount + 1
     s "写作交流、情报提供、应急处理，不仅如此..."
     s "你成功地让我适应和其他人用餐和近距离交流，无论这个人是谁。"
     s "别忘了尝试学Python啊。"
