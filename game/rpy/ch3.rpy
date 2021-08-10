@@ -116,7 +116,7 @@ label aboutteachers:
     jump other1
 
 label other1:
-    show sunset smile0
+    # show sunset smile0
     menu:
         "在学校里经历过什么难忘的事吗？":
             jump unforgettablehub
