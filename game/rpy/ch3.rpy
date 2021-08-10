@@ -6,6 +6,7 @@ label ch3:
     show sunset clap0
     stop music fadeout 3.0
     s "还有什么问题？请尽管问吧，[player]。"
+    # 这个奇怪的播放方式可以让音乐第一次播放时从较平静的位置开始，第二次播放起开始循环
     play music "<from 13.0>audio/game2.ogg" fadein 20.0
     queue music "<loop 0.0>audio/game2.ogg"
     menu:
@@ -24,7 +25,7 @@ label unforgettablehub:
     s "让我回忆一下..."
     $ pause(1.0 + random.randint(0,2))
     # 随机一个已经准备好的对话编号，注意randint是闭区间
-    $ unforgettablerandnum = random.randint(1,3)
+    $ unforgettablerandnum = random.randint(1,6)
     $ unforgettablelabel = "unforgettable" + str(unforgettablerandnum)
     $ renpy.jump(unforgettablelabel)
 
@@ -97,13 +98,44 @@ label unforgettable3:
 label unforgettable4:
     show sunset explain6
     s "最难忘的事..."
-    s "写好之后请修改随机数生成范围！！！！！！"
+    s "是成绩第一次进入校前百名。"
+    show sunset look1
+    s "在旅途中知道了自己的排名..."
+    show sunset explain5
+    s "但并没有多激动..."
+    s "就很平静地过去了。"
+    s "遗憾的是..."
+    show sunset upset2
+    s "这也是我三年以来的最高成绩..."
+    s "然后就再也没有比这还好的了。"
+    s "在最后一场考试中..."
+    s "因为很多原因吧..."
+    show sunset upset5
+    $ gtext = glitchtext(6)
+    s "也没能超过[gtext]..."
+    $ zeggcount = zeggcount + 1
+    show sunset upset0
+    s "所以还是有点怨念的。"
     jump other1
 
 label unforgettable5:
     show sunset explain6
     s "最难忘的事..."
-    s "写好之后请修改随机数生成范围！！！！！！"
+    show sunset look4
+    s "说出来恐怕会泄露出不应该公开的东西吧..."
+    s "例如了解到考试作弊问题..." # 这里需要补充
+    show sunset explain5
+    s "还是少说为妙。"
+    jump other1
+
+label unforgettable6:
+    show sunset explain6
+    s "最难忘的事..."
+    s "是作了个大死..."
+    show sunset explain5
+    s "关于ProjectZ的相关信息..."
+    s "请还是去问EXPLORER吧。"
+    $ expeggcount = expeggcount + 1
     jump other1
 
 label aboutteachers:
@@ -112,7 +144,18 @@ label aboutteachers:
         jump other1
     $ aboutteachersflag = True
     show sunset explain6
-    s "这里还没写完"
+    s "这里应该有一些很有趣的回忆，"
+    show sunset explain5
+    s "但...我的记忆力不太好..."
+    s "简单地说..."
+    s "是一群很可爱的人吧。"
+    s "如果说比较重要的是..."
+    show sunset clap0
+    s "非常幸运有一个管理并不太严格的班主任..."
+    s "这事实上减少了很多回影响学生学习的因素..."
+    show sunset clap1
+    s "这种管理方式..."
+    s "也是一种智慧吧。"
     jump other1
 
 label other1:
