@@ -111,12 +111,16 @@ define config.window_hide_transition = Dissolve(.2)
 
 ## 控制默认的文字显示速度。默认的 0 是瞬间，而其他数字则是每秒显示出的字符数。
 
-default preferences.text_cps = 0
+default preferences.text_cps = 5
 
 
 ## 默认的自动前进延迟。越大的数字会产生越长的等待，有效范围为 0 - 30。
 
 default preferences.afm_time = 15
+
+## 回滚设置，仅在dev可用
+
+define config.rollback_enabled = config.developer
 
 
 ## 存档目录 ########################################################################
