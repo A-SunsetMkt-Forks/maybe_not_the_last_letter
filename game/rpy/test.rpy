@@ -9,14 +9,11 @@ label testmenu:
     menu:
         "回到start":
             jump start
-        "config.developer设为True":
-            $ config.developer = True
-            n "尝试设置完成"
-            n "使用分发版的用户并不能通过此选项尝试开启开发者模式"
-            n "使用Shift+D开启开发者菜单时会报错"
-            jump testmenu
         "zeggcount自加1":
             $ zeggcount = zeggcount + 1
+            jump testmenu
+        "expeggcount自加1":
+            $ expeggcount = expeggcount + 1
             jump testmenu
         "raise Exception":
             $ raise Exception
