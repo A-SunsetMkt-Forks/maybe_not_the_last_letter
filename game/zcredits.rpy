@@ -53,7 +53,7 @@ label zcredits2:
     $ pause(80.60 - (datetime.datetime.now() - starttime).total_seconds())
     
     show credits_header "" as credits_header_1 at credits_text_scroll_middle
-    show credits_text "此项目的部分代码来自DDLCModTemplate2.0，原则上禁止用于除《心跳文学部》第三方模组的其他用途\n除此之外的其他代码使用 GNU General Public License v3.0 发布\n此项目的部分故事和文案使用 Creative Commons Attribution Share Alike 4.0 International 授权" as credits_text_1 at credits_text_scroll_middle
+    show credits_text "此项目的部分代码来自DDLCModTemplate2.0，原则上禁止用于除《心跳文学部》第三方模组的其他用途\n除此之外的其他代码使用 GNU General Public License v3.0 发布\n此项目的部分故事和文案使用 Creative Commons Attribution Share Alike 4.0 International 协议授权" as credits_text_1 at credits_text_scroll_middle
 
     $ pause(88.00 - (datetime.datetime.now() - starttime).total_seconds())
     if zeggcount >= 9:
