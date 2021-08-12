@@ -2,10 +2,10 @@
 
 # 声明此游戏使用的角色。颜色参数可使角色姓名着色。
 
-define n = Character("旁白") # Narrator
-define s = Character("余晖")
-define e = Character("EXPLORER")
-define m = Character("Monika")
+define n = Character(_("旁白")) # Narrator
+define s = Character(_("余晖"))
+define e = Character(_("EXPLORER"))
+define m = Character(_("Monika"))
 
 # 游戏在此开始。
 

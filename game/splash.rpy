@@ -4,15 +4,15 @@
 init python:
     menu_trans_time = 1
     # Default message everyone sees in the game
-    splash_message_default = "此游戏仅用于技术交流，禁止分发。"
+    splash_message_default = _("此游戏仅用于技术交流，禁止分发。")
     # Used sometimes to change splash messages if called upon
     splash_messages = [
-        "你好？",
-        "请支持《心跳文学部》。",
-        "我们会在没有黑暗的地方见面。",
-        "你经过我身旁/像鹿穿过花岗/风吹开一枝扶桑花",
-        "Just Monika.",
-        "光是遇见 就很美好" # 光遇 广告文案
+        _("你好？"),
+        _("请支持《心跳文学部》。"),
+        _("我们会在没有黑暗的地方见面。"),
+        _("你经过我身旁/像鹿穿过花岗/风吹开一枝扶桑花"),
+        _("Just Monika."),
+        _("光是遇见 就很美好") # 光遇 广告文案
     ]
 
 image splash_warning = ParameterizedText(style="splash_text", xalign=0.5, yalign=0.5)
