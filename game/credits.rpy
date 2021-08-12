@@ -201,7 +201,8 @@ label credits2:
         scene black
 
         # Shows either Monika's or Dan's Goodbye Message
-        show endscreen ""
+        $ endscreentext = "游戏结束...？"
+        show endscreen "[endscreentext]"
         with dissolve
         $ pause()
         

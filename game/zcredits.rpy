@@ -156,7 +156,8 @@ label zcredits2:
         scene black
 
         # Shows either Monika's or Dan's Goodbye Message
-        show endscreen ""
+        $ zendscreentext = "这里是彩蛋结局的结束屏幕文案\n还没写完\n正在考虑要写点什么"
+        show endscreen "[zendscreentext]"
         with dissolve
         $ pause()
         

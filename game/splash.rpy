@@ -11,7 +11,8 @@ init python:
         "请支持《心跳文学部》。",
         "我们会在没有黑暗的地方见面。",
         "你经过我身旁/像鹿穿过花岗/风吹开一枝扶桑花",
-        "Just Monika."
+        "Just Monika.",
+        "光是遇见 就很美好" # 光遇 广告文案
     ]
 
 image splash_warning = ParameterizedText(style="splash_text", xalign=0.5, yalign=0.5)
