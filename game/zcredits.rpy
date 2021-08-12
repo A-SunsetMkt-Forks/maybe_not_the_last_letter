@@ -54,7 +54,7 @@ label zcredits2:
     $ pause(71.55 - (datetime.datetime.now() - starttime).total_seconds())
     
     show credits_header "" as credits_header_2 at credits_text_scroll_middle
-    show credits_text "特别感谢\nRen'Py\nTeam Salvato\nHasbro, Inc\n" as credits_text_2 at credits_text_scroll_middle
+    show credits_text "特别感谢\nRen'Py\nTeam Salvato\nHasbro, Inc\n创造音乐和立绘的艺术家们\nEXPLORER" as credits_text_2 at credits_text_scroll_middle
     
     # $ pause(80.60 - (datetime.datetime.now() - starttime).total_seconds())
 
