@@ -2,9 +2,9 @@
 
 基于Renpy的互动小说游戏。
 
-# 0.1 Release
+# 0.2.0 InDev
 
-详见Releases
+技术预览详见Releases
 
 # 版权相关
 此项目的部分代码来自 https://github.com/GanstaKingofSA/DDLCModTemplate2.0 原则上禁止用于除《心跳文学部》第三方模组的其他用途
