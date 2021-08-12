@@ -1,5 +1,6 @@
 label test0:
     scene bg basic
+    $ testdemodev = True
     s "你好，[player]？"
     show sunset explain7
     s "Hello,world!"
@@ -26,7 +27,7 @@ label testdemo:
     #with dissolve
     show sunset look0
     s "你怎么会在这？"
-    if config.developer:
+    if config.developer and testdemodev:
         show sunset explain5
         s "哦，是开发者啊。"
         show sunset look3
