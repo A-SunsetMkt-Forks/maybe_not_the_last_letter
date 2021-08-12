@@ -9,7 +9,8 @@ label zcredits2:
     $ zsongname = "错误：请联系开发者。"
     if random.randint(0,1) == 0:
         play music "audio/eggend0.ogg" noloop
-        $ zsongname = "【钢琴】《勾指起誓》 洛天依-ilem 高甜预警❤ 纯钢琴版  Bilibili用户@绯绯Feifei"
+        $ zsongname = "【钢琴】《勾指起誓》 洛天依-ilem 高甜预警 纯钢琴版  Bilibili用户@绯绯Feifei"
+        # 一首甜一些的歌
     else:
         play music "audio/eggend.ogg" noloop
         $ zsongname = "电影《你的名字》主题曲《前前前世》  Bilibili用户@Ayasa绚沙"
@@ -63,8 +64,9 @@ label zcredits2:
     show credits_text "此项目的部分代码来自DDLCModTemplate2.0，原则上禁止用于除《心跳文学部》第三方模组的其他用途\n除此之外的其他代码使用 GNU General Public License v3.0 发布\n此项目的部分故事和文案使用 Creative Commons Attribution Share Alike 4.0 International 协议授权\n更多信息请查看项目存储库" as credits_text_1 at credits_text_scroll_middle
 
     $ pause(88.00 - (datetime.datetime.now() - starttime).total_seconds())
-    if zeggcount >= 9:
+    if zeggcount >= 100:
         play sound "audio/egg.ogg"
+        # 除非作弊否则不可能触发
     show noise zorder 9:
         alpha 0.0
         linear 1.5 alpha 1.0

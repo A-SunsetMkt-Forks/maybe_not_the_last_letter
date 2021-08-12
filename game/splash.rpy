@@ -127,7 +127,7 @@ label splashscreen:
         firstrun = ""
 
     if not firstrun:
-        if persistent.first_run and (config.version == persistent.oldversion or persistent.autoload == "postcredits_loop"):
+        if persistent.first_run and (config.version == persistent.oldversion or persistent.autoload == "postcredits_loop" or persistent.autoload == "zpostcredits_loop"):
             $ quick_menu = False
             scene black
             menu:
