@@ -32,6 +32,13 @@ style credits_text:
     text_align 0.5
     outlines []
 
+style endscreen_text:
+    size 24
+    color "#fff"
+    text_align 0.5
+    outlines []
+
+image endscreen = ParameterizedText(style="endscreen_text", xalign=0.5, yalign=0.5)
 
 image credits_header = ParameterizedText(style="credits_header", ypos=-40)
 image credits_text = ParameterizedText(style="credits_text", ypos=40)
@@ -194,9 +201,10 @@ label credits2:
         scene black
 
         # Shows either Monika's or Dan's Goodbye Message
-        show creditend
+        show endscreen ""
+        with dissolve
         $ pause()
         
         # Fakes Error Corruption. Makes the player quit the game.
-        call screen dialog(message="Error: Script file is missing or corrupt.\nPlease reinstall the game.", ok_action=Quit(confirm=False))
+        call screen dialog(message="游戏结束，请重启游戏并删除存档，否则可能发生意料之外的错误。", ok_action=Quit(confirm=False))
         return

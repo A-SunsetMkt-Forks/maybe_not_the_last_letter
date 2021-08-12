@@ -156,9 +156,10 @@ label zcredits2:
         scene black
 
         # Shows either Monika's or Dan's Goodbye Message
-        show zcreditend
+        show endscreen ""
+        with dissolve
         $ pause()
         
         # Fakes Error Corruption. Makes the player quit the game.
-        call screen dialog(message="Error: Script file is missing or corrupt.\nPlease reinstall the game.", ok_action=Quit(confirm=False))
+        call screen dialog(message="游戏结束，请重启游戏并删除存档，否则可能发生意料之外的错误。", ok_action=Quit(confirm=False))
         return
