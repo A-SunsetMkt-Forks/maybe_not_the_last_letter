@@ -5,7 +5,14 @@ label zcredits2:
         "gui/end.png"
     scene black
     $ consolehistory = []
-    play music "audio/eggend.ogg" noloop
+    $ import random
+    $ zsongname = "错误：请联系开发者。"
+    if random.randint(0,1) == 0:
+        play music "audio/eggend0.ogg" noloop
+        $ zsongname = "【钢琴】《勾指起誓》 洛天依-ilem 高甜预警❤ 纯钢琴版  Bilibili用户@绯绯Feifei"
+    else:
+        play music "audio/eggend.ogg" noloop
+        $ zsongname = "电影《你的名字》主题曲《前前前世》  Bilibili用户@Ayasa绚沙"
     $ starttime = datetime.datetime.now()
     pause 0.88
     
@@ -31,7 +38,7 @@ label zcredits2:
     $ pause(44.25 - (datetime.datetime.now() - starttime).total_seconds())
     
     show credits_header "" as credits_header_1 at credits_text_scroll_middle
-    show credits_text "音乐\nEasy Breeze (StarSight Remix)  Player_275x / Thomas Greenberg\n穏やかに過ぎゆく時  小林俊太郎\n【Animenz】secret base 〜你给我的所有〜 - 未闻花名 ED 钢琴版  Bilibili用户@Animenzzz\nLeaves in the Wind  Isaac Shepard\n电影《你的名字》主题曲《前前前世》  Bilibili用户@Ayasa绚沙\n更多信息请查看项目存储库" as credits_text_1 at credits_text_scroll_middle
+    show credits_text "音乐\nEasy Breeze (StarSight Remix)  Player_275x / Thomas Greenberg\n穏やかに過ぎゆく時  小林俊太郎\n【Animenz】secret base 〜你给我的所有〜 - 未闻花名 ED 钢琴版  Bilibili用户@Animenzzz\nLeaves in the Wind  Isaac Shepard\n[zsongname]" as credits_text_1 at credits_text_scroll_middle
 
     $ pause(53.35 - (datetime.datetime.now() - starttime).total_seconds())
     
@@ -53,7 +60,7 @@ label zcredits2:
     $ pause(80.60 - (datetime.datetime.now() - starttime).total_seconds())
     
     show credits_header "" as credits_header_1 at credits_text_scroll_middle
-    show credits_text "此项目的部分代码来自DDLCModTemplate2.0，原则上禁止用于除《心跳文学部》第三方模组的其他用途\n除此之外的其他代码使用 GNU General Public License v3.0 发布\n此项目的部分故事和文案使用 Creative Commons Attribution Share Alike 4.0 International 协议授权" as credits_text_1 at credits_text_scroll_middle
+    show credits_text "此项目的部分代码来自DDLCModTemplate2.0，原则上禁止用于除《心跳文学部》第三方模组的其他用途\n除此之外的其他代码使用 GNU General Public License v3.0 发布\n此项目的部分故事和文案使用 Creative Commons Attribution Share Alike 4.0 International 协议授权\n更多信息请查看项目存储库" as credits_text_1 at credits_text_scroll_middle
 
     $ pause(88.00 - (datetime.datetime.now() - starttime).total_seconds())
     if zeggcount >= 9:
@@ -101,13 +108,6 @@ label zcredits2:
             0.49
             alpha 0.7
             repeat
-    show black as bar zorder 9:
-        alpha 0.3
-        size (1280,500)
-        block:
-            ypos 720
-            linear 15 ypos -500
-            repeat
     $ gtext = glitchtext(6)
     $ gstr = glitchtext(15)
     $ gchar = glitchtext(4)
@@ -127,6 +127,8 @@ label zcredits2:
     
     # Hides console and shows the Team Salvato Logo/Thank You
     call hideconsole from _call_hideconsole_2
+    hide noise
+    hide vignette
     show credits_ts
     show credits_text "带着爱创作":
         zoom 0.75 xalign 0.5 yalign 0.25 alpha 0 subpixel True

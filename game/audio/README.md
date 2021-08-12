@@ -29,3 +29,7 @@ http://iqingyun.cyol.com/visp/38/479096.html
 # eggend.ogg
 
 https://www.bilibili.com/video/BV14W41137g3
+
+# eggend0.ogg
+
+https://www.bilibili.com/video/BV1B4411M71s

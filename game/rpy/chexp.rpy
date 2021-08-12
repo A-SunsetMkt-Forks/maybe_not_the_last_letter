@@ -6,7 +6,7 @@
 
 label chexp:
     stop music fadeout 3.0
-    play music "<from 0.0>audio/gameexp.ogg" fadein 3.0
+    play music "<from 0.0>audio/gameexp.ogg"
     queue music "<loop 0.0>audio/gameexploop.ogg"
     hide sunset
     show exp s6
