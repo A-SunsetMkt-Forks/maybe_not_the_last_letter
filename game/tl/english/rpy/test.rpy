@@ -78,3 +78,11 @@ translate english strings:
     old "交互演示"
     new ""
 
+# TODO: Translation updated at 2021-08-12 21:40
+
+translate english strings:
+
+    # game/rpy/test.rpy:9
+    old "expeggcount自加1"
+    new ""
+

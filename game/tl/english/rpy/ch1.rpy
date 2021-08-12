@@ -682,3 +682,11 @@ translate english reallyinmemoryof_e72e48ee:
     # s "是我们共同构建了这个故事。"
     s ""
 
+# TODO: Translation updated at 2021-08-12 21:40
+
+# game/rpy/ch1.rpy:218
+translate english reallyinmemoryof_415a72fd:
+
+    # s "还有更多的我没能提到的人，"
+    s ""
+

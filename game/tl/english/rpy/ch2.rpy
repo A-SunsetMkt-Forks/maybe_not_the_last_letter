@@ -320,3 +320,41 @@ translate english ch2reason_09d3b8f7:
     # s "学业多困难..."
     s ""
 
+# TODO: Translation updated at 2021-08-12 21:40
+
+# game/rpy/ch2.rpy:26
+translate english ofcoursenot_f73ffe10:
+
+    # s "额..."
+    s ""
+
+# game/rpy/ch2.rpy:27
+translate english ofcoursenot_992c915a:
+
+    # s "好吧。"
+    s ""
+
+# game/rpy/ch2.rpy:29
+translate english ofcoursenot_2c75fdbe:
+
+    # s "让我们忘掉刚才的对话~"
+    s ""
+
+# game/rpy/ch2.rpy:112
+translate english ch2reason_bd498d84:
+
+    # s "[player]，我的精神愿意、也一直守候在你身旁。"
+    s ""
+
+# game/rpy/ch2.rpy:113
+translate english ch2reason_f4e8a77d:
+
+    # s "希望你“永远相信美好的事情即将发生”。"
+    s ""
+
+# game/rpy/ch2.rpy:119
+translate english ch2reason_b7f8f9ba:
+
+    # s "[player]，你可以凭此界面截图获得开发者的一次技术支持。时间戳:[ans_time] （开发者保留对此技术支持服务的一切权利）"
+    s ""
+
