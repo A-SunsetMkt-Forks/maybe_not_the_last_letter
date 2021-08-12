@@ -201,7 +201,8 @@ label credits2:
         scene black
 
         # Shows either Monika's or Dan's Goodbye Message
-        $ endscreentext = "游戏结束...？"
+        $ endscreentext = "游戏结束...？\n「在夜空里所有星星熄灭的时候，所有溪流、所有的梦想，都能汇入同一片大海之中。那时我们终会再见的。」"
+        # 原神 https://genshin.honeyhunterworld.com/db/q/q_41422/?lang=CHS
         show endscreen "[endscreentext]"
         with dissolve
         $ pause()
