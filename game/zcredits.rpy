@@ -115,7 +115,7 @@ label zcredits2:
     $ gchar = glitchtext(4)
     show monika basic
     show credits_header "" as credits_header_2 at credits_text_scroll_middle
-    show credits_text "特别感谢\nMonika\n[player]\n[gtext]（[gstr]：5[gchar]45[gchar]18[gchar]2[gchar]98[gchar]8[gchar]2[gchar]）[gchar]" as credits_text_2 at credits_text_scroll_middle
+    show credits_text "特别感谢\nPrincess Celestia\nMonika\n[player]\n[gtext]（[gstr]：5[gchar]45[gchar]18[gchar]2[gchar]98[gchar]8[gchar]2[gchar]）[gchar]" as credits_text_2 at credits_text_scroll_middle
     
     $ pause(95.10 - (datetime.datetime.now() - starttime).total_seconds())
 
