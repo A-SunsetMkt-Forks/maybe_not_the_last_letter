@@ -2,6 +2,10 @@
 
 基于Renpy的互动小说游戏。
 
+# 0.1 Release
+
+详见Releases
+
 # 版权相关
 此项目的部分代码来自 https://github.com/GanstaKingofSA/DDLCModTemplate2.0 原则上禁止用于除《心跳文学部》第三方模组的其他用途
 
@@ -11,7 +15,7 @@
 
 除此之外的其他代码使用 GNU General Public License v3.0 发布
 
-此项目的故事和文案部分使用 Creative Commons Attribution Share Alike 4.0 International 授权
+此项目的部分故事和文案使用 Creative Commons Attribution Share Alike 4.0 International 授权
 
 # 关于《心跳文学部》
 《心跳文学部》是一款优秀的Meta类视觉小说游戏。
