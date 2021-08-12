@@ -5,7 +5,7 @@
 # 立绘来源：https://tieba.baidu.com/p/3131294705
 
 label chexp:
-    $ expsongname = "\nCornfield Chase  Hans Zimmer"
+    $ expsongname = _("\nCornfield Chase  Hans Zimmer")
     stop music fadeout 3.0
     play music "<from 0.0>audio/gameexp.ogg"
     queue music "<loop 0.0>audio/gameexploop.ogg"
