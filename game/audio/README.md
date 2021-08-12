@@ -33,3 +33,7 @@ https://www.bilibili.com/video/BV14W41137g3
 # eggend0.ogg
 
 https://www.bilibili.com/video/BV1B4411M71s
+
+# eggend1.ogg
+
+https://music.163.com/song?id=1352636680

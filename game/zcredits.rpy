@@ -7,13 +7,18 @@ label zcredits2:
     $ consolehistory = []
     $ import random
     $ zsongname = "错误：请联系开发者。"
-    if random.randint(0,1) == 0:
-        play music "audio/eggend0.ogg" noloop
-        $ zsongname = "【钢琴】《勾指起誓》 洛天依-ilem 高甜预警 纯钢琴版  Bilibili用户@绯绯Feifei"
+    if random.randint(0,3) != 0:
+        if random.randint(0,1) == 0:
+            play music "audio/eggend0.ogg" noloop
+            $ zsongname = "【钢琴】《勾指起誓》 洛天依-ilem 高甜预警 纯钢琴版  Bilibili用户@绯绯Feifei"
+        else:
+            play music "audio/eggend1.ogg" noloop
+            $ zsongname = "勾指起誓 钢琴演奏版  昼夜"
         # 一首甜一些的歌
     else:
         play music "audio/eggend.ogg" noloop
         $ zsongname = "电影《你的名字》主题曲《前前前世》  Bilibili用户@Ayasa绚沙"
+        # 概率低一点 太吵了
     $ starttime = datetime.datetime.now()
     pause 0.88
     
