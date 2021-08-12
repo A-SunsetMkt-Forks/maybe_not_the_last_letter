@@ -5,7 +5,7 @@
 define n = Character("旁白") # Narrator
 define s = Character("余晖")
 define e = Character("EXPLORER")
-
+define m = Character("Monika")
 
 # 游戏在此开始。
 
