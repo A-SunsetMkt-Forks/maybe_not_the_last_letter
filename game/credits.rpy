@@ -163,8 +163,8 @@ label credits2:
     
     $ pause(88.00 - (datetime.datetime.now() - starttime).total_seconds())
     
-    show credits_header "特别感谢" as credits_header_2 at credits_text_scroll_middle
-    show credits_text "Princess Celestia\nMonika\n[player]" as credits_text_2 at credits_text_scroll_middle
+    show credits_header "" as credits_header_2 at credits_text_scroll_middle
+    show credits_text "特别感谢\nPrincess Celestia\nMonika\n[player]" as credits_text_2 at credits_text_scroll_middle
     
     $ pause(95.10 - (datetime.datetime.now() - starttime).total_seconds())
 
