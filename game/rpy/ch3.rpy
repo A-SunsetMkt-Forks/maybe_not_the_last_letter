@@ -165,5 +165,5 @@ label other1:
             jump unforgettablehub
         "说一说你的老师们吧。":
             jump aboutteachers
-        "会跳到ch4的问题，还没写":
+        "谈谈你对高考的印象吧。":
             jump ch4
