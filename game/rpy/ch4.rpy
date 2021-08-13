@@ -49,4 +49,5 @@ label ch4metoo:
 
 label ch4end:
     s "这后面应该还有一些其他的，还没写"
+    s "别忘了改"
     jump ending
