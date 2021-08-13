@@ -5,24 +5,9 @@ label test0:
     show sunset explain7
     s "Hello,world!"
     hide sunset
-    jump testmenu
-label testmenu:
-    menu:
-        "回到start":
-            jump start
-        "zeggcount自加1":
-            $ zeggcount = zeggcount + 1
-            jump testmenu
-        "expeggcount自加1":
-            $ expeggcount = expeggcount + 1
-            jump testmenu
-        "raise Exception":
-            $ raise Exception
-            jump testmenu
-        "交互演示":
-            jump testdemo
-    jump start
-label testdemo:
+    jump testwelcome
+
+label testwelcome:
     #scene bg sunset stare
     #with dissolve
     show sunset look0
@@ -32,7 +17,7 @@ label testdemo:
         s "哦，是开发者啊。"
         show sunset look3
         s "抱歉看错人了。"
-        s "下面就是结局了。"
+        s "下面就是测试菜单了。"
     else:
         show sunset upset0
         s "这不是你该来的地方！"
@@ -69,5 +54,22 @@ label testdemo:
     #$ pause(1.0)
     #call hideconsole() from _call_hideconsole
     #scene bg basic
-    jump ending
+    jump testmenu
     return
+
+label testmenu:
+    menu:
+        "回到start":
+            jump start
+        "zeggcount自加1":
+            $ zeggcount = zeggcount + 1
+            jump testmenu
+        "expeggcount自加1":
+            $ expeggcount = expeggcount + 1
+            jump testmenu
+        "raise Exception":
+            $ raise Exception
+            jump testmenu
+        "跳转结局":
+            jump ending
+    jump start
