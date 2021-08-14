@@ -32,5 +32,14 @@ label endinghappy:
     $ gtext = glitchtext(6)
     n "等一下..."
     n "还有一件事..."
-    n "生日快乐，[gtext]。"
+    if zeggcount >= 5:
+        n "生日快乐，[gtext]。"
+        $ zeggcount = zeggcount + 1
+    else:
+        n "这是个小概率bug..."
+        n "在某些特殊情况下，对话会跳转到这里。"
+        n "既然都看到这了..."
+        n "你还真的是很幸运..."
+        n "奖励自己吃顿火锅吧..."
+        n "或者做点别的什么也可以啊。"
     jump endingshow
