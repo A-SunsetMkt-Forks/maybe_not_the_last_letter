@@ -49,8 +49,7 @@ label ch4metoo:
     jump ch4why
 
 label ch41end:
-    stop music fadeout 3.0
-    play music "<loop 0.0>audio/game3.ogg" fadein 5.0
+    stop music fadeout 5.0
     if zeggcount != 0:
         jump ch4glitch
     else:
@@ -59,15 +58,19 @@ label ch41end:
 label ch4glitch:
     menu:
         "之前的对话中...为什么会有乱码？":
+            play music "<loop 0.0>audio/game3.ogg" fadein 3.0
             jump whyglitch
         "关于制作团队的名字...":
+            play music "<loop 0.0>audio/game3.ogg" fadein 3.0
             jump projectzstudio
 
 label ch4noglitch:
     menu:
         "关于制作团队的名字...":
+            play music "<loop 0.0>audio/game3.ogg" fadein 3.0
             jump projectzstudio
         "关于制作人员...":
+            play music "<loop 0.0>audio/game3.ogg" fadein 3.0
             jump ch5
 
 label whyglitch:
