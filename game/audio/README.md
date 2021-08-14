@@ -14,6 +14,10 @@ https://www.bilibili.com/video/BV1ZE411W7Qb
 
 https://music.163.com/song?id=19934760
 
+# game3.ogg
+
+https://music.163.com/song?id=1481390661
+
 # gameexp.ogg & gameexploop.ogg
 
 https://y.qq.com/n/ryqq/songDetail/003O76Zd3sQr9w

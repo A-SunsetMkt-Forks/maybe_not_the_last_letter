@@ -49,6 +49,8 @@ label ch4metoo:
     jump ch4why
 
 label ch41end:
+    stop music fadeout 3.0
+    play music "<loop 0.0>audio/game3.ogg" fadein 5.0
     if zeggcount != 0:
         jump ch4glitch
     else:
