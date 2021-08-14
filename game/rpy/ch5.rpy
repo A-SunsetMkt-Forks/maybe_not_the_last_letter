@@ -16,7 +16,7 @@ label ch5menu:
             jump ch5bug
         "这是个开源游戏吗？":
             jump ch5opensource
-        "我该如何与本游戏的开发人员和对话设计者取得联系？"
+        "我该如何与本游戏的开发人员和对话设计者取得联系？":
             jump ch5contact
         "（跳过）":
             jump ch6
@@ -54,7 +54,7 @@ label ch5contact:
     s "和另一位还没出现的角色。"
     s "你可以直接在此项目的GitHub仓库下发issue..."
     s "我们会直接与你取得联系。"
-    menu：
+    menu:
         "还没出现的角色？":
             jump ch5exp
         "了解了。":
