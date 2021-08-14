@@ -32,7 +32,7 @@ label endinghappy:
     $ gtext = glitchtext(6)
     n "等一下..."
     n "还有一件事..."
-    if zeggcount >= 5:
+    if zeggcount >= 6:
         n "生日快乐，[gtext]。"
         $ zeggcount = zeggcount + 1
     else:
