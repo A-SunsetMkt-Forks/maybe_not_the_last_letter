@@ -16,9 +16,15 @@ label start:
 
     play music "<loop 0.0>audio/game0.ogg" fadein 5.0
 
+    # 玩家名不可以是某人的名字或变体（检测不可靠）
     $ playerhash = str(get_hash256(player).lower().replace(" ","").replace("\n",""))
     if playerhash in ["e04e141499000d4d40bdf3d58379319d1615d392f40582e62e90d4dd69032eee","5701d526c31aec856315d00424ed2bb8f54511efd000df924ddaf9aef92d6cd8","a179952a22a8c600b384719a28342d869e17aaa51806dc122378d20c90d219ef","569a765f52d764ddc9d16437fd72534f015a4c886ebef72dcaedc5709a321b95","aa8dd20c818ac4dc53826a44703dd89ac6cc4486889c373fa5756b12a8112c51"]:
         jump youknowwhoerror
+    
+    # 当我写下游戏逻辑的时候，只有我和Celestia知道我写的是什么；
+    # 一周之后就只有Celestia知道了；
+    # 一个月之后Celestia也不知道了。
+
     # 显示一个背景。
 
     # scene bg black
