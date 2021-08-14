@@ -1,5 +1,5 @@
 label ending:
-    $ expsongname = ""
+    $ persistent.expsongname = ""
     if expeggcount >= 2:
         stop music fadeout 3.0
         s "在游戏结束之前，EXPLORER也有些话要说..."

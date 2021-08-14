@@ -188,3 +188,4 @@ default persistent.splashegg = False
 default zeggcount = 0
 
 default expeggcount = 0
+default persistent.expsongname = ""
