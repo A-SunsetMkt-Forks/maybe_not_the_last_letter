@@ -39,7 +39,8 @@ label ch4why:
     s "我甚至都无法确定我..."
     s "为了高考所做的事情..."
     s "是否是正确的..."
-    jump ch4end
+    s "很“有趣”...对吧？"
+    jump ch41end
 
 label ch4metoo:
     s "真的？"
@@ -47,7 +48,52 @@ label ch4metoo:
     s "这种奇怪的感觉的产生原因..."
     jump ch4why
 
-label ch4end:
-    s "这后面应该还有一些其他的，还没写"
-    s "别忘了改"
-    jump ending
+label ch41end:
+    if zeggcount != 0:
+        jump ch4glitch
+    else:
+        jump ch4noglitch
+
+label ch4glitch:
+    menu:
+        "之前的对话中...为什么会有乱码？":
+            jump whyglitch
+        "关于制作团队的名字...":
+            jump projectzstudio
+
+label ch4noglitch:
+    menu:
+        "关于制作团队的名字...":
+            jump projectzstudio
+        "关于制作人员...":
+            jump ch5
+
+label whyglitch:
+    show sunset explain5
+    s "没想到你居然注意到了..."
+    s "当我们相信某个名字不应该在这里被提到的时候..."
+    s "乱码就会出现..."
+    s "也许你会找到答案？"
+    s "谁知道呢~"
+    $ zeggcount = zeggcount + 1
+    jump whygdone
+
+label whygdone:
+    menu:
+        "关于制作团队的名字...":
+            jump projectzstudio
+        "关于制作人员...":
+            jump ch5
+
+label toch5:
+    menu:
+        "关于制作人员...":
+            jump ch5
+
+label projectzstudio:
+    show sunset explain2
+    s "我...并不是特别想解释这个..."
+    s "也许在此之前...你已经听到过这个名字了。"
+    s "恐怕由我来解释...会破坏中立性。"
+    s "也许...你可以在其他地方找到有用的信息。"
+    jump toch5
