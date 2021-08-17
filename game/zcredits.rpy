@@ -161,11 +161,46 @@ label zcredits2:
         scene black
 
         # Shows either Monika's or Dan's Goodbye Message
-        $ zendscreentext = _("这里是彩蛋结局的结束屏幕文案\n还没写完\n正在考虑要写点什么")
-        show endscreen "[zendscreentext]"
+        show endscreen _("1这里是彩蛋结局的结束屏幕文案\n还没写完\n正在考虑要写点什么")
+        with dissolve
+        pause 3
+        hide endscreen
+
+        show endscreen _("2这里是彩蛋结局的结束屏幕文案\n还没写完\n正在考虑要写点什么")
+        with dissolve
+        pause 3
+        hide endscreen
+
+        show endscreen _("3这里是彩蛋结局的结束屏幕文案\n还没写完\n正在考虑要写点什么")
+        with dissolve
+        pause 3
+        hide endscreen
+
+        show endscreen _("4这里是彩蛋结局的结束屏幕文案\n还没写完\n正在考虑要写点什么")
+        with dissolve
+        pause 3
+        hide endscreen
+
+        show endscreen _("5这里是彩蛋结局的结束屏幕文案\n还没写完\n正在考虑要写点什么")
+        with dissolve
+        pause 3
+        hide endscreen
+        
+        jump zegg_final
+
+    label zegg_final:
+        $ persistent.autoload = "zegg_final"
+        $ config.keymap['game_menu'] = []
+        $ config.keymap['hide_windows'] = []
+        $ renpy.display.behavior.clear_keymap_cache()
+        $ quick_menu = False
+        $ config.skipping = False
+        $ config.allow_skipping = False
+        scene black
+        $ endscreentext = _("游戏结束。\n「最初的鸟儿是不会飞翔的，飞翔是它们勇敢跃入峡谷的奖励。」")
+        # 原神 https://genshin.honeyhunterworld.com/db/q/q_485/?lang=CHS
+        show endscreen "[endscreentext]"
         with dissolve
         $ pause()
-        
-        # Fakes Error Corruption. Makes the player quit the game.
         call screen dialog(message=_("游戏结束，请重启游戏并删除存档，否则可能发生意料之外的错误。"), ok_action=Quit(confirm=False))
         return
