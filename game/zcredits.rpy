@@ -160,7 +160,7 @@ label zcredits2:
         # Fade to black
         scene black
 
-        pause 20
+        pause 30
         stop music fadeout 3.0
         pause 3
 
@@ -170,35 +170,35 @@ label zcredits2:
         pause 3
         hide endscreen
         with dissolve
-        pause 0.5
+        pause 1
 
         show endscreen _("2这里是彩蛋结局的结束屏幕文案\n还没写完\n正在考虑要写点什么")
         with dissolve
         pause 3
         hide endscreen
         with dissolve
-        pause 0.5
+        pause 1
 
         show endscreen _("3这里是彩蛋结局的结束屏幕文案\n还没写完\n正在考虑要写点什么")
         with dissolve
         pause 3
         hide endscreen
         with dissolve
-        pause 0.5
+        pause 1
 
         show endscreen _("4这里是彩蛋结局的结束屏幕文案\n还没写完\n正在考虑要写点什么")
         with dissolve
         pause 3
         hide endscreen
         with dissolve
-        pause 0.5
+        pause 1
 
         show endscreen _("5这里是彩蛋结局的结束屏幕文案\n还没写完\n正在考虑要写点什么")
         with dissolve
         pause 3
         hide endscreen
         with dissolve
-        pause 0.5
+        pause 1
         
         jump zegg_final
 
