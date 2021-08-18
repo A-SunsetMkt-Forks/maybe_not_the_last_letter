@@ -160,8 +160,9 @@ label zcredits2:
         # Fade to black
         scene black
 
-        stop music fadeout 3.0
         pause 20
+        stop music fadeout 3.0
+        pause 3
 
         # Shows either Monika's or Dan's Goodbye Message
         show endscreen _("1这里是彩蛋结局的结束屏幕文案\n还没写完\n正在考虑要写点什么")
