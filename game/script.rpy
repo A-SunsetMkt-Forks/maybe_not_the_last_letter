@@ -53,6 +53,6 @@ label start:
 
     n "你永远都不应该看到这句话。"
     n "请将此错误报告给开发者或自行修复。"
-    jump end
+    jump start
     
     return

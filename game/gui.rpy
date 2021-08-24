@@ -147,7 +147,7 @@ define gui.text_width = 744
 
 ## The horizontal alignment of the dialogue text. This can be 0.0 for left-
 ## aligned, 0.5 for centered, and 1.0 for right-aligned.
-define gui.text_xalign = 0.0
+## define gui.text_xalign = 0.0
 
 ## 按钮 ##########################################################################
 ##

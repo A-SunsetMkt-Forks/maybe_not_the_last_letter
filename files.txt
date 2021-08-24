@@ -33,10 +33,17 @@ audio\.gitkeep
 audio\README.md
 audio\egg.ogg
 audio\eggend.ogg
+audio\eggend0.ogg
+audio\eggend1.ogg
 audio\end.ogg
 audio\game0.ogg
 audio\game1.ogg
+audio\game2.ogg
+audio\game3.ogg
+audio\gameexp.ogg
+audio\gameexploop.ogg
 audio\menu.ogg
+audio\tale.ogg
 cache\bytecode.rpyb
 cache\pyanalysis.rpyb
 cache\screens.rpyb
@@ -47,6 +54,7 @@ gui\frame.png
 gui\frame.png.1.bak
 gui\game_menu.png
 gui\main_menu.png
+gui\menu_bg.png
 gui\namebox.png
 gui\namebox.png.1.bak
 gui\notify.png
@@ -222,6 +230,14 @@ images\vignette.png
 images\warning.png
 images\warning.psd
 images\warning2.png
+images\explorer\README.md
+images\explorer\exp s1.png
+images\explorer\exp s2.png
+images\explorer\exp s22.png
+images\explorer\exp s3.png
+images\explorer\exp s4.png
+images\explorer\exp s5.png
+images\explorer\exp s6.png
 images\monika\monika basic.png
 images\sunset\README.md
 images\sunset\bg\bg sunset stare.png
@@ -261,40 +277,21 @@ rpy\ch2.rpy.bak
 rpy\ch2.rpyc
 rpy\ch3.rpy
 rpy\ch3.rpyc
+rpy\ch4.rpy
+rpy\ch4.rpyc
+rpy\ch5.rpy
+rpy\ch5.rpyc
+rpy\ch6.rpy
+rpy\ch6.rpyc
+rpy\chexp.rpy
+rpy\chexp.rpyc
 rpy\end.rpy
 rpy\end.rpyc
 rpy\test.rpy
 rpy\test.rpy.bak
 rpy\test.rpyc
-saves\_reload-2-LT1.save
-saves\auto-10-LT1.save
-saves\auto-2-LT1.save
-saves\auto-3-LT1.save
-saves\auto-4-LT1.save
-saves\auto-5-LT1.save
-saves\auto-6-LT1.save
-saves\auto-7-LT1.save
-saves\auto-8-LT1.save
-saves\auto-9-LT1.save
+rpy\ykherror.rpy
+rpy\ykherror.rpyc
 saves\navigation.json
-saves\persistent
 tl\None\common.rpym
 tl\None\common.rpymc
-tl\english\common.rpy
-tl\english\common.rpyc
-tl\english\options.rpy
-tl\english\options.rpyc
-tl\english\screens.rpy
-tl\english\screens.rpyc
-tl\english\script.rpy
-tl\english\script.rpyc
-tl\english\splash.rpy
-tl\english\splash.rpyc
-tl\english\rpy\ch0.rpy
-tl\english\rpy\ch0.rpyc
-tl\english\rpy\ch1.rpy
-tl\english\rpy\ch1.rpyc
-tl\english\rpy\ch2.rpy
-tl\english\rpy\ch2.rpyc
-tl\english\rpy\test.rpy
-tl\english\rpy\test.rpyc

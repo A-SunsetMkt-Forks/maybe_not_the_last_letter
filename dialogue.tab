@@ -1,0 +1,608 @@
+Identifier	Character	Dialogue	Filename	Line Number	Ren'Py Script
+		也许不是最后一封信	game/credits.rpy	119
+		ProjectZ Studio出品	game/credits.rpy	120
+		理念和游戏设计	game/credits.rpy	124
+		余晖	game/credits.rpy	125
+		故事	game/credits.rpy	129
+		余晖\nEXPLORER	game/credits.rpy	130
+		主要程序员	game/credits.rpy	134
+		lwd-temp	game/credits.rpy	135
+		音乐\nEasy Breeze (StarSight Remix)  Player_275x / Thomas Greenberg\n穏やかに過ぎゆく時  小林俊太郎\n【Animenz】secret base 〜你给我的所有〜 - 未闻花名 ED 钢琴版  Bilibili用户@Animenzzz\nLeaves in the Wind  Isaac Shepard\nMidday Prospects 午日的眺望 陈致逸 / HOYO-MiX[persistent.expsongname]\n所念皆星河  CMJ	game/credits.rpy	140
+		策划	game/credits.rpy	144
+		早期测试人员\n840a8dbdddece6a56fb9b1f925eac7a75cb274b85e7eddafdfb97573170e5a8b\nEXPLORER\n83235ec96fa3b9c0631863c5e3f998aef8e89c28698a8fc2843509627cb0d295	game/credits.rpy	150
+		特别感谢\nRen'Py\nTeam Salvato\nHasbro, Inc\nSCP Foundation\nUniverse of My Own\n米哈游\n创造音乐和立绘的艺术家们	game/credits.rpy	155
+		此项目的部分代码来自DDLCModTemplate2.0，原则上禁止用于除《心跳文学部》第三方模组的其他用途\n除此之外的其他代码使用 GNU General Public License v3.0 发布\n此项目的部分故事和文案使用 Creative Commons Attribution Share Alike 4.0 International 协议授权\n更多信息请查看项目存储库	game/credits.rpy	162
+		特别感谢\nPrincess Celestia\nMonika\n[player]	game/credits.rpy	167
+		os.remove("game/screens.rpy")	game/credits.rpy	171
+		Permission Denied.	game/credits.rpy	171
+		os.remove("game/gui.rpy")	game/credits.rpy	172
+		os.remove("game/menu.rpy")	game/credits.rpy	173
+		os.remove("game/script.rpy")	game/credits.rpy	174
+		带着爱创作	game/credits.rpy	180
+		游戏结束...？\n「在夜空里所有星星熄灭的时候，所有溪流、所有的梦想，都能汇入同一片大海之中。那时我们终会再见的。」	game/credits.rpy	204
+		游戏结束，请重启游戏并删除存档，否则可能发生意料之外的错误。	game/credits.rpy	211
+		基于Ren'Py的互动小说游戏。\n\n	game/options.rpy	29
+ch0_e9f8ab5e	n	你好，[player]！	game/rpy/ch0.rpy	5	n "[what]"
+ch0_b08c4d4b	n	这是一个...互动小说游戏。	game/rpy/ch0.rpy	6	n "[what]"
+ch0_70a6b771	n	呃...	game/rpy/ch0.rpy	7	n "[what]"
+ch0_09703f13	n	与其说是互动小说...	game/rpy/ch0.rpy	8	n "[what]"
+ch0_12731656	n	还不如说是作者的毕业总结。	game/rpy/ch0.rpy	9	n "[what]"
+		那...作者是谁？	game/rpy/ch0.rpy	10
+		毕业总结？	game/rpy/ch0.rpy	10
+author_c5677337	n	请允许我介绍本项目的作者...	game/rpy/ch0.rpy	17	n "[what]"
+author_4c1c2845	"（未知）"	（脸怼镜头）	game/rpy/ch0.rpy	20	"（未知）" "[what]"
+author_f5921c20	n	余晖！	game/rpy/ch0.rpy	21	n "[what]"
+author_bf05d4ee	s	你好！如果吓到你很抱歉。	game/rpy/ch0.rpy	24	s "[what]"
+author_dd5dd101	s	也许你认为这个形象过于诡异？	game/rpy/ch0.rpy	25	s "[what]"
+author_2073020b	s	“余晖”这个假名来自《My Little Pony》及其衍生剧集，她的形象也来源于此。	game/rpy/ch0.rpy	26	s "[what]"
+author_8f3bb2ac	s	也就是你现在看到我的样子。	game/rpy/ch0.rpy	27	s "[what]"
+author_4a942899	s	选择这个形象的另一个原因是...	game/rpy/ch0.rpy	29	s "[what]"
+author_d8abcc80	s	作者不想画立绘。	game/rpy/ch0.rpy	30	s "[what]"
+author_1bf552cb	s	注意：版权声明！	game/rpy/ch0.rpy	33	s "[what]"
+author_79b26de0	s	“余晖烁烁”及其艺术作品版权属Hasbro, Inc。	game/rpy/ch0.rpy	34	s "[what]"
+author_8297ee7b	s	My Little Pony®是Hasbro, Inc的注册商标。此项目与Hasbro, Inc无关。	game/rpy/ch0.rpy	35	s "[what]"
+graduate_5f3e4f54	n	是的。	game/rpy/ch0.rpy	39	n "[what]"
+graduate_bea9bd09	n	如果您并不了解，那么此游戏可能并不适合你。	game/rpy/ch0.rpy	40	n "[what]"
+graduate_ebdb3274	n	请退出并删除此游戏。	game/rpy/ch0.rpy	41	n "[what]"
+		退出。	game/rpy/ch0.rpy	42
+		我知道了...	game/rpy/ch0.rpy	42
+graduate_09765079	n	那么...	game/rpy/ch0.rpy	49	n "[what]"
+reason_ec0aa07b	s	（清嗓）	game/rpy/ch0.rpy	53	s "[what]"
+reason_b0085be3	s	项目创作理由也很简单。	game/rpy/ch0.rpy	54	s "[what]"
+reason_0bafbe64	s	我一直想写个毕业总结，但总是在拖延。	game/rpy/ch0.rpy	56	s "[what]"
+reason_1cb251f7	s	又发生了一些事故，所以一直没有信心把它写出来。	game/rpy/ch0.rpy	57	s "[what]"
+reason_4fd0f93c	s	不过，最近想了想...	game/rpy/ch0.rpy	59	s "[what]"
+reason_b462a28b	s	再不写都开学了，那就真的没机会了。	game/rpy/ch0.rpy	61	s "[what]"
+reason_3a9da3ff	s	所以，这就是我争取在开学前发布的项目，也许也是本假期的最后一个。	game/rpy/ch0.rpy	62	s "[what]"
+reason_03a3a47f	s	这个项目的快速成型离不开《心跳文学部》——一个优秀的使用相同引擎的饱受误解的meta类视觉小说游戏。	game/rpy/ch0.rpy	63	s "[what]"
+reason_6b1881cf	s	本项目未经许可地使用了项目DDLCModTemplate2.0的部分源码和《心跳文学部》的部分资源文件。	game/rpy/ch0.rpy	66	s "[what]"
+reason_419f4613	s	这在严格上是违背职业道德，甚至是非法的...	game/rpy/ch0.rpy	68	s "[what]"
+reason_4750a479	s	再次向《心跳文学部》的制作项目组Team Salvato表示感谢。	game/rpy/ch0.rpy	69	s "[what]"
+reason_da075030	s	貌似废话太多了点...	game/rpy/ch0.rpy	71	s "[what]"
+reason_d1e759bf	s	这是一个互动类的“毕业总结”、或者“问答”描述得更合适一些。	game/rpy/ch0.rpy	72	s "[what]"
+reason_63ef0b1d	s	这个程序记录了我认为可能会被问到的问题和我对它们的答案。	game/rpy/ch0.rpy	73	s "[what]"
+reason_b3e6f14f	s	你只需要选择，然后阅读屏幕上显示的文字。	game/rpy/ch0.rpy	74	s "[what]"
+reason_05fe424b	s	这就是本游戏的全部内容——没有成就、没有彩蛋、存档无意义。	game/rpy/ch0.rpy	75	s "[what]"
+reason_d9c12821	s	让我们开始吧。	game/rpy/ch0.rpy	78	s "[what]"
+		你的简介上写着...你是计算机科学初学者？谈谈你的作品吧。	game/rpy/ch1.rpy	11
+		你有想怀念的人吗？	game/rpy/ch1.rpy	11
+program0_a488a298	s	[player]，我就等着你谈这个呢~	game/rpy/ch1.rpy	20	s "[what]"
+program0_e195ba37	s	虽然只要打开我们的GitHub资料页就能了解这些...	game/rpy/ch1.rpy	21	s "[what]"
+program0_4476cd0a	s	我还是想亲自说给你听。	game/rpy/ch1.rpy	22	s "[what]"
+program0_a9023eb6	s	从文档类项目开始：	game/rpy/ch1.rpy	24	s "[what]"
+program0_5ad643fe	s	doc2019（2019年开源文档）承载了我的第一次水报告经历。	game/rpy/ch1.rpy	25	s "[what]"
+program0_723a05d5	s	是给综合素质评价的报告没错了！	game/rpy/ch1.rpy	26	s "[what]"
+program0_6510e300	s	有时我会想：我们的教育目的是...教会孩子们如何伪造报告、图片和经历...	game/rpy/ch1.rpy	28	s "[what]"
+program0_58634f29	s	...并且养成积攒似乎除了名目之外就没什么用的荣誉称号的习惯吗？	game/rpy/ch1.rpy	29	s "[what]"
+program0_f64e5ef0	s	annual-summary-2019（2019年度总结）（私有库）里面有我的一份超级无聊的年度总结。	game/rpy/ch1.rpy	31	s "[what]"
+program0_1b8478dd	s	比你现在交互的总结要无聊的多。	game/rpy/ch1.rpy	32	s "[what]"
+program0_3427bc54	s	所以，还请珍惜你看到的互动小说游戏，它本可以更无聊。	game/rpy/ch1.rpy	33	s "[what]"
+program0_a963837b	s	doc2020（私有库）里面有一份在那时属政治敏感类的文章...	game/rpy/ch1.rpy	35	s "[what]"
+program0_03bcf83f	s	“对‘形式主义’的批评并不影响我们对遇难者的悼念和正常的情感表达”	game/rpy/ch1.rpy	36	s "[what]"
+program0_c4815cf7	s	DingTalkUtil 虽然叫Util(s)但只有如何给钉钉直播刷赞的教程。	game/rpy/ch1.rpy	38	s "[what]"
+program0_e4064a31	s	简单地说就是利用中间人攻击修改播放页JavaScript达到重复请求刷赞。	game/rpy/ch1.rpy	39	s "[what]"
+program0_f50d8b68	s	我还想辟个谣，就算有点晚...	game/rpy/ch1.rpy	40	s "[what]"
+program0_1161bbba	s	“刷赞”是不可能造成直播卡顿的，无论如何，直播视频推送和点赞数统计两个功能绝对不应该有关联。	game/rpy/ch1.rpy	41	s "[what]"
+program0_a5c74e0a	s	对于刷赞者的污名化我保持理解，但在做出推断前还请亲自证实。我们的世界并不充满了巴浦洛夫式的直观条件反射，很多技术问题是不能通过现象解决的。	game/rpy/ch1.rpy	43	s "[what]"
+program0_15fe4a36	s	chemistry-pig-story（元素周期表小猪与狼的故事）是一个没人合作的合作项目...	game/rpy/ch1.rpy	45	s "[what]"
+program0_f8768208	s	基于《三只小猪与狼》，讲述了代表某种元素的小猪与狼对抗的故事。	game/rpy/ch1.rpy	46	s "[what]"
+program0_0a029402	s	只有一篇作品——氢小猪...	game/rpy/ch1.rpy	47	s "[what]"
+program0_51381a83	s	如果记得没错，是我在一节拖堂一小时的英语网课上写的。	game/rpy/ch1.rpy	48	s "[what]"
+program0_d91e52c7	s	about-lwd-temp讲述了一个对于你们来说是个科幻故事、对于我们就是事实的余晖教育和科技集团的基本介绍和职员信息。	game/rpy/ch1.rpy	49	s "[what]"
+program0_84a53d1f	s	成立于某下层叙事、与SCP基金会合作，致力于在学园都市内部实行间谍活动并秘密部署大量斯克兰顿现实稳定锚，	game/rpy/ch1.rpy	51	s "[what]"
+program0_b8e70b28	s	并以教育和信息技术开发作为前台组织的掩盖工作，余晖教育和科技集团在各个叙事层吸引了大量叙事实体加入，并允许甚至鼓励（相对）上层叙事实体使用此设定。	game/rpy/ch1.rpy	52	s "[what]"
+program0_e0f844e9	s	顺便提一下，SCP基金会系列也正在在误解中封杀...	game/rpy/ch1.rpy	53	s "[what]"
+program0_f9aed6c6	s	对流行和少数群体文化的误解和封锁...真的是个有趣的现象呢...	game/rpy/ch1.rpy	54	s "[what]"
+program0_480d484e	s	最后一个文档类项目是...	game/rpy/ch1.rpy	55	s "[what]"
+program0_6d005c46	s	in-memory-of-[gtext]...	game/rpy/ch1.rpy	103	s "[what]"
+program0_5f7d7349	s	本来是个用于回忆和[gtext]的经历的项目...	game/rpy/ch1.rpy	106	s "[what]"
+program0_b0520ba4	s	[gtext]	game/rpy/ch1.rpy	110	s "[what]"
+program0_7b3565ea	s	我是不是说得太多了？	game/rpy/ch1.rpy	114	s "[what]"
+		才没有。	game/rpy/ch1.rpy	115
+		也许...我们可以谈点其他的。	game/rpy/ch1.rpy	115
+program1_992c915a	s	好吧。	game/rpy/ch1.rpy	124	s "[what]"
+program1_e6094a9c	s	除了文档类项目，实用（？）类项目也同样令人印象深刻！	game/rpy/ch1.rpy	125	s "[what]"
+program1_65bb3126	s	unscrupulous-jimoky.cn包含一个用于攻击QQ钓鱼盗号网站的Python程序。	game/rpy/ch1.rpy	126	s "[what]"
+program1_066bb8ff	s	happy-birthday-[gtext]是一个用于嵌入各种Python程序员用于提供[gtextl]生日彩蛋的Python模块。	game/rpy/ch1.rpy	132	s "[what]"
+program1_6e7a80ec	s	happy-birthday-[gtext]-win32是上述模块的独立版。通过调用Win32 API实现部分操作系统交互功能。同样是给[gtextl]的生日彩蛋！	game/rpy/ch1.rpy	133	s "[what]"
+program1_490584d9	s	[gtext]fy.py是用于将二进制文件转换成由[gtext]组成的文本的Python程序。	game/rpy/ch1.rpy	134	s "[what]"
+program1_3fa4fa34	s	lwd-temp.github.io-jekyll是基于Jekyll的个人博客。	game/rpy/ch1.rpy	136	s "[what]"
+program1_ab31941d	s	也是我实践HTML、JavaScript和CSS的地方。	game/rpy/ch1.rpy	137	s "[what]"
+program1_cc844009	s	接下来是我最有趣的两个作品：	game/rpy/ch1.rpy	138	s "[what]"
+program1_0869e06e	s	rns.py——“随机姓名选择器（Random Name Selector）”是一个无聊的练手作品，	game/rpy/ch1.rpy	140	s "[what]"
+program1_30a179f0	s	有趣的是，这个项目作为全校唯二的项目参赛...	game/rpy/ch1.rpy	143	s "[what]"
+program1_5ad89a24	s	...获得了汉东省青少年科技创新大赛三等奖。	game/rpy/ch1.rpy	144	s "[what]"
+program1_921e6d1c	s	（另一个项目是[gtext]和[gtext2]的合作项目，貌似是用于研磨深孔钻头的...）	game/rpy/ch1.rpy	147	s "[what]"
+program1_cee40cc4	s	（根据已知信息，这两个参赛项目似乎都没什么用...）	game/rpy/ch1.rpy	149	s "[what]"
+program1_c3619867	s	接下来的作品是在生产环境运行最久的——	game/rpy/ch1.rpy	152	s "[what]"
+program1_a4805069	s	AutoRing.py——自动化上下课放学铃播放和自动关机解决方案！	game/rpy/ch1.rpy	153	s "[what]"
+program1_c4b72f29	s	本来是疫情复课期间的无聊想法，在框架写好之后刚好派上用场，	game/rpy/ch1.rpy	154	s "[what]"
+program1_66c544bf	s	在版本迭代中增加了...许多有趣的功能...	game/rpy/ch1.rpy	156	s "[what]"
+program1_83edeb6a	s	例如：自助式放学铃自定义和自动关机...	game/rpy/ch1.rpy	157	s "[what]"
+program1_b06e709d	s	虽然造成了很多麻烦、也在其间反映了一些学生的品德问题...	game/rpy/ch1.rpy	159	s "[what]"
+program1_e2b8a571	s	AutoRing.py仍然是我最引以为傲，同时使用时间最长的作品。	game/rpy/ch1.rpy	162	s "[what]"
+program1_28e2fc43	s	当然还有你面前的——maybe_not_the_last_letter，基于Renpy的互动小说游戏。	game/rpy/ch1.rpy	163	s "[what]"
+program1_d5891340	s	谢谢你问了这个问题，[player]。	game/rpy/ch1.rpy	164	s "[what]"
+program1_9a0ed1c0	s	我一直在找机会把它们介绍一遍。	game/rpy/ch1.rpy	166	s "[what]"
+inmemoryof_22976bce	s	“怀念”？	game/rpy/ch1.rpy	172	s "[what]"
+inmemoryof_558186ae	s	听起来好奇怪...	game/rpy/ch1.rpy	174	s "[what]"
+inmemoryof_f7664493	s	不过...我明白你的意思，[player]。	game/rpy/ch1.rpy	175	s "[what]"
+inmemoryof_8893192f	s	答案是：真的有。	game/rpy/ch1.rpy	176	s "[what]"
+inmemoryof_004af4cf	s	你真的想听吗？	game/rpy/ch1.rpy	177	s "[what]"
+		真的！	game/rpy/ch1.rpy	178
+		如果不想说的话...就算了吧。	game/rpy/ch1.rpy	178
+inmemoryof_f73ffe10	s	额...	game/rpy/ch1.rpy	183	s "[what]"
+inmemoryof_43721392	s	好吧...	game/rpy/ch1.rpy	185	s "[what]"
+reallyinmemoryof_16b9f09b	s	既然这样...	game/rpy/ch1.rpy	195	s "[what]"
+reallyinmemoryof_6766eabb	s	（吸气）	game/rpy/ch1.rpy	196	s "[what]"
+reallyinmemoryof_58034b9d	s	（呼气）	game/rpy/ch1.rpy	197	s "[what]"
+reallyinmemoryof_32be79cb	s	ed0f93dfaac17459514c02cb936ae1f23db6ba5eaad82ad456f3eb7fb445f4ae，你在理科方面给了我很多帮助...	game/rpy/ch1.rpy	199	s "[what]"
+reallyinmemoryof_c8e1d147	s	也给对[gtext]的道歉信提出了一些有价值的建议。	game/rpy/ch1.rpy	200	s "[what]"
+reallyinmemoryof_3c15af03	s	就算最后因为看起来“价值观不合”而不再联系...	game/rpy/ch1.rpy	201	s "[what]"
+reallyinmemoryof_c569b479	s	我仍然相信你最后会理解我的意思。	game/rpy/ch1.rpy	202	s "[what]"
+reallyinmemoryof_27bfd54d	s	840a8dbdddece6a56fb9b1f925eac7a75cb274b85e7eddafdfb97573170e5a8b，你在最后的几个星期给了我支持...	game/rpy/ch1.rpy	203	s "[what]"
+reallyinmemoryof_b6fef64f	s	告诉我学校里的情况、授课进度，和我分享秘密，尝试让我不再焦虑...	game/rpy/ch1.rpy	204	s "[what]"
+reallyinmemoryof_3d9c05f8	s	看起来很平凡但对我意义重大...	game/rpy/ch1.rpy	205	s "[what]"
+reallyinmemoryof_c69a7af3	s	还记得那朵封存在透明有机物块中的云状物体吗？	game/rpy/ch1.rpy	207	s "[what]"
+reallyinmemoryof_a515b105	s	b5f0b1a060a51d4bfaa5b3375a6ba0a8e632c0946066af94a9c47082811ac14c，你帮助了我实施我疯狂的计划...	game/rpy/ch1.rpy	208	s "[what]"
+reallyinmemoryof_5b04c512	s	写作交流、情报提供、应急处理，不仅如此...	game/rpy/ch1.rpy	210	s "[what]"
+reallyinmemoryof_46648a72	s	你成功地让我适应和其他人用餐和近距离交流，无论这个人是谁。	game/rpy/ch1.rpy	211	s "[what]"
+reallyinmemoryof_0ffbfbd9	s	别忘了尝试学Python啊。	game/rpy/ch1.rpy	212	s "[what]"
+reallyinmemoryof_7fcf5d04	s	d88702965eb2acf84424cd64d9bba294a8c2a00d0b4604496723fd2063bf78cf、83235ec96fa3b9c0631863c5e3f998aef8e89c28698a8fc2843509627cb0d295...	game/rpy/ch1.rpy	214	s "[what]"
+reallyinmemoryof_3e4e7d11	s	学校里的Brony不多...	game/rpy/ch1.rpy	215	s "[what]"
+reallyinmemoryof_9b81279e	s	你们是我认识的两个。	game/rpy/ch1.rpy	217	s "[what]"
+reallyinmemoryof_415a72fd	s	还有更多的我没能提到的人，	game/rpy/ch1.rpy	218	s "[what]"
+reallyinmemoryof_e72e48ee	s	是我们共同构建了这个故事。	game/rpy/ch1.rpy	219	s "[what]"
+reallyinmemoryof_2d57beb8	s	还有被我吓到的一些人...	game/rpy/ch1.rpy	265	s "[what]"
+reallyinmemoryof_dab38ce4	s	221c63aa425164d25f6d2fc5d79d7e06403f1716e93cacb394f32caf451916f0...	game/rpy/ch1.rpy	267	s "[what]"
+reallyinmemoryof_3790601d	s	62818288f696eb3eddc601010b407153f2594ddf86858bbad9492fcfd3e7c072...	game/rpy/ch1.rpy	269	s "[what]"
+reallyinmemoryof_ea69463d	s	以及其他的一些人...	game/rpy/ch1.rpy	270	s "[what]"
+reallyinmemoryof_a76e64c8	s	也许...我成功地将自己最令人意外的形象刻入你们的记忆...	game/rpy/ch1.rpy	271	s "[what]"
+reallyinmemoryof_5c966641	s	我...欠你们一个道歉。	game/rpy/ch1.rpy	273	s "[what]"
+		冷静！停下吧...	game/rpy/ch1.rpy	275
+		你还好吗？	game/rpy/ch1.rpy	275
+reallyinmemoryof_f86573e3	s	（看向你）	game/rpy/ch1.rpy	278	s "[what]"
+reallyinmemoryof_43721392	s	好吧...	game/rpy/ch1.rpy	280	s "[what]"
+reallyinmemoryofz_b46caaf2	s	我没事！	game/rpy/ch1.rpy	287	s "[what]"
+reallyinmemoryofz_a8a69920	s	还有...	game/rpy/ch1.rpy	288	s "[what]"
+reallyinmemoryofz_01c7a5ff	s	还有....	game/rpy/ch1.rpy	289	s "[what]"
+reallyinmemoryofz_572ab7c3	s	还有.....	game/rpy/ch1.rpy	290	s "[what]"
+reallyinmemoryofz_369ca77b	s	e04e141499000d4d40bdf3d58379319d1615d392f40582e62e90d4dd69032eee...	game/rpy/ch1.rpy	291	s "[what]"
+reallyinmemoryofz_cb126477	s	......	game/rpy/ch1.rpy	295	s "[what]"
+reallyinmemoryofz_dc9564f9	n	[player]，我需要提醒你，你面前的讲述者似乎不太正常...	game/rpy/ch1.rpy	298	n "[what]"
+reallyinmemoryofz_a1fdbe75	s	你不希望我在这里提起你...对吧？	game/rpy/ch1.rpy	299	s "[what]"
+reallyinmemoryofz_cb126477_1	s	......	game/rpy/ch1.rpy	300	s "[what]"
+reallyinmemoryofz_b0520ba4	s	[gtext]	game/rpy/ch1.rpy	306	s "[what]"
+		关于你的志愿选择...	game/rpy/ch1.rpy	315
+other0_e43c818e	s	[player]，我们不是已经聊过了么？	game/rpy/ch1.rpy	318	s "[what]"
+other0_c3eb78f2	s	[player]，我...现在不太想谈。	game/rpy/ch1.rpy	323	s "[what]"
+ch2_29a84e2c	s	怎么，[player]？	game/rpy/ch2.rpy	6	s "[what]"
+ch2_c01a50f7	s	有很多人问过我相关的问题...	game/rpy/ch2.rpy	9	s "[what]"
+ch2_6a960be5	s	希望不是在质疑我的选择...	game/rpy/ch2.rpy	11	s "[what]"
+		当然不是！	game/rpy/ch2.rpy	12
+		额...好像是的...	game/rpy/ch2.rpy	12
+ofcoursenot_78a856f3	s	真的？	game/rpy/ch2.rpy	19	s "[what]"
+ofcoursenot_43721392	s	好吧...	game/rpy/ch2.rpy	21	s "[what]"
+ofcoursenot_b22bf1f1	s	那么...你的问题是？	game/rpy/ch2.rpy	23	s "[what]"
+		没什么...	game/rpy/ch2.rpy	24
+		为什么你选择了...？	game/rpy/ch2.rpy	24
+ofcoursenot_f73ffe10	s	额...	game/rpy/ch2.rpy	26	s "[what]"
+ofcoursenot_992c915a	s	好吧。	game/rpy/ch2.rpy	27	s "[what]"
+ofcoursenot_2c75fdbe	s	让我们忘掉刚才的对话~	game/rpy/ch2.rpy	29	s "[what]"
+maybeyes_87758962	s	别担心，我不会因为你的质疑就破坏你的设备的，[player]~ 我可不是Monika。	game/rpy/ch2.rpy	36	s "[what]"
+maybeyes_15e5e504	s	当然，我可以理解你的疑问...	game/rpy/ch2.rpy	37	s "[what]"
+maybeyes_9dcd60f9	s	毕竟，我的选择和我的优势领域差得太多了。	game/rpy/ch2.rpy	38	s "[what]"
+ch2reason_342e8b49	s	理由比你想象的简单...	game/rpy/ch2.rpy	45	s "[what]"
+ch2reason_45329e91	s	我很难接受自己写的项目完全不符合自己的需求。	game/rpy/ch2.rpy	46	s "[what]"
+ch2reason_b34ef1f3	s	所以，我很难加入商业化的开发团队。	game/rpy/ch2.rpy	47	s "[what]"
+ch2reason_b1e89d4f	s	另外...996ICU了解一下？	game/rpy/ch2.rpy	49	s "[what]"
+ch2reason_68b662eb	s	（请访问996.icu了解更多，不要使用国产浏览器）	game/rpy/ch2.rpy	50	s "[what]"
+ch2reason_dd8c7366	s	[player]，恐怕我们并没有给予信息技术工作者应有的重视和尊重，这并不有趣。	game/rpy/ch2.rpy	51	s "[what]"
+ch2reason_449f34d1	s	所以，就算有基础技能，我也不会轻易选择会让自己讨厌的专业。	game/rpy/ch2.rpy	52	s "[what]"
+ch2reason_2c2f44c6	s	当然，选择信息技术相关专业的同学也先别着急，这并不意味着你们做出了错误的选择，	game/rpy/ch2.rpy	54	s "[what]"
+ch2reason_b286cba8	s	通过系统地学习，你们能够比我更加深入地了解到计算机工作的基础原理、了解到OS的运行原理并更好地利用计算机解决常见的问题。	game/rpy/ch2.rpy	55	s "[what]"
+ch2reason_46685082	s	通过学习计算机编程，你们会学习到更多解决问题的思路，	game/rpy/ch2.rpy	56	s "[what]"
+ch2reason_93f8b3f2	s	而这些思路不仅仅在信息技术领域有效。	game/rpy/ch2.rpy	57	s "[what]"
+ch2reason_2db3daa1	s	信息技术在相当长的一段时间内仍然是迷人且有趣的。	game/rpy/ch2.rpy	58	s "[what]"
+ch2reason_4ca82d92	s	当你第一次运行Hello world!时，	game/rpy/ch2.rpy	60	s "[what]"
+ch2reason_72fda1ef	s	第一次了解GNU/Linux时，	game/rpy/ch2.rpy	66	s "[what]"
+ch2reason_3e1f3977	s	第一次操作有趣的命令行工具时，	game/rpy/ch2.rpy	73	s "[what]"
+ch2reason_675f46d5	s	第一次完成编译，	game/rpy/ch2.rpy	78	s "[what]"
+ch2reason_790baea4	s	我希望，在这时，你们能体会到和我一样的喜悦。	game/rpy/ch2.rpy	86	s "[what]"
+ch2reason_607cfe66	s	说了这么多，	game/rpy/ch2.rpy	87	s "[what]"
+ch2reason_adf39cbd	s	事实上，我的意思是...	game/rpy/ch2.rpy	89	s "[what]"
+ch2reason_f1956c95	s	无论你的选择是计算机科学与技术...	game/rpy/ch2.rpy	91	s "[what]"
+ch2reason_4a331824	s	软件工程...	game/rpy/ch2.rpy	92	s "[what]"
+ch2reason_91b7083b	s	人工智能...	game/rpy/ch2.rpy	93	s "[what]"
+ch2reason_fa71f500	s	通信工程 这样和信息技术联系紧密的专业，	game/rpy/ch2.rpy	94	s "[what]"
+ch2reason_5bab7895	s	或者例如 物联网工程...	game/rpy/ch2.rpy	96	s "[what]"
+ch2reason_bd7e2ccf	s	还有 电子商务及法律 这样和信息技术相关的专业，	game/rpy/ch2.rpy	97	s "[what]"
+ch2reason_0ba6db7f	s	还是像 口腔医学 这样和信息技术几乎没有关系的专业...	game/rpy/ch2.rpy	100	s "[what]"
+ch2reason_194be495	s	无论是出于自己的爱好...	game/rpy/ch2.rpy	102	s "[what]"
+ch2reason_8954e59a	s	还是被迫...	game/rpy/ch2.rpy	103	s "[what]"
+ch2reason_bbb3a7b8	s	或者为了某个城市...	game/rpy/ch2.rpy	104	s "[what]"
+ch2reason_dfffdd11	s	亦或是为了和某个人在一起...	game/rpy/ch2.rpy	105	s "[what]"
+ch2reason_25450a1b	s	如果你想接受你的选择，	game/rpy/ch2.rpy	106	s "[what]"
+ch2reason_dcce8713	s	那么，请相信你自己，	game/rpy/ch2.rpy	108	s "[what]"
+ch2reason_a521dbb6	s	不管距离再远...	game/rpy/ch2.rpy	109	s "[what]"
+ch2reason_d2af7595	s	基础再弱...	game/rpy/ch2.rpy	110	s "[what]"
+ch2reason_09d3b8f7	s	学业多困难...	game/rpy/ch2.rpy	111	s "[what]"
+ch2reason_bd498d84	s	[player]，我的精神愿意、也一直守候在你身旁。	game/rpy/ch2.rpy	112	s "[what]"
+ch2reason_f4e8a77d	s	希望你“永远相信美好的事情即将发生”。	game/rpy/ch2.rpy	113	s "[what]"
+ch2reason_f1e23946	s	顺便打个广告，	game/rpy/ch2.rpy	116	s "[what]"
+ch2reason_b7f8f9ba	s	[player]，你可以凭此界面截图获得开发者的一次技术支持。时间戳:[ans_time] （开发者保留对此技术支持服务的一切权利）	game/rpy/ch2.rpy	119	s "[what]"
+ch3_0a34454e	s	还有什么问题？请尽管问吧，[player]。	game/rpy/ch3.rpy	8	s "[what]"
+		在学校里经历过什么难忘的事吗？	game/rpy/ch3.rpy	12
+		说一说你的老师们吧。	game/rpy/ch3.rpy	12
+unforgettablehub_95950fa0	s	[player]，我们不是已经谈过这个话题了么？	game/rpy/ch3.rpy	20	s "[what]"
+unforgettablehub_a4da4e5e	s	让我回忆一下...	game/rpy/ch3.rpy	25	s "[what]"
+unforgettable1_e821f4eb	s	最难忘的事...	game/rpy/ch3.rpy	34	s "[what]"
+unforgettable1_088c642d	s	是项目AutoRing.py每天都能如预期工作...	game/rpy/ch3.rpy	35	s "[what]"
+unforgettable1_75ab85a3	s	准确地在上课、下课、放学时...	game/rpy/ch3.rpy	36	s "[what]"
+unforgettable1_780c31a4	s	按需求响铃。	game/rpy/ch3.rpy	37	s "[what]"
+unforgettable1_73c50fbb	s	作为第一个投入生产环境的项目，	game/rpy/ch3.rpy	38	s "[what]"
+unforgettable1_4f782248	s	它给了我很大的信心...	game/rpy/ch3.rpy	39	s "[what]"
+unforgettable1_ccae01ac	s	让我相信，即使再乱的逻辑、再差的水平写出来的代码也是能正常工作的。	game/rpy/ch3.rpy	41	s "[what]"
+unforgettable1_4908d6c1	s	从最初用来练手的脚本...	game/rpy/ch3.rpy	42	s "[what]"
+unforgettable1_5d348be0	s	到重构后的，可用于生产的项目...	game/rpy/ch3.rpy	43	s "[what]"
+unforgettable1_254abd34	s	我了解了很多...	game/rpy/ch3.rpy	44	s "[what]"
+unforgettable1_ed35c8dd	s	日志、函数化封装、错误处理、基于JSON的数据交流、和第三方可执行文件的配合...	game/rpy/ch3.rpy	45	s "[what]"
+unforgettable1_92d061ad	s	创造出了一个至少能用的AutoRing.py。	game/rpy/ch3.rpy	46	s "[what]"
+unforgettable1_b23bef5e	s	在最后的两个星期，	game/rpy/ch3.rpy	48	s "[what]"
+unforgettable1_5089b38d	s	它在我不在场维护的情况下仍在运行...	game/rpy/ch3.rpy	49	s "[what]"
+unforgettable1_61897880	s	正常播放午睡叫醒铃...	game/rpy/ch3.rpy	50	s "[what]"
+unforgettable1_1a800671	s	想想还是很滑稽的。	game/rpy/ch3.rpy	52	s "[what]"
+unforgettable2_e821f4eb	s	最难忘的事...	game/rpy/ch3.rpy	57	s "[what]"
+unforgettable2_d24c16b7	s	是“随机姓名选择器”作为参赛作品获奖了...	game/rpy/ch3.rpy	58	s "[what]"
+unforgettable2_2a215c37	s	说起来是个有趣的故事...	game/rpy/ch3.rpy	60	s "[what]"
+unforgettable2_7c6a6a2f	s	收到比赛通知后就想到自己手上有好几个垃圾项目可以参赛...	game/rpy/ch3.rpy	61	s "[what]"
+unforgettable2_8b87910b	s	记得当时还想建议几个同学也写点程序交上去...	game/rpy/ch3.rpy	63	s "[what]"
+unforgettable2_f64a0355	s	当天根据Git提交纪录写了研究报告...	game/rpy/ch3.rpy	64	s "[what]"
+unforgettable2_737cca82	s	大概写了开发过程吧...	game/rpy/ch3.rpy	65	s "[what]"
+unforgettable2_ad3adfe8	s	不幸的是，开发时我并没有想到我有一天会回来翻历史记录...	game/rpy/ch3.rpy	66	s "[what]"
+unforgettable2_2da7b6ac	s	所以我的每个commit都完全没写有用的备注...	game/rpy/ch3.rpy	68	s "[what]"
+unforgettable2_756de357	s	当时翻历史+写报告用了几个小时吧...	game/rpy/ch3.rpy	69	s "[what]"
+unforgettable2_f95f338d	s	最后交上去的时候还是没抱希望的。	game/rpy/ch3.rpy	70	s "[what]"
+unforgettable2_d89bf298	s	当然，后面的事情你已经知道了。	game/rpy/ch3.rpy	72	s "[what]"
+unforgettable2_2f81a884	s	直到疫情期间被通知通过市级竞赛，要提交省级竞赛...	game/rpy/ch3.rpy	75	s "[what]"
+unforgettable2_56eabaea	s	也是在那时，我才注意到全校似乎只有两个参赛项目...	game/rpy/ch3.rpy	76	s "[what]"
+unforgettable2_55d81d81	s	然后就出人意料地拿了个奖...	game/rpy/ch3.rpy	77	s "[what]"
+unforgettable2_e4754212	s	很有可能只是个鼓励性的奖项。	game/rpy/ch3.rpy	78	s "[what]"
+unforgettable3_e821f4eb	s	最难忘的事...	game/rpy/ch3.rpy	83	s "[what]"
+unforgettable3_26a84d25	s	是和[gtext]经历的每一件事。	game/rpy/ch3.rpy	86	s "[what]"
+unforgettable3_6feb4346	s	每一次相遇...	game/rpy/ch3.rpy	88	s "[what]"
+unforgettable3_5eda5183	s	每一次对视...	game/rpy/ch3.rpy	89	s "[what]"
+unforgettable3_f2f5a686	s	和每一次冲突...	game/rpy/ch3.rpy	90	s "[what]"
+unforgettable3_1bef50df	s	躲避...	game/rpy/ch3.rpy	91	s "[what]"
+unforgettable3_99616faf	s	尴尬...	game/rpy/ch3.rpy	92	s "[what]"
+unforgettable3_ddebb86b	s	和分别...	game/rpy/ch3.rpy	93	s "[what]"
+unforgettable3_3e9194a2	s	以及最后也没能原谅的...	game/rpy/ch3.rpy	94	s "[what]"
+unforgettable3_0cbc6cfa	s	结局。	game/rpy/ch3.rpy	95	s "[what]"
+unforgettable4_e821f4eb	s	最难忘的事...	game/rpy/ch3.rpy	100	s "[what]"
+unforgettable4_66862d97	s	是成绩第一次进入校前百名。	game/rpy/ch3.rpy	101	s "[what]"
+unforgettable4_896a7dac	s	在旅途中知道了自己的排名...	game/rpy/ch3.rpy	103	s "[what]"
+unforgettable4_2e71461b	s	但并没有多激动...	game/rpy/ch3.rpy	105	s "[what]"
+unforgettable4_9450e2b3	s	就很平静地过去了。	game/rpy/ch3.rpy	106	s "[what]"
+unforgettable4_cf301b41	s	遗憾的是...	game/rpy/ch3.rpy	107	s "[what]"
+unforgettable4_01f9ccf6	s	这也是我三年以来的最高成绩...	game/rpy/ch3.rpy	109	s "[what]"
+unforgettable4_5ed95e57	s	然后就再也没有比这还好的了。	game/rpy/ch3.rpy	110	s "[what]"
+unforgettable4_30e1387b	s	在最后一场考试中...	game/rpy/ch3.rpy	111	s "[what]"
+unforgettable4_e49d59a4	s	因为很多原因吧...	game/rpy/ch3.rpy	112	s "[what]"
+unforgettable4_a2402522	s	也没能超过[gtext]...	game/rpy/ch3.rpy	115	s "[what]"
+unforgettable4_772ffca4	s	所以还是有点怨念的。	game/rpy/ch3.rpy	118	s "[what]"
+unforgettable5_e821f4eb	s	最难忘的事...	game/rpy/ch3.rpy	123	s "[what]"
+unforgettable5_2d16969f	s	说出来恐怕会泄露出不应该公开的东西吧...	game/rpy/ch3.rpy	125	s "[what]"
+unforgettable5_86e849f4	s	例如了解到考试作弊问题...	game/rpy/ch3.rpy	126	s "[what]"
+unforgettable5_1bca4e50	s	还是少说为妙。	game/rpy/ch3.rpy	128	s "[what]"
+unforgettable6_e821f4eb	s	最难忘的事...	game/rpy/ch3.rpy	133	s "[what]"
+unforgettable6_1279206d	s	是作了个大死...	game/rpy/ch3.rpy	134	s "[what]"
+unforgettable6_64714c64	s	关于ProjectZ的相关信息...	game/rpy/ch3.rpy	136	s "[what]"
+unforgettable6_b0be0b35	s	请还是去问EXPLORER吧。	game/rpy/ch3.rpy	137	s "[what]"
+aboutteachers_def56e93	s	[player]，我们已经谈过这个话题了。	game/rpy/ch3.rpy	143	s "[what]"
+aboutteachers_33d0997d	s	这里应该有一些很有趣的回忆，	game/rpy/ch3.rpy	147	s "[what]"
+aboutteachers_7188f2ca	s	但...我的记忆力不太好...	game/rpy/ch3.rpy	149	s "[what]"
+aboutteachers_356fee10	s	简单地说...	game/rpy/ch3.rpy	150	s "[what]"
+aboutteachers_b889d152	s	是一群很可爱的人吧。	game/rpy/ch3.rpy	151	s "[what]"
+aboutteachers_7cff3fe9	s	如果说比较重要的是...	game/rpy/ch3.rpy	152	s "[what]"
+aboutteachers_830309d7	s	非常幸运有一个管理并不太严格的班主任...	game/rpy/ch3.rpy	154	s "[what]"
+aboutteachers_7914c0ad	s	这事实上减少了很多会影响学生学习的因素...	game/rpy/ch3.rpy	155	s "[what]"
+aboutteachers_bb492254	s	这种管理方式...	game/rpy/ch3.rpy	157	s "[what]"
+aboutteachers_ad35d912	s	也是一种智慧吧。	game/rpy/ch3.rpy	158	s "[what]"
+		谈谈你对高考的印象吧。	game/rpy/ch3.rpy	163
+ch4_b9dec5b3	s	我对高考的印象？	game/rpy/ch4.rpy	5	s "[what]"
+ch4_e1554201	s	...	game/rpy/ch4.rpy	6	s "[what]"
+ch4_b2aebb49	s	是一场噩梦。	game/rpy/ch4.rpy	7	s "[what]"
+ch4_8237ee13	s	从6月7日起的两周内，我在认知上一直处于一场没有醒来的噩梦中...	game/rpy/ch4.rpy	8	s "[what]"
+ch4_6aafe934	s	那种感觉...很痛苦...	game/rpy/ch4.rpy	10	s "[what]"
+ch4_76407775	s	即使在考试结束后...也没有消失...	game/rpy/ch4.rpy	11	s "[what]"
+		为什么？	game/rpy/ch4.rpy	12
+		我...也一样。	game/rpy/ch4.rpy	12
+ch4why_bda6204b	s	我也说不清楚...	game/rpy/ch4.rpy	19	s "[what]"
+ch4why_4a8682c1	s	在我的认知中，考试在成绩公布前是不会离开我的意识的。	game/rpy/ch4.rpy	20	s "[what]"
+ch4why_e316a45f	s	也是知道这时，我才意识到...这好像不太对劲...	game/rpy/ch4.rpy	21	s "[what]"
+ch4why_365f5a38	s	我看着、听着其他同学放下一切去做自己想做的事情...	game/rpy/ch4.rpy	23	s "[what]"
+ch4why_98c8e49c	s	我看着他们不再因高考带来的压力而痛苦...	game/rpy/ch4.rpy	24	s "[what]"
+ch4why_3a4dcbbe	s	我却...做不到...	game/rpy/ch4.rpy	25	s "[what]"
+ch4why_4e9fbdf2	s	这些和考试有关的东西...给我的印象太深...	game/rpy/ch4.rpy	27	s "[what]"
+ch4why_acbc1f67	s	我想...我们更应该思考的是...	game/rpy/ch4.rpy	28	s "[what]"
+ch4why_4d2a86ca	s	为什么一场考试的结束可以让我们的高中学生全都放松下来？	game/rpy/ch4.rpy	29	s "[what]"
+ch4why_ea322c1a	s	为什么直到这个时候才可以尽情地做自己想做的事情？	game/rpy/ch4.rpy	30	s "[what]"
+ch4why_f364e14b	s	这个局面是怎么造成的？	game/rpy/ch4.rpy	31	s "[what]"
+ch4why_6f0f8dc9	s	我们...能给出令人满意的答案吗？	game/rpy/ch4.rpy	33	s "[what]"
+ch4why_1c69ce7c	s	「我来自一个受过伤痛的国家，我们的国家飞速发展，只是有些人被牺牲了而已。没有人听到他们的声音，没有人看到他们。	game/rpy/ch4.rpy	35	s "[what]"
+ch4why_65281ca3	s	所以我想，我能看到他们，在正确的浪潮中，逆流而上看到那些被牺牲的无辜者，帮助他们。	game/rpy/ch4.rpy	36	s "[what]"
+ch4why_890e0ab3	s	可是现在我还是站在大多数人那边，站在世界那边，站在‘正确’那边。	game/rpy/ch4.rpy	37	s "[what]"
+ch4why_94fa0f08	s	那么，至少让我听到她吧。」Site-CN-34 三级研究员，站点代主管 M Hannah	game/rpy/ch4.rpy	38	s "[what]"
+ch4why_7248c3ec	s	我甚至都无法确定我...	game/rpy/ch4.rpy	39	s "[what]"
+ch4why_1dd2f692	s	为了高考所做的事情...	game/rpy/ch4.rpy	40	s "[what]"
+ch4why_768ffb30	s	是否是正确的...	game/rpy/ch4.rpy	41	s "[what]"
+ch4why_9cc71772	s	很“有趣”...对吧？	game/rpy/ch4.rpy	42	s "[what]"
+ch4metoo_78a856f3	s	真的？	game/rpy/ch4.rpy	46	s "[what]"
+ch4metoo_1f793a9e	s	也许...你可以理解我的想法...	game/rpy/ch4.rpy	47	s "[what]"
+ch4metoo_0f48f672	s	这种奇怪的感觉的产生原因...	game/rpy/ch4.rpy	48	s "[what]"
+		之前的对话中...为什么会有乱码？	game/rpy/ch4.rpy	59
+		关于制作团队的名字...	game/rpy/ch4.rpy	59
+		关于制作人员...	game/rpy/ch4.rpy	68
+whyglitch_c527e8a1	s	没想到你居然注意到了...	game/rpy/ch4.rpy	78	s "[what]"
+whyglitch_43ef18e8	s	当我们相信某个名字不应该在这里被提到的时候...	game/rpy/ch4.rpy	79	s "[what]"
+whyglitch_bbb80d58	s	乱码就会出现...	game/rpy/ch4.rpy	80	s "[what]"
+whyglitch_96df0ba3	s	也许你会找到答案？	game/rpy/ch4.rpy	81	s "[what]"
+whyglitch_5709aa73	s	谁知道呢~	game/rpy/ch4.rpy	82	s "[what]"
+projectzstudio_556db2e5	s	我...并不是特别想解释这个...	game/rpy/ch4.rpy	100	s "[what]"
+projectzstudio_ac303a0a	s	也许在此之前...你已经听到过这个名字了。	game/rpy/ch4.rpy	101	s "[what]"
+projectzstudio_2cd56679	s	恐怕由我来解释...会破坏中立性。	game/rpy/ch4.rpy	102	s "[what]"
+projectzstudio_b758b157	s	也许...你可以在其他地方找到有用的信息。	game/rpy/ch4.rpy	103	s "[what]"
+ch5_cf3fa0a7	s	别那么着急嘛~	game/rpy/ch5.rpy	8	s "[what]"
+ch5_94a5a494	s	游戏的最后会有制作人员表的...	game/rpy/ch5.rpy	9	s "[what]"
+ch5_fb55e718	s	接下来是快速问答时间！	game/rpy/ch5.rpy	10	s "[what]"
+		我找到了一个bug！我该去哪里提交它？	game/rpy/ch5.rpy	14
+		这是个开源游戏吗？	game/rpy/ch5.rpy	14
+		我该如何与本游戏的开发人员和对话设计者取得联系？	game/rpy/ch5.rpy	14
+		（跳过）	game/rpy/ch5.rpy	14
+ch5bug_f740d815	s	我们已经聊过这个问题了。	game/rpy/ch5.rpy	26	s "[what]"
+ch5bug_e8f607bf	s	...有趣。	game/rpy/ch5.rpy	29	s "[what]"
+ch5bug_24e9c73d	s	在正式发行之后，所有的非恶性bug均视为特性。	game/rpy/ch5.rpy	30	s "[what]"
+ch5bug_7b4d01f8	s	我开玩笑的...	game/rpy/ch5.rpy	32	s "[what]"
+ch5bug_b98f3c53	s	你可以在此项目的GitHub仓库下发issue。	game/rpy/ch5.rpy	33	s "[what]"
+ch5opensource_f740d815	s	我们已经聊过这个问题了。	game/rpy/ch5.rpy	38	s "[what]"
+ch5opensource_d6bad9a7	s	是的。	game/rpy/ch5.rpy	42	s "[what]"
+ch5opensource_b4dd8d2f	s	此项目的GitHub仓库：	game/rpy/ch5.rpy	43	s "[what]"
+ch5opensource_527c6f63	s	https://github.com/lwd-temp/maybe_not_the_last_letter	game/rpy/ch5.rpy	44	s "[what]"
+ch5contact_f740d815	s	我们已经聊过这个问题了。	game/rpy/ch5.rpy	49	s "[what]"
+ch5contact_d37c8156	s	此游戏的程序部分由lwd-temp完成...	game/rpy/ch5.rpy	52	s "[what]"
+ch5contact_aecdc40b	s	对话作者为余晖...	game/rpy/ch5.rpy	53	s "[what]"
+ch5contact_aee37a05	s	和另一位还没出现的角色。	game/rpy/ch5.rpy	54	s "[what]"
+ch5contact_37cfad55	s	你可以直接在此项目的GitHub仓库下发issue...	game/rpy/ch5.rpy	55	s "[what]"
+ch5contact_59eb0f49	s	我们会直接与你取得联系。	game/rpy/ch5.rpy	56	s "[what]"
+		还没出现的角色？	game/rpy/ch5.rpy	57
+		了解了。	game/rpy/ch5.rpy	57
+ch5exp_c57a8ae8	s	虽然听起来有点牵强...	game/rpy/ch5.rpy	65	s "[what]"
+ch5exp_b044dcac	s	但在他出现之前...	game/rpy/ch5.rpy	66	s "[what]"
+ch5exp_1de82449	s	这个名字是保密的。	game/rpy/ch5.rpy	67	s "[what]"
+		无聊...	game/rpy/ch5.rpy	68
+		所以...我还可以见到他？	game/rpy/ch5.rpy	68
+		有趣的解释。	game/rpy/ch5.rpy	68
+		确实有点...	game/rpy/ch5.rpy	68
+ch5expmeet_cb65a031	s	也许吧...	game/rpy/ch5.rpy	79	s "[what]"
+ch5expmeet_e3657728	s	也许能看到和他的对话也说不定呢...	game/rpy/ch5.rpy	81	s "[what]"
+		\nCornfield Chase  Hans Zimmer	game/rpy/chexp.rpy	8
+chexp_b2974e1e	e	哦到我了么	game/rpy/chexp.rpy	14	e "[what]"
+chexp_1ca20311	e	啊感觉挺有趣的……	game/rpy/chexp.rpy	16	e "[what]"
+chexp_04872586	e	其实吧...以前是很想毕业之后写点什么的	game/rpy/chexp.rpy	18	e "[what]"
+chexp_2fdd510d	e	但，一拖再拖就...	game/rpy/chexp.rpy	19	e "[what]"
+chexp_7c91a48c	e	余晖的项目给了我这个机会	game/rpy/chexp.rpy	21	e "[what]"
+chexp_d8c6d982	e	emmm首先我这三年来玩的挺开心的	game/rpy/chexp.rpy	23	e "[what]"
+chexp_3777f89a	e	收获了很多朋友	game/rpy/chexp.rpy	24	e "[what]"
+chexp_690a38bc	e	当然也在学校闯了很多祸	game/rpy/chexp.rpy	26	e "[what]"
+chexp_7867914b	e	（比如表白墙...）	game/rpy/chexp.rpy	27	e "[what]"
+chexp_003235d1	e	还有很多人支持我做我想要做以及喜欢做的事	game/rpy/chexp.rpy	29	e "[what]"
+chexp_49fe785a	e	可以说我在这个环境里没有遇到自己曾经预想的阻力	game/rpy/chexp.rpy	31	e "[what]"
+chexp_2cba933a	e	很感谢大家对我的理解呢	game/rpy/chexp.rpy	32	e "[what]"
+chexp_d3706ca0	e	以及	game/rpy/chexp.rpy	34	e "[what]"
+chexp_7cb2030e	e	既然是余晖发起的项目	game/rpy/chexp.rpy	35	e "[what]"
+chexp_9afddb21	e	那么就围绕余晖说几句吧	game/rpy/chexp.rpy	36	e "[what]"
+chexp_5a077d0a	e	有很多人对于为什么我们能成为朋友感到不解	game/rpy/chexp.rpy	38	e "[what]"
+chexp_6393f995	e	我有时候也在想，	game/rpy/chexp.rpy	39	e "[what]"
+chexp_ef7321bd	e	既然我们的兴趣爱好不是很重合	game/rpy/chexp.rpy	40	e "[what]"
+chexp_d346156e	e	为什么我们能成为朋友呢？	game/rpy/chexp.rpy	42	e "[what]"
+chexp_b0f23b23	e	我觉得...更多的是思想上的认同吧	game/rpy/chexp.rpy	44	e "[what]"
+chexp_c6f9fc26	e	特别有趣的是	game/rpy/chexp.rpy	45	e "[what]"
+chexp_da9243d0	e	很多时候都是“我不懂，我不知道……	game/rpy/chexp.rpy	47	e "[what]"
+chexp_39904af8	e	……但我依然觉得有趣”	game/rpy/chexp.rpy	49	e "[what]"
+chexp_78d73636	e	与你合作是很有趣的事情呢，余晖	game/rpy/chexp.rpy	51	e "[what]"
+chexp_5d962e51	e	虽然有过争执、误解	game/rpy/chexp.rpy	53	e "[what]"
+chexp_48847d2d	e	（小声）但愿能原谅我吧	game/rpy/chexp.rpy	55	e "[what]"
+chexp_0232f3dd	e	说到这里.....	game/rpy/chexp.rpy	59	e "[what]"
+chexp_a6f507bf	e	我还要对被我伤害到的朋友道个歉	game/rpy/chexp.rpy	61	e "[what]"
+chexp_72b11654	e	有的时候不经意间恶语伤人	game/rpy/chexp.rpy	63	e "[what]"
+chexp_8790945c	e	有的时候也很自我	game/rpy/chexp.rpy	64	e "[what]"
+chexp_9a9213fd	e	也不知道有多少次故作冷漠来着	game/rpy/chexp.rpy	66	e "[what]"
+chexp_10ae91e6	e	但实际上	game/rpy/chexp.rpy	68	e "[what]"
+chexp_b299736c	e	你们对我很重要	game/rpy/chexp.rpy	70	e "[what]"
+chexp_1815c4a5	e	好啦不说了	game/rpy/chexp.rpy	72	e "[what]"
+chexp_a2d1225a	e	那种风格都不像我了	game/rpy/chexp.rpy	74	e "[what]"
+chexp_47142d85	e	总之...我对这三年还算满意吧	game/rpy/chexp.rpy	76	e "[what]"
+chexp_c784cf77	e	至少指向了我想要的结果	game/rpy/chexp.rpy	78	e "[what]"
+chexp_c57460b9	e	在广袤的空间与时间中，	game/rpy/chexp.rpy	80	e "[what]"
+chexp_6d2b8f40	e	能与你共享同一颗行星和同一段时光是我的荣幸。	game/rpy/chexp.rpy	81	e "[what]"
+ending_a869cc4c	s	在游戏结束之前，EXPLORER也有些话要说...	game/rpy/end.rpy	5	s "[what]"
+realending_899e8e50	s	到目前为止，您已经完成了大部分的游戏流程。	game/rpy/end.rpy	12	s "[what]"
+realending_bb99f764	s	游戏到这里就要结束了。	game/rpy/end.rpy	13	s "[what]"
+realending_0c0468e1	s	感谢游玩...	game/rpy/end.rpy	14	s "[what]"
+realending_089c280e	s	我们下封信再见。	game/rpy/end.rpy	15	s "[what]"
+endinghappy_1a1a4e84	n	等一下...	game/rpy/end.rpy	33	n "[what]"
+endinghappy_4a8ca34c	n	还有一件事...	game/rpy/end.rpy	34	n "[what]"
+endinghappy_1906b6c2	n	生日快乐，[gtext]。	game/rpy/end.rpy	36	n "[what]"
+endinghappy_ffe57cca	n	这是个小概率bug...	game/rpy/end.rpy	39	n "[what]"
+endinghappy_01e5723d	n	在某些特殊情况下，对话会跳转到这里。	game/rpy/end.rpy	40	n "[what]"
+endinghappy_037e2327	n	既然都看到这了...	game/rpy/end.rpy	41	n "[what]"
+endinghappy_28fa4e03	n	你还真的是很幸运...	game/rpy/end.rpy	42	n "[what]"
+endinghappy_bd6e049a	n	奖励自己吃顿火锅吧...	game/rpy/end.rpy	43	n "[what]"
+endinghappy_0e76f90e	n	或者做点别的什么也可以啊。	game/rpy/end.rpy	44	n "[what]"
+test0_6a9d6c11	s	你好，[player]？	game/rpy/test.rpy	4	s "[what]"
+test0_da17681b	s	Hello,world!	game/rpy/test.rpy	6	s "[what]"
+testwelcome_7e670152	s	你怎么会在这？	game/rpy/test.rpy	14	s "[what]"
+testwelcome_431d0e56	s	哦，是开发者啊。	game/rpy/test.rpy	17	s "[what]"
+testwelcome_3bc2d13a	s	抱歉看错人了。	game/rpy/test.rpy	19	s "[what]"
+testwelcome_09a8fee2	s	下面就是测试菜单了。	game/rpy/test.rpy	20	s "[what]"
+testwelcome_96d845cd	s	这不是你该来的地方！	game/rpy/test.rpy	23	s "[what]"
+testwelcome_32fca965	s	如果你在发行版中看到了这个，那一定是开发者忘了删掉某些东西了。	game/rpy/test.rpy	25	s "[what]"
+testwelcome_3034840f	s	为了避免剧透，请退出此存档。	game/rpy/test.rpy	27	s "[what]"
+testwelcome_a0dad3e5	m	没错，快听她的~	game/rpy/test.rpy	30	m "[what]"
+testwelcome_69d6cc11	s	你这已经剧透了好吧......	game/rpy/test.rpy	31	s "[what]"
+testwelcome_4edb1fce	m	哦...抱歉啦。	game/rpy/test.rpy	32	m "[what]"
+testwelcome_34f4f782	s	（为什么她比我高那么多...）	game/rpy/test.rpy	33	s "[what]"
+testwelcome_cabef2c1	m	（还不是因为开发者懒得修改图像大小又不会用Ren'Py的动画效果功能缩放图片...）	game/rpy/test.rpy	34	m "[what]"
+testwelcome_d7e3e2d8	s	剧透倒计时：----------	game/rpy/test.rpy	36	s "[what]"
+testwelcome_ea39576c	s	=---------	game/rpy/test.rpy	37	s "[what]"
+testwelcome_a548076b	s	==--------	game/rpy/test.rpy	38	s "[what]"
+testwelcome_19dbbf31	s	===-------	game/rpy/test.rpy	39	s "[what]"
+testwelcome_ec64a75b	s	====------	game/rpy/test.rpy	40	s "[what]"
+testwelcome_09d03adb	s	=====-----	game/rpy/test.rpy	41	s "[what]"
+testwelcome_1338ae65	s	======----	game/rpy/test.rpy	42	s "[what]"
+testwelcome_23d756b2	s	=======---	game/rpy/test.rpy	43	s "[what]"
+testwelcome_75b7036d	s	========--	game/rpy/test.rpy	44	s "[what]"
+testwelcome_45abddfa	s	=========-	game/rpy/test.rpy	45	s "[what]"
+testwelcome_9cfe917c	s	==========	game/rpy/test.rpy	46	s "[what]"
+testwelcome_43721392	s	好吧...	game/rpy/test.rpy	47	s "[what]"
+		回到start	game/rpy/test.rpy	61
+		zeggcount自加1	game/rpy/test.rpy	61
+		expeggcount自加1	game/rpy/test.rpy	61
+		raise Exception	game/rpy/test.rpy	61
+		跳转结局	game/rpy/test.rpy	61
+youknowwhoerror_48ed4d5e	"（未知）"	你是...	game/rpy/ykherror.rpy	10	"（未知）" "[what]"
+youknowwhoerror_eb87c948	"（未知）"	...	game/rpy/ykherror.rpy	11	"（未知）" "[what]"
+youknowwhoerror_116bbf82	"（未知）"	我以为你不会...	game/rpy/ykherror.rpy	12	"（未知）" "[what]"
+youknowwhoerror_3440bd3e	"（未知）"	...无论你真的是...	game/rpy/ykherror.rpy	13	"（未知）" "[what]"
+youknowwhoerror_0835ce9c	"（未知）"	还是冒用别人名字的家伙...	game/rpy/ykherror.rpy	14	"（未知）" "[what]"
+youknowwhoerror_86af949f	"（未知）"	这里都不适合你...	game/rpy/ykherror.rpy	15	"（未知）" "[what]"
+youknowwhoerror_90a88690	"（未知）"	这个设备上的存档已经被标记了，	game/rpy/ykherror.rpy	16	"（未知）" "[what]"
+youknowwhoerror_d260afe1	"（未知）"	请直接关闭游戏。	game/rpy/ykherror.rpy	18	"（未知）" "[what]"
+youknowwhoerror_8f076490	"（未知）"	这是个循环对话...	game/rpy/ykherror.rpy	19	"（未知）" "[what]"
+youknowwhoerror_a06d20ff	"（未知）"	你无法离开。	game/rpy/ykherror.rpy	20	"（未知）" "[what]"
+		回退	game/screens.rpy	275
+		历史	game/screens.rpy	276
+		快进	game/screens.rpy	277
+		自动	game/screens.rpy	278
+		保存	game/screens.rpy	279
+		快存	game/screens.rpy	280
+		快读	game/screens.rpy	281
+		设置	game/screens.rpy	282
+		开始游戏	game/screens.rpy	328
+		读取游戏	game/screens.rpy	336
+		结束回放	game/screens.rpy	342
+		标题界面	game/screens.rpy	346
+		关于	game/screens.rpy	348
+		帮助	game/screens.rpy	353
+		退出	game/screens.rpy	358
+		返回	game/screens.rpy	497
+		版本 [config.version!t]\n	game/screens.rpy	579
+		引擎：{a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only]\n\n[renpy.license!t]	game/screens.rpy	585
+		第 {} 页	game/screens.rpy	620
+		自动存档	game/screens.rpy	620
+		快速存档	game/screens.rpy	620
+		{#file_time}%Y-%m-%d %H:%M	game/screens.rpy	661
+		空存档位	game/screens.rpy	661
+		<	game/screens.rpy	678
+		{#auto_page}A	game/screens.rpy	681
+		{#quick_page}Q	game/screens.rpy	684
+		>	game/screens.rpy	690
+		显示	game/screens.rpy	746
+		窗口	game/screens.rpy	747
+		全屏	game/screens.rpy	748
+		回退操作区	game/screens.rpy	752
+		禁用	game/screens.rpy	753
+		屏幕左侧	game/screens.rpy	754
+		屏幕右侧	game/screens.rpy	755
+		未读文本	game/screens.rpy	760
+		选项后继续	game/screens.rpy	761
+		忽略转场	game/screens.rpy	762
+		文字速度	game/screens.rpy	775
+		自动前进时间	game/screens.rpy	779
+		音乐音量	game/screens.rpy	786
+		音效音量	game/screens.rpy	793
+		测试	game/screens.rpy	799
+		语音音量	game/screens.rpy	803
+		全部静音	game/screens.rpy	814
+		尚无对话历史记录。	game/screens.rpy	933
+		键盘	game/screens.rpy	1002
+		鼠标	game/screens.rpy	1003
+		手柄	game/screens.rpy	1006
+		回车	game/screens.rpy	1019
+		推进对话并激活界面。	game/screens.rpy	1020
+		空格	game/screens.rpy	1023
+		推进对话但不激活选项。	game/screens.rpy	1024
+		方向键	game/screens.rpy	1027
+		导航界面。	game/screens.rpy	1028
+		Esc	game/screens.rpy	1031
+		访问游戏菜单。	game/screens.rpy	1032
+		Ctrl	game/screens.rpy	1035
+		按住时快进对话。	game/screens.rpy	1036
+		Tab	game/screens.rpy	1039
+		切换对话快进。	game/screens.rpy	1040
+		Page Up	game/screens.rpy	1043
+		回退至先前的对话。	game/screens.rpy	1044
+		Page Down	game/screens.rpy	1047
+		向前至之后的对话。	game/screens.rpy	1048
+		隐藏用户界面。	game/screens.rpy	1052
+		截图。	game/screens.rpy	1056
+		切换辅助{a=https://www.renpy.org/l/voicing}自动朗读{/a}。	game/screens.rpy	1060
+		左键点击	game/screens.rpy	1066
+		中键点击	game/screens.rpy	1070
+		右键点击	game/screens.rpy	1074
+		鼠标滚轮上\n点击回退操作区	game/screens.rpy	1078
+		鼠标滚轮下	game/screens.rpy	1082
+		右扳机键\nA/底键	game/screens.rpy	1089
+		左扳机键\n左肩键	game/screens.rpy	1093
+		右肩键	game/screens.rpy	1097
+		十字键，摇杆	game/screens.rpy	1102
+		开始，向导	game/screens.rpy	1106
+		Y/顶键	game/screens.rpy	1110
+		校准	game/screens.rpy	1113
+		OK	game/screens.rpy	1186
+		确定	game/screens.rpy	1243
+		取消	game/screens.rpy	1244
+		正在快进	game/screens.rpy	1289
+		菜单	game/screens.rpy	1508
+		旁白	game/script.rpy	5
+		EXPLORER	game/script.rpy	7
+		Monika	game/script.rpy	8
+start_8acebcae	n	这是一个未完成的作品。	game/script.rpy	42	n "[what]"
+		运行测试脚本。	game/script.rpy	44
+		进入游戏流程。	game/script.rpy	44
+start_4348812e	n	你永远都不应该看到这句话。	game/script.rpy	54	n "[what]"
+start_b783c00b	n	请将此错误报告给开发者或自行修复。	game/script.rpy	55	n "[what]"
+		此游戏仅用于技术交流，禁止分发。	game/splash.rpy	7
+		你好？	game/splash.rpy	9
+		请支持《心跳文学部》。	game/splash.rpy	9
+		我们会在没有黑暗的地方见面。	game/splash.rpy	9
+		你经过我身旁/像鹿穿过花岗/风吹开一枝扶桑花	game/splash.rpy	9
+		Just Monika.	game/splash.rpy	9
+		光是遇见 就很美好	game/splash.rpy	9
+		曾经的存档文件被发现了。你希望加载存档还是重新开始？	game/splash.rpy	134
+		删除存档 重新开始	game/splash.rpy	134
+		加载存档	game/splash.rpy	134
+splashscreen_8944aa49		删除中...{nw}	game/splash.rpy	137	"[what]"
+splashscreen_bf23d315		《[config.name]》是一个用于技术交流的互动小说游戏。	game/splash.rpy	160	"[what]"
+splashscreen_33432474		此项目使用了未获授权的代码和资源文件。	game/splash.rpy	161	"[what]"
+splashscreen_9cda46eb		你获得的游戏二进制文件是用于内部预览的测试分发版。	game/splash.rpy	162	"[what]"
+		通过游玩《[config.name]》，你同意不向非相关人士泄露关于此项目的任何内容且不对此分发包进行逆向工程。	game/splash.rpy	163
+		我同意。	game/splash.rpy	163
+after_load_7646e030		存档无法加载	game/splash.rpy	219	"[what]"
+after_load_5d5ea18a		你在尝试作弊吗？	game/splash.rpy	220	"[what]"
+		错误：请联系开发者。	game/zcredits.rpy	9
+		【钢琴】《勾指起誓》 洛天依-ilem 高甜预警 纯钢琴版  Bilibili用户@绯绯Feifei	game/zcredits.rpy	13
+		勾指起誓 钢琴演奏版  昼夜	game/zcredits.rpy	16
+		电影《你的名字》主题曲《前前前世》  Bilibili用户@Ayasa绚沙	game/zcredits.rpy	20
+		音乐\nEasy Breeze (StarSight Remix)  Player_275x / Thomas Greenberg\n穏やかに過ぎゆく時  小林俊太郎\n【Animenz】secret base 〜你给我的所有〜 - 未闻花名 ED 钢琴版  Bilibili用户@Animenzzz\nLeaves in the Wind  Isaac Shepard\nMidday Prospects 午日的眺望 陈致逸 / HOYO-MiX[persistent.expsongname]\n[zsongname]\n【神里绫华】过场动画“夜场跳舞” 纯音乐  米哈游	game/zcredits.rpy	47
+		特别感谢\nPrincess Celestia\nMonika\n[player]\n[gtext]（[gstr]：5[gchar]45[gchar]18[gchar]2[gchar]98[gchar]8[gchar]2[gchar]）[gchar]	game/zcredits.rpy	123
+		很久很久以前，珀普乐王国的公主望向漫天星辰。\n公主的面容似被精心雕刻过，比任何雕塑都精致完美。简单柔和的线条勾勒出王国里最美丽的身影。她拥有来自远近千千万万的追随者。\n她微微低下头，好像在思索什么的样子，轻语呼唤着自己的首相，“星星有什么用呢？”	game/zcredits.rpy	175
+		这个年代里会猎星星的几乎没有。猎星星的男孩在朦胧的夜里盗走星星的光芒，用天上的微光点亮派森国的夜。孤独着，他捕捉着光，一切都好似仅仅是乐趣，直到一天，他注意到了珀普乐王国的佳人。	game/zcredits.rpy	182
+		猎星者在公主身上看到了自己向往的样子。\n他尝试着与其交流。\n每一个夜幕降下后，星星点点的闪光如钻石般镶嵌在暗色里，等待着，呼唤着。长夜不再寂寞，猎星者为公主献上自己捕捉到的最优雅动人的星光。他把它们封在可爱的细口瓶里，与自己最真挚的心意一起。	game/zcredits.rpy	189
+		久而久之，公主厌烦了。\n她召来大臣皖，让他把那些来自数亿光年外的礼物一并处理。\n“说真的，星星到底有什么用呢？”	game/zcredits.rpy	196
+		据说，那一晚，珀普乐王国外的森林很亮。	game/zcredits.rpy	203
+		猎星者再一次送上青蓝的微光，这来自遥远的天狼星。纯洁的蓝光映衬出一切安宁美好，与深邃的天穹一同共振。\n她会喜欢的，她一定会。	game/zcredits.rpy	210
+		公主接过后打碎了瓶子。\n蓝色悬浮在空中，就像猎星者的心情。	game/zcredits.rpy	217
+		猎星者一次又一次地寄信，他渴望得到公主的原谅。\n公主的大臣仝为她拦下了这些信件，并抛进光之池中。\n猎星者对接触的尝试每一次都落了空。\n猎星星的男孩永远不能用天上的星星换来一个人的心。	game/zcredits.rpy	224
+		他口袋里藏着最后一颗星。\n他希望，但愿……	game/zcredits.rpy	231
+		游戏结束。\n「请...好好地看着我。」	game/zcredits.rpy	248
