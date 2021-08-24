@@ -7,7 +7,7 @@ label zcredits2:
     $ consolehistory = []
     $ import random
     $ zsongname = _("错误：请联系开发者。")
-    if random.randint(0,3) != 0:
+    if random.randint(0,4) != 0:
         if random.randint(0,1) == 0:
             play music "audio/eggend0.ogg" noloop
             $ zsongname = _("【钢琴】《勾指起誓》 洛天依-ilem 高甜预警 纯钢琴版  Bilibili用户@绯绯Feifei")
@@ -44,7 +44,7 @@ label zcredits2:
     $ pause(44.25 - (datetime.datetime.now() - starttime).total_seconds())
     
     show credits_header _("") as credits_header_1 at credits_text_scroll_middle
-    show credits_text _("音乐\nEasy Breeze (StarSight Remix)  Player_275x / Thomas Greenberg\n穏やかに過ぎゆく時  小林俊太郎\n【Animenz】secret base 〜你给我的所有〜 - 未闻花名 ED 钢琴版  Bilibili用户@Animenzzz\nLeaves in the Wind  Isaac Shepard\nMidday Prospects 午日的眺望 陈致逸 / HOYO-MiX[persistent.expsongname]\n[zsongname]") as credits_text_1 at credits_text_scroll_middle
+    show credits_text _("音乐\nEasy Breeze (StarSight Remix)  Player_275x / Thomas Greenberg\n穏やかに過ぎゆく時  小林俊太郎\n【Animenz】secret base 〜你给我的所有〜 - 未闻花名 ED 钢琴版  Bilibili用户@Animenzzz\nLeaves in the Wind  Isaac Shepard\nMidday Prospects 午日的眺望 陈致逸 / HOYO-MiX[persistent.expsongname]\n[zsongname]\n【神里绫华】过场动画“夜场跳舞” 纯音乐  米哈游") as credits_text_1 at credits_text_scroll_middle
 
     $ pause(53.35 - (datetime.datetime.now() - starttime).total_seconds())
     
@@ -59,7 +59,7 @@ label zcredits2:
     $ pause(71.55 - (datetime.datetime.now() - starttime).total_seconds())
     
     show credits_header _("") as credits_header_2 at credits_text_scroll_middle
-    show credits_text _("特别感谢\nRen'Py\nTeam Salvato\nHasbro, Inc\nSCP Foundation\nUniverse of My Own\n创造音乐和立绘的艺术家们") as credits_text_2 at credits_text_scroll_middle
+    show credits_text _("特别感谢\nRen'Py\nTeam Salvato\nHasbro, Inc\nSCP Foundation\nUniverse of My Own\n米哈游\n创造音乐和立绘的艺术家们") as credits_text_2 at credits_text_scroll_middle
     
     # $ pause(80.60 - (datetime.datetime.now() - starttime).total_seconds())
 
@@ -125,10 +125,10 @@ label zcredits2:
     $ pause(95.10 - (datetime.datetime.now() - starttime).total_seconds())
 
     hide monika
-    call updateconsole (_("os.remove(\"game/screens.rpy\")"), _("screens.rpy deleted successfully.")) from _call_updateconsole_6
-    call updateconsole (_("os.remove(\"game/gui.rpy\")"), _("gui.rpy deleted successfully.")) from _call_updateconsole_7
-    call updateconsole (_("os.remove(\"game/menu.rpy\")"), _("menu.rpy deleted successfully.")) from _call_updateconsole_8
-    call updateconsole (_("os.remove(\"game/script.rpy\")"), _("script.rpy deleted successfully.")) from _call_updateconsole_9
+    call updateconsole (_("os.remove(\"game/screens.rpy\")"), _("Permission Denied.")) from _call_updateconsole_6
+    call updateconsole (_("os.remove(\"game/gui.rpy\")"), _("Permission Denied.")) from _call_updateconsole_7
+    call updateconsole (_("os.remove(\"game/menu.rpy\")"), _("Permission Denied.")) from _call_updateconsole_8
+    call updateconsole (_("os.remove(\"game/script.rpy\")"), _("Permission Denied.")) from _call_updateconsole_9
     $ pause(104.72 - (datetime.datetime.now() - starttime).total_seconds())
 
     
@@ -163,43 +163,77 @@ label zcredits2:
         pause 30
         stop music fadeout 3.0
         pause 3
+        play music "audio/tale.ogg" noloop
+        pause 2
 
-        # Shows either Monika's or Dan's Goodbye Message
-        show endscreen _("1这里是彩蛋结局的结束屏幕文案\n还没写完\n正在考虑要写点什么")
-        with dissolve
-        pause 3
+        # 作者信息：星际联盟第一宇宙物理研究所宇宙基础理论物理部门首席物理学家EXPLORER
+        # 授权方式：CC BY-NC-SA 4.0
+        # 余晖表示这个童话不太好理解，但是加上去总没错
+        # 主要程序员表示这是在浪费程序员的生命
+        # 策划表示如果程序员拒绝工作将被解雇
+        # 程序员表示其正在工作
+        show endscreen _("很久很久以前，珀普乐王国的公主望向漫天星辰。\n公主的面容似被精心雕刻过，比任何雕塑都精致完美。简单柔和的线条勾勒出王国里最美丽的身影。她拥有来自远近千千万万的追随者。\n她微微低下头，好像在思索什么的样子，轻语呼唤着自己的首相，“星星有什么用呢？”")
+        with Dissolve(2.0)
+        pause 8
         hide endscreen
-        with dissolve
+        with Dissolve(2.0)
         pause 1
 
-        show endscreen _("2这里是彩蛋结局的结束屏幕文案\n还没写完\n正在考虑要写点什么")
-        with dissolve
-        pause 3
+        show endscreen _("这个年代里会猎星星的几乎没有。猎星星的男孩在朦胧的夜里盗走星星的光芒，用天上的微光点亮派森国的夜。孤独着，他捕捉着光，一切都好似仅仅是乐趣，直到一天，他注意到了珀普乐王国的佳人。")
+        with Dissolve(2.0)
+        pause 6
         hide endscreen
-        with dissolve
+        with Dissolve(2.0)
         pause 1
 
-        show endscreen _("3这里是彩蛋结局的结束屏幕文案\n还没写完\n正在考虑要写点什么")
-        with dissolve
-        pause 3
+        show endscreen _("猎星者在公主身上看到了自己向往的样子。\n他尝试着与其交流。\n每一个夜幕降下后，星星点点的闪光如钻石般镶嵌在暗色里，等待着，呼唤着。长夜不再寂寞，猎星者为公主献上自己捕捉到的最优雅动人的星光。他把它们封在可爱的细口瓶里，与自己最真挚的心意一起。")
+        with Dissolve(2.0)
+        pause 8
         hide endscreen
-        with dissolve
+        with Dissolve(2.0)
         pause 1
 
-        show endscreen _("4这里是彩蛋结局的结束屏幕文案\n还没写完\n正在考虑要写点什么")
-        with dissolve
-        pause 3
+        show endscreen _("久而久之，公主厌烦了。\n她召来大臣皖，让他把那些来自数亿光年外的礼物一并处理。\n“说真的，星星到底有什么用呢？”")
+        with Dissolve(2.0)
+        pause 5
         hide endscreen
-        with dissolve
-        pause 1
-
-        show endscreen _("5这里是彩蛋结局的结束屏幕文案\n还没写完\n正在考虑要写点什么")
-        with dissolve
-        pause 3
-        hide endscreen
-        with dissolve
+        with Dissolve(2.0)
         pause 1
         
+        show endscreen _("据说，那一晚，珀普乐王国外的森林很亮。")
+        with Dissolve(2.0)
+        pause 3
+        hide endscreen
+        with Dissolve(2.0)
+        pause 1
+
+        show endscreen _("猎星者再一次送上青蓝的微光，这来自遥远的天狼星。纯洁的蓝光映衬出一切安宁美好，与深邃的天穹一同共振。\n她会喜欢的，她一定会。")
+        with Dissolve(2.0)
+        pause 6
+        hide endscreen
+        with Dissolve(2.0)
+        pause 1
+
+        show endscreen _("公主接过后打碎了瓶子。\n蓝色悬浮在空中，就像猎星者的心情。")
+        with Dissolve(2.0)
+        pause 3
+        hide endscreen
+        with Dissolve(2.0)
+        pause 1
+
+        show endscreen _("猎星者一次又一次地寄信，他渴望得到公主的原谅。\n公主的大臣仝为她拦下了这些信件，并抛进光之池中。\n猎星者对接触的尝试每一次都落了空。\n猎星星的男孩永远不能用天上的星星换来一个人的心。")
+        with Dissolve(2.0)
+        pause 6
+        hide endscreen
+        with Dissolve(2.0)
+        pause 1
+
+        show endscreen _("他口袋里藏着最后一颗星。\n他希望，但愿……")
+        with Dissolve(2.0)
+        pause 3
+        hide endscreen
+        with Dissolve(2.0)
+        pause 1
         jump zegg_final
 
     label zegg_final:
@@ -211,7 +245,7 @@ label zcredits2:
         $ config.skipping = False
         $ config.allow_skipping = False
         scene black
-        $ endscreentext = _("游戏结束。\n「最初的鸟儿是不会飞翔的，飞翔是它们勇敢跃入峡谷的奖励。」")
+        $ endscreentext = _("游戏结束。\n「请...好好地看着我。」")
         # 原神 https://genshin.honeyhunterworld.com/db/q/q_485/?lang=CHS
         show endscreen "[endscreentext]"
         with dissolve

@@ -152,7 +152,7 @@ label credits2:
     $ pause(71.55 - (datetime.datetime.now() - starttime).total_seconds())
     
     show credits_header _("") as credits_header_2 at credits_text_scroll_middle
-    show credits_text _("特别感谢\nRen'Py\nTeam Salvato\nHasbro, Inc\nSCP Foundation\nUniverse of My Own\n创造音乐和立绘的艺术家们") as credits_text_2 at credits_text_scroll_middle
+    show credits_text _("特别感谢\nRen'Py\nTeam Salvato\nHasbro, Inc\nSCP Foundation\nUniverse of My Own\n米哈游\n创造音乐和立绘的艺术家们") as credits_text_2 at credits_text_scroll_middle
     
     # $ pause(80.60 - (datetime.datetime.now() - starttime).total_seconds())
 
@@ -168,10 +168,10 @@ label credits2:
     
     $ pause(95.10 - (datetime.datetime.now() - starttime).total_seconds())
 
-    call updateconsole (_("os.remove(\"game/screens.rpy\")"), _("screens.rpy deleted successfully.")) from _call_updateconsole_2
-    call updateconsole (_("os.remove(\"game/gui.rpy\")"), _("gui.rpy deleted successfully.")) from _call_updateconsole_3
-    call updateconsole (_("os.remove(\"game/menu.rpy\")"), _("menu.rpy deleted successfully.")) from _call_updateconsole_4
-    call updateconsole (_("os.remove(\"game/script.rpy\")"), _("script.rpy deleted successfully.")) from _call_updateconsole_5
+    call updateconsole (_("os.remove(\"game/screens.rpy\")"), _("Permission Denied.")) from _call_updateconsole_2
+    call updateconsole (_("os.remove(\"game/gui.rpy\")"), _("Permission Denied.")) from _call_updateconsole_3
+    call updateconsole (_("os.remove(\"game/menu.rpy\")"), _("Permission Denied.")) from _call_updateconsole_4
+    call updateconsole (_("os.remove(\"game/script.rpy\")"), _("Permission Denied.")) from _call_updateconsole_5
     $ pause(104.72 - (datetime.datetime.now() - starttime).total_seconds())
     
     # Hides console and shows the Team Salvato Logo/Thank You

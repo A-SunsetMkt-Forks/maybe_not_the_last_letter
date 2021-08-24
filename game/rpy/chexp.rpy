@@ -81,7 +81,7 @@ label chexp:
     e "能与你共享同一颗行星和同一段时光是我的荣幸。"
     hide exp
     stop music fadeout 3.0
-    n "这段对话使用CC BY-NC-SA 4.0协议授权。"
-    n "立绘来自https://tieba.baidu.com/p/3131294705"
+    # n "这段对话使用CC BY-NC-SA 4.0协议授权。"
+    # n "立绘来自https://tieba.baidu.com/p/3131294705"
     # n "背景音乐使用Hans Zimmer的Cornfield Chase"
     jump realending

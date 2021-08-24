@@ -41,3 +41,7 @@ https://www.bilibili.com/video/BV1B4411M71s
 # eggend1.ogg
 
 https://music.163.com/song?id=1352636680
+
+# tale.ogg
+
+https://music.163.com/dj?id=2490186536
