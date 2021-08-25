@@ -1,5 +1,12 @@
 label zcredits2:
     $ persistent.autoload = "zcredits2"
+    # Disables Main Menu, Quick Menu, Everything
+    $ config.keymap['game_menu'] = []
+    $ config.keymap['hide_windows'] = []
+    $ renpy.display.behavior.clear_keymap_cache()
+    $ quick_menu = False
+    $ config.skipping = False
+    $ config.allow_skipping = False
     image zcreditend:
         truecenter
         "gui/end.png"
