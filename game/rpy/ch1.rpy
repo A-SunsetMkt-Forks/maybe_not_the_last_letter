@@ -129,7 +129,7 @@ label program1:
     $ gtext2 = glitchtext(6) # 表示这个人我真的不认识
     $ gtextl = glitchtext(11)
     show sunset explain6
-    s "happy-birthday-[gtext]是一个用于嵌入各种Python程序员用于提供[gtextl]生日彩蛋的Python模块。"
+    s "happy-birthday-[gtext]是一个用于嵌入各种Python程序用于提供[gtextl]生日彩蛋的Python模块。"
     s "happy-birthday-[gtext]-win32是上述模块的独立版。通过调用Win32 API实现部分操作系统交互功能。同样是给[gtextl]的生日彩蛋！"
     s "[gtext]fy.py是用于将二进制文件转换成由[gtext]组成的文本的Python程序。"
     $ zeggcount = zeggcount + 1
