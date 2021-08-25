@@ -160,7 +160,7 @@ label program1:
     # 无理地纠缠开发者设计自己想要的功能又不尊重开发者
     show sunset smile0
     s "AutoRing.py仍然是我最引以为傲，同时使用时间最长的作品。"
-    s "当然还有你面前的——maybe_not_the_last_letter，基于Renpy的互动小说游戏。"
+    s "当然还有你面前的——maybe_not_the_last_letter，基于Ren\'Py的互动小说游戏。"
     s "谢谢你问了这个问题，[player]。"
     show sunset explain5
     s "我一直在找机会把它们介绍一遍。"
