@@ -338,3 +338,23 @@ translate english strings:
     old "菜单"
     new "Menu"
 
+# TODO: Translation updated at 2021-08-25 17:31
+
+translate english strings:
+
+    # game/screens.rpy:328
+    old "请输入你的名字"
+    new "Please Enter your name"
+
+    # game/screens.rpy:772
+    old "Language"
+    new "Language"
+
+# TODO: Translation updated at 2021-08-25 17:32
+
+translate english strings:
+
+    # game/screens.rpy:772
+    old "语言"
+    new "Language"
+

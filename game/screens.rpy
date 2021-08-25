@@ -325,7 +325,7 @@ screen navigation():
 
         if main_menu:
 
-            textbutton _("开始游戏") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message="请输入你的名字", ok_action=Function(FinishEnterName)))
+            textbutton _("开始游戏") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message=_("请输入你的名字"), ok_action=Function(FinishEnterName)))
 
         else:
 
@@ -761,6 +761,20 @@ screen preferences():
                     textbutton _("选项后继续") action Preference("after choices", "toggle")
                     textbutton _("忽略转场") action InvertSelected(Preference("transitions", "toggle"))
 
+                if True:
+
+#begin language_picker
+                    ## Additional vboxes of type "radio_pref" or "check_pref" can be
+                    ## added here, to add additional creator-defined preferences.
+
+                    vbox:
+                        style_prefix "radio"
+                        label _("语言")
+
+                        textbutton "简体中文" action Language(None)
+                        textbutton "English" action Language("english")
+
+#end language_picker
                 ## 可以在此处添加类型为“radio_pref”或“check_pref”的其他“vbox”，
                 ## 以添加其他创建者定义的首选项设置。
 
