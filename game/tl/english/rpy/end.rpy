@@ -10,7 +10,7 @@ translate english ending_a869cc4c:
 translate english realending_899e8e50:
 
     # s "到目前为止，您已经完成了大部分的游戏流程。"
-    s "So far, you have completed most of the game flow."
+    s "So far, you have completed most of the game process."
 
 # game/rpy/end.rpy:13
 translate english realending_bb99f764:
