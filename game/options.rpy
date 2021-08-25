@@ -21,7 +21,7 @@ define config.name = _("也许不是最后一封信")
 
 ## 游戏版本号。
 
-define config.version = "0.2.2"
+define config.version = "0.2.3"
 
 
 ## 放置在游戏“关于”屏幕的文本。将文本放在三个引号之间，并在段落之间留一个空行。
