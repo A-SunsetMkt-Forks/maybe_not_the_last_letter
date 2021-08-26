@@ -1,10 +1,12 @@
 # 也许不是最后一封信 maybe_not_the_last_letter
 
-基于Renpy的互动小说游戏。
+基于Ren'Py的互动小说游戏。
 
-# 0.2.0 InDev
-
-技术预览详见Releases
+# 0.2.3 Release
+* 故事线完成
+* 内部测试基本通过
+* 提供英语翻译（测试用途，不保证质量和准确性以及翻译覆盖度）
+* 准备发布
 
 # 版权相关
 此项目的部分代码来自 https://github.com/GanstaKingofSA/DDLCModTemplate2.0 原则上禁止用于除《心跳文学部》第三方模组的其他用途
@@ -15,7 +17,10 @@
 
 除此之外的其他代码使用 GNU General Public License v3.0 发布
 
-此项目的部分故事和文案使用 Creative Commons Attribution Share Alike 4.0 International 授权
+此项目的部分故事和文案使用 Creative Commons Attribution Share Alike 4.0 International 协议授权
 
 # 关于《心跳文学部》
-《心跳文学部》是一款优秀的Meta类视觉小说游戏。
+《心跳文学部》是一款优秀的meta类视觉小说游戏。
+
+# 致谢
+见游戏内Credits
