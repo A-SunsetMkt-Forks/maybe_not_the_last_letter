@@ -1,6 +1,6 @@
 A long time ago, the princess of Poplar Kingdom looked at the stars in the sky.
 
-The face of the princess seems to have been carefully carved, more delicate and perfect than any sculpture. Simple and soft lines outline the most beautiful figure in the kingdom. She has thousands of followers from far and near.She lowered her head slightly, as if thinking about something, whispering to her prime minister, \"What's the use of stars?\""
+The face of the princess seems to have been carefully carved, more delicate and perfect than any sculpture. Simple and soft lines outline the most beautiful figure in the kingdom. She has thousands of followers from far and near.She lowered her head slightly, as if thinking about something, whispering to her prime minister, "What's the use of stars?"
 
 She lowered her head slightly, as if thinking about something, whispering to her prime minister, "What's the use of stars?"
 
