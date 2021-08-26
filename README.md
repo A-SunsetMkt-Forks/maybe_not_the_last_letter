@@ -2,11 +2,22 @@
 
 基于Ren'Py的互动小说游戏。
 
-# 0.2.3 Release
+# 更新日志
+
+## 0.2.3 Release
 * 故事线完成
 * 内部测试基本通过
 * 提供英语翻译（测试用途，不保证质量和准确性以及翻译覆盖度）
 * 准备发布
+
+## 0.2.2 Insider Preview
+* 故事线初步完成
+
+## 0.2.0
+* 内部测试版
+
+## 0.1.0 Technical Preview
+* 技术演示
 
 # 版权相关
 此项目的部分代码来自 https://github.com/GanstaKingofSA/DDLCModTemplate2.0 原则上禁止用于除《心跳文学部》第三方模组的其他用途
