@@ -14,6 +14,11 @@ label start:
 
     stop music fadeout 1.0
 
+    jump care
+
+
+label realstart:
+    
     play music "<loop 0.0>audio/game0.ogg" fadein 5.0
 
     # 玩家名不可以是某人的名字或变体（检测不可靠）
