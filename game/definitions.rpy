@@ -9,8 +9,9 @@ define persistent.steam = ("steamapps" in config.basedir.lower())
 define config.developer = "auto"
 
 python early:
-    import singleton
-    me = singleton.SingleInstance()
+    if not renpy.mobile:
+        import singleton
+        me = singleton.SingleInstance()
     # 计算hash的函数
     import hashlib
     def get_hash256(data): # 对data使用sha256计算hash
