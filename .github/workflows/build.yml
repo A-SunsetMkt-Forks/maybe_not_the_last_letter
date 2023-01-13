@@ -1,0 +1,29 @@
+name: Build
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+    branches: [master, main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build VN project
+        id: build
+        uses: ProjectAliceDev/renpy-build-action@master
+        with:
+          sdk-version: "7.5.3"
+          project-dir: "."
+          package: ""
+        env:
+          SDL_AUDIODRIVER: dummy
+          SDL_VIDEODRIVER: dummy
+      - name: Upload
+        uses: actions/upload-artifact@v3
+        with:
+          name: dist
+          path: ${{steps.build.outputs.dir}}
