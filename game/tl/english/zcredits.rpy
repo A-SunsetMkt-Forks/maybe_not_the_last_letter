@@ -66,3 +66,19 @@ translate english strings:
     old "游戏结束。\n「请...好好地看着我。」"
     new "Game Over.\n「Please... look at me carefully.」"
 
+# TODO: Translation updated at 2023-02-02 23:01
+
+translate english strings:
+
+    # game/zcredits.rpy:130
+    old "特别感谢\nPrincess Celestia\nMonika\n[player]\n[gtext]"
+    new "Special thanks to\nPrincess Celestia\nMonika\n[player]\n[gtext]"
+
+    # game/zcredits.rpy:171
+    old "游戏结束。"
+    new "Game Over."
+
+    # game/zcredits.rpy:178
+    old "游戏结束？"
+    new "Game Over?"
+
