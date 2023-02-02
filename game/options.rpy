@@ -21,13 +21,13 @@ define config.name = _("也许不是最后一封信")
 
 ## 游戏版本号。
 
-define config.version = "0.2.4"
+define config.version = "0.2.5"
 
 
 ## 放置在游戏“关于”屏幕的文本。将文本放在三个引号之间，并在段落之间留一个空行。
 
-define gui.about = _p("""基于Ren'Py的互动小说游戏。
-
+define gui.about = _p("""基于Ren'Py的互动小说游戏测试。
+仅用于概念展示。
 """)
 
 

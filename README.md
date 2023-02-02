@@ -14,6 +14,12 @@
 
 # 更新日志
 
+## 0.2.5
+* 一些*不重要*的更改
+
+## 0.2.4
+* 请关注“未成年人仅可在周末及节假日每晚玩一小时网游”事件
+
 ## 0.2.3 Release
 * 故事线完成
 * 内部测试基本通过
@@ -38,7 +44,9 @@
 
 除此之外的其他代码使用 GNU General Public License v3.0 发布
 
-此项目的部分故事和文案使用 Creative Commons Attribution Share Alike 4.0 International 协议授权
+除非特殊标注，此项目的部分故事和文案使用 Creative Commons Attribution Share Alike 4.0 International 协议授权
+
+除非特殊标注，此项目的其他资源文件版权与我们无关，并已标注来源
 
 # 关于《心跳文学部》
 《心跳文学部》是一款优秀的meta类视觉小说游戏。
