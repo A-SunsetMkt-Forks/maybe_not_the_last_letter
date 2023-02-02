@@ -74,6 +74,12 @@ label testmenu:
             $ import Hannah
             $ Hannah.Hannah()
             jump testmenu
+        "设置config.developer为True":
+            $ config.developer = True
+            jump testmenu
+        "设置config.developer为False":
+            $ config.developer = False
+            jump testmenu
         "跳转结局":
             jump ending
     jump start

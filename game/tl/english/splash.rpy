@@ -86,3 +86,16 @@ translate english strings:
     old "我同意。"
     new "I agree."
 
+# TODO: Translation updated at 2023-02-02 22:24
+
+translate english strings:
+
+    # game/splash.rpy:9
+    old "“天匠染青红，花腰呈嬝娜”"
+    new "“The heavenly craftsman dyed green and red, and the flower waist was hydra”"
+    # 这个翻译绝对不准确
+
+    # game/splash.rpy:9
+    old "For she did not want him to see her crying. She was such a proud flower"
+    new "For she did not want him to see her crying. She was such a proud flower"
+

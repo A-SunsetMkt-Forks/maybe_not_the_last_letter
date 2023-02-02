@@ -178,3 +178,19 @@ translate english strings:
     old "跳转结局"
     new "Jump to ending"
 
+# TODO: Translation updated at 2023-02-02 22:24
+
+translate english strings:
+
+    # game/rpy/test.rpy:61
+    old "import Hannah"
+    new "import Hannah"
+
+    # game/rpy/test.rpy:61
+    old "设置config.developer为True"
+    new "Set config.developer to True"
+
+    # game/rpy/test.rpy:61
+    old "设置config.developer为False"
+    new "Set config.developer to False"
+

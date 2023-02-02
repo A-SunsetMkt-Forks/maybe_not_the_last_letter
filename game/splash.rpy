@@ -8,11 +8,13 @@ init python:
     # Used sometimes to change splash messages if called upon
     splash_messages = [
         _("你好？"),
-        _("请支持《心跳文学部》。"),
-        _("我们会在没有黑暗的地方见面。"),
-        _("你经过我身旁/像鹿穿过花岗/风吹开一枝扶桑花"),
-        _("Just Monika."),
-        _("光是遇见 就很美好") # 光遇 广告文案
+        _("请支持《心跳文学部》。"), # DDLC
+        _("我们会在没有黑暗的地方见面。"), # 《一九八四》
+        _("你经过我身旁/像鹿穿过花岗/风吹开一枝扶桑花"), # No source
+        _("Just Monika."), # DDLC
+        # _("光是遇见 就很美好") # 光遇 广告文案 # 抱歉，没收到广告费
+        _("“天匠染青红，花腰呈嬝娜”"), # http://scp-wiki-cn.wikidot.com/scp-cn-073
+        _("For she did not want him to see her crying. She was such a proud flower"), # https://www.wikidot.com/user:info/hannah-ai
     ]
 
 image splash_warning = ParameterizedText(style="splash_text", xalign=0.5, yalign=0.5)
