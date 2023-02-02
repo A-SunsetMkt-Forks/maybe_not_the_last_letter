@@ -735,7 +735,9 @@ Midday Prospects 午日的眺望 陈致逸 / HOYO-MiX[persistent.expsongname]
 Princess Celestia
 Monika
 [player]
-[gtext]（[gstr]：5[gchar]45[gchar]18[gchar]2[gchar]98[gchar]8[gchar]2[gchar]）[gchar]
+[gtext]
+游戏结束。
+游戏结束？
 很久很久以前，珀普乐王国的公主望向漫天星辰。
 公主的面容似被精心雕刻过，比任何雕塑都精致完美。简单柔和的线条勾勒出王国里最美丽的身影。她拥有来自远近千千万万的追随者。
 她微微低下头，好像在思索什么的样子，轻语呼唤着自己的首相，“星星有什么用呢？”
