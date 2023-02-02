@@ -70,6 +70,10 @@ label testmenu:
         "raise Exception":
             $ raise Exception
             jump testmenu
+        "import Hannah":
+            $ import Hannah
+            $ Hannah.Hannah()
+            jump testmenu
         "跳转结局":
             jump ending
     jump start
