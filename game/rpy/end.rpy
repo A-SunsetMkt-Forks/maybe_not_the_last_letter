@@ -15,7 +15,7 @@ label realending:
     s "我们下封信再见。"
     hide sunset
     $ import datetime
-    if datetime.datetime.now().month == 5 and datetime.datetime.now().day == 5:
+    if datetime.datetime.now().month == 5 and datetime.datetime.now().day == 5: # 其实这里用hash更好，但穷举也花不了多少时间，没什么必要
         jump endinghappy
     else:
         jump endingshow
@@ -37,6 +37,7 @@ label endinghappy:
         $ zeggcount = zeggcount + 1
     else:
         n "这是个小概率bug..."
+        # 不是个bug（）
         n "在某些特殊情况下，对话会跳转到这里。"
         n "既然都看到这了..."
         n "你还真的是很幸运..."

@@ -7,6 +7,7 @@ label ch3:
     stop music fadeout 3.0
     s "还有什么问题？请尽管问吧，[player]。"
     # 这个奇怪的播放方式可以让音乐第一次播放时从较平静的位置开始，第二次播放起开始循环
+    # 但是在一些情况下还是很奇怪，例如用户切换对话太快/Web端
     play music "<from 13.0>audio/game2.ogg" fadein 20.0
     queue music "<loop 0.0>audio/game2.ogg"
     menu:
@@ -25,6 +26,7 @@ label unforgettablehub:
     s "让我回忆一下..."
     $ pause(1.0 + random.randint(0,2))
     # 随机一个已经准备好的对话编号，注意randint是闭区间
+    # 不Pythonic的方案，或许没有更好的方案了
     $ unforgettablerandnum = random.randint(1,6)
     $ unforgettablelabel = "unforgettable" + str(unforgettablerandnum)
     $ renpy.jump(unforgettablelabel)
@@ -44,18 +46,21 @@ label unforgettable1:
     s "我了解了很多..."
     s "日志、函数化封装、错误处理、基于JSON的数据交流、和第三方可执行文件的配合..."
     s "创造出了一个至少能用的AutoRing.py。"
+    # 确实是“至少能用”，有大量可以重构的地方，但是没必要
     show sunset clap1
     s "在最后的两个星期，"
     s "它在我不在场维护的情况下仍在运行..."
     s "正常播放午睡叫醒铃..."
     show sunset explain7
     s "想想还是很滑稽的。"
+    # 滑稽还是荒诞？说不清楚。
     jump other1
 
 label unforgettable2:
     show sunset explain6
     s "最难忘的事..."
     s "是“随机姓名选择器”作为参赛作品获奖了..."
+    # 这个事情让我对所有由国内政府教育部门举办的信息竞赛有了不太好的印象
     show sunset explain7
     s "说起来是个有趣的故事..."
     s "收到比赛通知后就想到自己手上有好几个垃圾项目可以参赛..."
@@ -93,6 +98,7 @@ label unforgettable3:
     s "和分别..."
     s "以及最后也没能原谅的..."
     s "结局。"
+    # 语法错误，但没办法
     jump other1
 
 label unforgettable4:
@@ -124,6 +130,7 @@ label unforgettable5:
     show sunset look4
     s "说出来恐怕会泄露出不应该公开的东西吧..."
     s "例如了解到考试作弊问题..." # 这里需要补充
+    # 高中的分班制度存在问题，导致考试作弊问题很严重
     show sunset explain5
     s "还是少说为妙。"
     jump other1
@@ -134,7 +141,7 @@ label unforgettable6:
     s "是作了个大死..."
     show sunset explain5
     s "关于ProjectZ的相关信息..."
-    s "请还是去问EXPLORER吧。"
+    s "请还是去问EXPLORER吧。" # 这里其实破坏了后面的EXPLORER彩蛋
     $ expeggcount = expeggcount + 1
     jump other1
 

@@ -5,6 +5,7 @@ label ch1:
     # 开始游戏时的警告彩蛋启动
     # 两个flag避免重复激活对话
     # 在设计上，只要离开一个话题就无法再次进入
+    # 效果会很僵硬，应该随机提示语句，但是没做
     $ programflag = False
     $ inmemoryofflag = False
     $ aboutarflag = False
@@ -106,6 +107,7 @@ label program0:
     s "本来是个用于回忆和[gtext]的经历的项目..."
     $ gtext = glitchtext(60)
     # 也许是...我们都没办法真的放下吧...
+    # 也许，时间会让一切都变得好起来...
     show sunset upset3
     s "[gtext]"
     $ zeggcount = zeggcount + 1
@@ -117,6 +119,7 @@ label program0:
             jump program1
         "也许...我们可以谈点其他的。":
             # 一旦跳出不可继续
+            # 我承认这种创造支线的方法很不好
             jump other0
 
 label program1:
@@ -160,7 +163,9 @@ label program1:
     # 无理地纠缠开发者设计自己想要的功能又不尊重开发者
     show sunset smile0
     s "AutoRing.py仍然是我最引以为傲，同时使用时间最长的作品。"
+    # 很难说“最引以为傲”的作品是什么，时光飞逝，我已经写了不少东西了
     s "当然还有你面前的——maybe_not_the_last_letter，基于Ren\'Py的互动小说游戏。"
+    # 游戏 & PoC
     s "谢谢你问了这个问题，[player]。"
     show sunset explain5
     s "我一直在找机会把它们介绍一遍。"
@@ -295,8 +300,12 @@ label reallyinmemoryofz:
     s "......"
     show sunset look4
     # 来自上层叙事的话？
-    n "[player]，我需要提醒你，你面前的讲述者似乎不太正常..." # 每当我想到你，就越来越不像自己。
-    s "你不希望我在这里提起你...对吧？" #这里是作者直接利用Sunset对玩家说话
+    n "[player]，我需要提醒你，你面前的讲述者似乎不太正常..." # 每当我想到你，就越来越不像自己。 
+    # The ink flows down into a dark puddle 
+    # Just move your hand, write the way into his heart
+    s "你不希望我在这里提起你...对吧？" #这里是作者直接利用Sunset对玩家说话 
+    # 直接就这么点明了是不是不太好？ 
+    # 不过这也是我第一次做meta类游戏啊，我也不知道怎么做
     s "......"
     hide sunset
     $ gtext = glitchtext(100)
@@ -312,6 +321,7 @@ label other0:
     show sunset look4
     # 这里直接拒绝的方案太...生硬了
     # 能不能动态显示选项？
+    # 也许可以用一个变量来控制，可能需要RenPy的Python API，不会很漂亮
     menu:
         "你的简介上写着...你是计算机科学初学者？谈谈你的作品吧。":
             if programflag == True:

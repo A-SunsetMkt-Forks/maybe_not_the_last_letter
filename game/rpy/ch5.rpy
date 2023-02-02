@@ -61,6 +61,7 @@ label ch5contact:
             jump ch5menu
 
 label ch5exp:
+    # 我承认这种啰嗦的对话/选项很不好
     show sunset explain5
     s "虽然听起来有点牵强..."
     s "但在他出现之前..."

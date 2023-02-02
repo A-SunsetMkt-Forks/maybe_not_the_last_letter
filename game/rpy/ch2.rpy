@@ -16,6 +16,7 @@ label ch2:
             jump maybeyes
             
 label ofcoursenot:
+    # 奇怪的选项（）
     s "真的？"
     show sunset look2
     s "好吧..."
@@ -51,6 +52,7 @@ label ch2reason:
     s "[player]，恐怕我们并没有给予信息技术工作者应有的重视和尊重，这并不有趣。"
     s "所以，就算有基础技能，我也不会轻易选择会让自己讨厌的专业。"
     show sunset explain7
+    # 我事实上不太清楚在这里应该怎么说，不过既然是PoC类项目，写什么内容或许不重要？
     s "当然，选择信息技术相关专业的同学也先别着急，这并不意味着你们做出了错误的选择，"
     s "通过系统地学习，你们能够比我更加深入地了解到计算机工作的基础原理、了解到OS的运行原理并更好地利用计算机解决常见的问题。"
     s "通过学习计算机编程，你们会学习到更多解决问题的思路，"
@@ -79,6 +81,7 @@ label ch2reason:
     $ consolehistory = []
     call updateconsole ("cc hello.c", "") from _call_updateconsole_14
     # 有个争议 cc 在我的记忆中是gcc的别名 gcc好像也可以是clang的别名 也许这个标准已经修改了
+    # 这其实不算“争议”而是“不确定” 但是我觉得这里不改也没关系
     call updateconsole ("./a.out", "Hello world!") from _call_updateconsole_15
     $ pause(1.0)
     call hideconsole() from _call_hideconsole_6
@@ -112,6 +115,7 @@ label ch2reason:
     s "[player]，我的精神愿意、也一直守候在你身旁。"
     s "希望你“永远相信美好的事情即将发生”。"
     # 小米电视广告文案
+    # 没人给我广告费
     show sunset explain7
     s "顺便打个广告，"
     $ dtime = datetime.datetime.now()
