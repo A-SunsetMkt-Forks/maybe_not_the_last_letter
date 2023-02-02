@@ -139,6 +139,12 @@ label splashscreen:
                         delete_all_saves()
                         renpy.loadsave.location.unlink_persistent()
                         renpy.persistent.should_save_persistent = False
+
+                        if renpy.emscripten:
+                            # 在Web上，删除存档后，重启功能无效，quit至少还能提示用户刷新页面
+                            "请刷新页面以重新开始。"
+                            renpy.quit()
+
                         renpy.utter_restart()
                 "加载存档":
                     pass
