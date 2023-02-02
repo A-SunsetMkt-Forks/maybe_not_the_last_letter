@@ -97,8 +97,20 @@ label care:
     n "还有夜之城中与资本的抗争，"
     # Genshin Impact
     n "还有提瓦特的飞鸟、诗和城邦，女皇、愚人和怪物，"
+    
     # Character Dr.Hannah from SCP Foudation Chinese Wiki by Hannah_AI
+
+    python:
+        # Memorial to Hannah
+        import random
+        if random.randint(1,5) == 5: # 1/5 chance
+            if config.developer: # Only show in developer mode
+                if not renpy.mobile: # Only show in PC
+                    import Hannah
+                    Hannah.Hannah()
+
     n "还有身穿白袍的标准纤弱东方女性研究员，和她在逆境中的人性之光..."
+
     n "那么，请不要旁观..."
     n "永远保持独立思考的能力并保持对事物的中立看法..."
     n "做自己认为正确，而不只是“合适”的事。"
