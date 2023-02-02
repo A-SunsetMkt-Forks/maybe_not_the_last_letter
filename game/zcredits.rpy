@@ -167,9 +167,22 @@ label zcredits2:
         # Fade to black
         scene black
 
+        # Fake End Screen
+        show endscreen _("游戏结束。")
+        with dissolve
+
         pause 30
+
+        hide endscreen
+
+        show endscreen _("游戏结束？")
+
         stop music fadeout 3.0
         pause 3
+
+        hide endscreen
+        with dissolve
+
         play music "audio/tale.ogg" noloop
         pause 2
 
