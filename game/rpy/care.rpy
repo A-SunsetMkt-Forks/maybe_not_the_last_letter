@@ -12,6 +12,14 @@ image news_screen = ParameterizedText(style="endscreen_text", xalign=0.5, yalign
 label care:
     hide sunset
     hide monika
+
+    if config.developer:
+        menu:
+            "开发环境跳过Care":
+                jump realstart
+            "不跳过":
+                pass
+                
     show black
     n "这是一次紧急更新，我们暂不准备为此更新提供多语言支持、立绘和背景匹配。"
     n "我，作为开发者，在此借用旁白的角色发声。"
