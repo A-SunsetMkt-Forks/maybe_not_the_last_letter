@@ -803,7 +803,7 @@ translate None strings:
 
     # renpy/common/_developer/inspector.rpym:139
     old "displayable:"
-    new "displayable:"
+    new "可视组件："
 
     # renpy/common/_developer/inspector.rpym:145
     old "        (no properties affect the displayable)"
@@ -979,7 +979,7 @@ translate None strings:
 
     # renpy/common/00gltest.rpy:136
     old "Enable (No Blocklist)"
-    new "Enable (No Blocklist)"
+    new "启用（无阻止项）"
 
     # renpy/common/00gltest.rpy:140
     old "Enable"
@@ -1047,7 +1047,7 @@ translate None strings:
 
     # renpy/common/00gltest.rpy:259
     old "The {a=edit:1:log.txt}log.txt{/a} file may contain information to help you determine what is wrong with your computer."
-    new "The {a=edit:1:log.txt}log.txt{/a} file may contain information to help you determine what is wrong with your computer."
+    new "{a=edit:1:log.txt}log.txt{/a} 文件可能包含一些信息，这些信息可以帮助确定您的计算机出了什么问题。"
 
     # renpy/common/00gltest.rpy:264
     old "More details on how to fix this can be found in the {a=[url]}documentation{/a}."
@@ -1079,7 +1079,7 @@ translate None strings:
 
     # renpy/common/00gamepad.rpy:58
     old "Press or move the '[control!s]' [kind]."
-    new "Press or move the '[control!s]' [kind]."
+    new "按下或移动 '[control!s]' [kind]。"
 
     # renpy/common/00gamepad.rpy:68
     old "Skip (A)"
@@ -1254,3 +1254,34 @@ translate None strings:
     new "unescape：禁止转义 Unicode 字符串中的 Unicode 符号，并按原样显示（默认）。"
 
 define gui.system_font = u'SourceHanSansLite.ttf'
+
+translate None strings:
+
+    # renpy/common/00accessibility.rpy:180
+    old "High Contrast Text"
+    new "高对比度文本"
+
+    # renpy/common/00action_other.rpy:703
+    old "Open [text] directory."
+    new "打开 [text] 目录。"
+
+    # renpy/common/00preferences.rpy:498
+    old "high contrast text"
+    new "high contrast text"
+
+    # renpy/common/00preferences.rpy:507
+    old "audio when minimized"
+    new "audio when minimized"
+
+    # renpy/common/00preferences.rpy:527
+    old "main volume"
+    new "main volume"
+
+    # renpy/common/00preferences.rpy:531
+    old "mute main"
+    new "mute main"
+
+    # renpy/common/00console.rpy:816
+    old "stack: print the return stack"
+    new "stack：打印返回栈"
+

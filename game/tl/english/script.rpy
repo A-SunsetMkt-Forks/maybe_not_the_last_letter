@@ -44,3 +44,23 @@ translate english strings:
     old "进入游戏流程。"
     new "Enter the game process."
 
+# TODO: Translation updated at 2023-02-02 16:31
+
+# game/script.rpy:47
+translate english realstart_8acebcae:
+
+    # n "这是一个未完成的作品。"
+    n "This is an unfinished work."
+
+# game/script.rpy:59
+translate english realstart_4348812e:
+
+    # n "你永远都不应该看到这句话。"
+    n "You should never see this sentence."
+
+# game/script.rpy:60
+translate english realstart_b783c00b:
+
+    # n "请将此错误报告给开发者或自行修复。"
+    n "Please report this error to the developer or fix it yourself."
+

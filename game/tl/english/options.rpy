@@ -10,3 +10,11 @@ translate english strings:
     old "基于Ren'Py的互动小说游戏。\n\n"
     new "Interactive novel game based on Ren'Py.\n\n"
 
+# TODO: Translation updated at 2023-02-02 16:31
+
+translate english strings:
+
+    # game/options.rpy:29
+    old "基于Ren'Py的互动小说游戏测试。 仅用于概念展示。"
+    new "Interactive novel game based on Ren'Py. PoC only."
+
