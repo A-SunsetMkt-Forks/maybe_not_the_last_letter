@@ -61,6 +61,7 @@ label care:
     n "对开发者同好们，我有很多话想说，却又说不出口..."
     n "完成需求是你们的工作，无论这个需求是否“正确”..."
     n "所以，请尽量守住我们的技术底线吧。"
+    # https://github.com/lwd-temp/sola-virus/blob/master/%E6%96%B0%E5%BB%BA%20%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3.exe/Function/TENBATSU.BAT
     n "让我们化用Sola病毒中的几段话结束这个部分吧："
     n "我是一个病毒。我的名字叫苏拉。"
     n "今天，在这片混乱的土地上，我苏醒过来。"
@@ -86,11 +87,17 @@ label care:
     n "是社会偏见的受害人吗？"
     n "还是知道，世界上有一个词语叫ACG，还有一个词语叫小众文化，并能够容忍，接纳它们呢？"
     n "那，让我们回忆一下吧。"
+    # Minecraft
     n "也许你的记忆中，还有方块世界中的探索、梦想和发现。"
+    # Half-Life
     n "还有与联合军的斗争，"
+    # Plants vs. Zombies
     n "还有摇摆着的向日葵，"
+    # Cyberpunk 2077
     n "还有夜之城中与资本的抗争，"
+    # Genshin Impact
     n "还有提瓦特的飞鸟、诗和城邦，女皇、愚人和怪物，"
+    # Character Dr.Hannah from SCP Foudation Chinese Wiki by Hannah_AI
     n "还有身穿白袍的标准纤弱东方女性研究员，和她在逆境中的人性之光..."
     n "那么，请不要旁观..."
     n "永远保持独立思考的能力并保持对事物的中立看法..."
