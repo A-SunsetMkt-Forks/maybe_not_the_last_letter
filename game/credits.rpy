@@ -10,7 +10,7 @@ init python:
 
 # Team Salvato Logo
 image credits_ts:
-    "images/splash-white.png"
+    "gui/splash-white.png"
     xalign 0.5 yalign 0.6
     zoom 0.65 alpha 0 subpixel True
     linear 2.0 alpha 1

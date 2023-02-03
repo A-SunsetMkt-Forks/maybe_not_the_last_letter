@@ -85,7 +85,7 @@ image intro:
     truecenter
     "white"
     0.5
-    "images/splash.png" with Dissolve(0.5, alpha=True)
+    "gui/splash.png" with Dissolve(0.5, alpha=True)
     2.5
     "white" with Dissolve(0.5, alpha=True)
     0.5
@@ -102,8 +102,8 @@ image warning:
 
 
 # Startup Disclaimer Images
-image tos = "images/warning.png"
-image tos2 = "images/warning2.png"
+image tos = "gui/warning.png"
+image tos2 = "gui/warning2.png"
 
 # Startup Disclaimer
 
@@ -166,31 +166,31 @@ label splashscreen:
         # 若为Web，提前播放所有音频以预加载
         if renpy.emscripten:
             play music "<loop 0.0>audio/egg.ogg" volume 0.0
-            pause 0.1
+            # pause 0.1
             play music "<loop 0.0>audio/eggend.ogg" volume 0.0
-            pause 0.1
+            # pause 0.1
             play music "<loop 0.0>audio/eggend0.ogg" volume 0.0
-            pause 0.1
+            # pause 0.1
             play music "<loop 0.0>audio/eggend1.ogg" volume 0.0
-            pause 0.1
+            # pause 0.1
             play music "<loop 0.0>audio/end.ogg" volume 0.0
-            pause 0.1
+            # pause 0.1
             play music "<loop 0.0>audio/game0.ogg" volume 0.0
-            pause 0.1
+            # pause 0.1
             play music "<loop 0.0>audio/game1.ogg" volume 0.0
-            pause 0.1
+            # pause 0.1
             play music "<loop 0.0>audio/game2.ogg" volume 0.0
-            pause 0.1
+            # pause 0.1
             play music "<loop 0.0>audio/game3.ogg" volume 0.0
-            pause 0.1
+            # pause 0.1
             play music "<loop 0.0>audio/gameexp.ogg" volume 0.0
-            pause 0.1
+            # pause 0.1
             play music "<loop 0.0>audio/gameexploop.ogg" volume 0.0
-            pause 0.1
+            # pause 0.1
             play music "<loop 0.0>audio/menu.ogg" volume 0.0
-            pause 0.1
+            # pause 0.1
             play music "<loop 0.0>audio/tale.ogg" volume 0.0
-            pause 0.1
+            # pause 0.1
             stop music
         # You can edit this message but you MUST have say it's not affiliated with Team Salvato
         # must finish the official game and has spoilers, and where to get DDLC from."

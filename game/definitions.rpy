@@ -70,7 +70,7 @@ image black = "#000000"
 image dark = "#000000e4"
 image darkred = "#110000c8"
 image white = "#ffffff"
-image splash = "images/splash.png"
+image splash = "gui/splash.png"
 image end:
     truecenter
     "gui/end.png"
