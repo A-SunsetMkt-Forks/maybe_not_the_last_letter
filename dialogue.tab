@@ -574,84 +574,84 @@ youknowwhoerror_a06d20ff	"（未知）"	你无法离开。	game/rpy/ykherror.rpy
 		快存	game/screens.rpy	280
 		快读	game/screens.rpy	281
 		设置	game/screens.rpy	282
-		开始游戏	game/screens.rpy	328
-		请输入你的名字	game/screens.rpy	328
-		读取游戏	game/screens.rpy	336
-		结束回放	game/screens.rpy	342
-		标题界面	game/screens.rpy	346
-		关于	game/screens.rpy	348
-		帮助	game/screens.rpy	353
-		退出	game/screens.rpy	358
-		返回	game/screens.rpy	497
-		版本 [config.version!t] [version_name!t]\n	game/screens.rpy	579
-		引擎：{a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only]\n\n[renpy.license!t]	game/screens.rpy	585
-		第 {} 页	game/screens.rpy	620
-		自动存档	game/screens.rpy	620
-		快速存档	game/screens.rpy	620
-		{#file_time}%Y-%m-%d %H:%M	game/screens.rpy	661
-		空存档位	game/screens.rpy	661
-		<	game/screens.rpy	678
-		{#auto_page}A	game/screens.rpy	681
-		{#quick_page}Q	game/screens.rpy	684
-		>	game/screens.rpy	690
-		显示	game/screens.rpy	746
-		窗口	game/screens.rpy	747
-		全屏	game/screens.rpy	748
-		回退操作区	game/screens.rpy	752
-		禁用	game/screens.rpy	753
-		屏幕左侧	game/screens.rpy	754
-		屏幕右侧	game/screens.rpy	755
-		未读文本	game/screens.rpy	760
-		选项后继续	game/screens.rpy	761
-		忽略转场	game/screens.rpy	762
-		语言	game/screens.rpy	772
-		文字速度	game/screens.rpy	789
-		自动前进时间	game/screens.rpy	793
-		音乐音量	game/screens.rpy	800
-		音效音量	game/screens.rpy	807
-		测试	game/screens.rpy	813
-		语音音量	game/screens.rpy	817
-		全部静音	game/screens.rpy	828
-		尚无对话历史记录。	game/screens.rpy	947
-		键盘	game/screens.rpy	1016
-		鼠标	game/screens.rpy	1017
-		手柄	game/screens.rpy	1020
-		回车	game/screens.rpy	1033
-		推进对话并激活界面。	game/screens.rpy	1034
-		空格	game/screens.rpy	1037
-		推进对话但不激活选项。	game/screens.rpy	1038
-		方向键	game/screens.rpy	1041
-		导航界面。	game/screens.rpy	1042
-		Esc	game/screens.rpy	1045
-		访问游戏菜单。	game/screens.rpy	1046
-		Ctrl	game/screens.rpy	1049
-		按住时快进对话。	game/screens.rpy	1050
-		Tab	game/screens.rpy	1053
-		切换对话快进。	game/screens.rpy	1054
-		Page Up	game/screens.rpy	1057
-		回退至先前的对话。	game/screens.rpy	1058
-		Page Down	game/screens.rpy	1061
-		向前至之后的对话。	game/screens.rpy	1062
-		隐藏用户界面。	game/screens.rpy	1066
-		截图。	game/screens.rpy	1070
-		切换辅助{a=https://www.renpy.org/l/voicing}自动朗读{/a}。	game/screens.rpy	1074
-		左键点击	game/screens.rpy	1080
-		中键点击	game/screens.rpy	1084
-		右键点击	game/screens.rpy	1088
-		鼠标滚轮上\n点击回退操作区	game/screens.rpy	1092
-		鼠标滚轮下	game/screens.rpy	1096
-		右扳机键\nA/底键	game/screens.rpy	1103
-		左扳机键\n左肩键	game/screens.rpy	1107
-		右肩键	game/screens.rpy	1111
-		十字键，摇杆	game/screens.rpy	1116
-		开始，向导	game/screens.rpy	1120
-		Y/顶键	game/screens.rpy	1124
-		校准	game/screens.rpy	1127
-		OK	game/screens.rpy	1200
-		确定	game/screens.rpy	1257
-		取消	game/screens.rpy	1258
-		正在快进	game/screens.rpy	1303
-		菜单	game/screens.rpy	1522
+		开始游戏	game/screens.rpy	330
+		请输入你的名字	game/screens.rpy	330
+		读取游戏	game/screens.rpy	338
+		结束回放	game/screens.rpy	344
+		标题界面	game/screens.rpy	348
+		关于	game/screens.rpy	350
+		帮助	game/screens.rpy	355
+		退出	game/screens.rpy	360
+		返回	game/screens.rpy	499
+		版本 [config.version!t] [version_name!t]\n	game/screens.rpy	581
+		引擎：{a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only]\n\n[renpy.license!t]	game/screens.rpy	587
+		第 {} 页	game/screens.rpy	622
+		自动存档	game/screens.rpy	622
+		快速存档	game/screens.rpy	622
+		{#file_time}%Y-%m-%d %H:%M	game/screens.rpy	663
+		空存档位	game/screens.rpy	663
+		<	game/screens.rpy	680
+		{#auto_page}A	game/screens.rpy	683
+		{#quick_page}Q	game/screens.rpy	686
+		>	game/screens.rpy	692
+		显示	game/screens.rpy	748
+		窗口	game/screens.rpy	749
+		全屏	game/screens.rpy	750
+		回退操作区	game/screens.rpy	754
+		禁用	game/screens.rpy	755
+		屏幕左侧	game/screens.rpy	756
+		屏幕右侧	game/screens.rpy	757
+		未读文本	game/screens.rpy	762
+		选项后继续	game/screens.rpy	763
+		忽略转场	game/screens.rpy	764
+		语言	game/screens.rpy	774
+		文字速度	game/screens.rpy	791
+		自动前进时间	game/screens.rpy	795
+		音乐音量	game/screens.rpy	802
+		音效音量	game/screens.rpy	809
+		测试	game/screens.rpy	815
+		语音音量	game/screens.rpy	819
+		全部静音	game/screens.rpy	830
+		尚无对话历史记录。	game/screens.rpy	949
+		键盘	game/screens.rpy	1018
+		鼠标	game/screens.rpy	1019
+		手柄	game/screens.rpy	1022
+		回车	game/screens.rpy	1035
+		推进对话并激活界面。	game/screens.rpy	1036
+		空格	game/screens.rpy	1039
+		推进对话但不激活选项。	game/screens.rpy	1040
+		方向键	game/screens.rpy	1043
+		导航界面。	game/screens.rpy	1044
+		Esc	game/screens.rpy	1047
+		访问游戏菜单。	game/screens.rpy	1048
+		Ctrl	game/screens.rpy	1051
+		按住时快进对话。	game/screens.rpy	1052
+		Tab	game/screens.rpy	1055
+		切换对话快进。	game/screens.rpy	1056
+		Page Up	game/screens.rpy	1059
+		回退至先前的对话。	game/screens.rpy	1060
+		Page Down	game/screens.rpy	1063
+		向前至之后的对话。	game/screens.rpy	1064
+		隐藏用户界面。	game/screens.rpy	1068
+		截图。	game/screens.rpy	1072
+		切换辅助{a=https://www.renpy.org/l/voicing}自动朗读{/a}。	game/screens.rpy	1076
+		左键点击	game/screens.rpy	1082
+		中键点击	game/screens.rpy	1086
+		右键点击	game/screens.rpy	1090
+		鼠标滚轮上\n点击回退操作区	game/screens.rpy	1094
+		鼠标滚轮下	game/screens.rpy	1098
+		右扳机键\nA/底键	game/screens.rpy	1105
+		左扳机键\n左肩键	game/screens.rpy	1109
+		右肩键	game/screens.rpy	1113
+		十字键，摇杆	game/screens.rpy	1118
+		开始，向导	game/screens.rpy	1122
+		Y/顶键	game/screens.rpy	1126
+		校准	game/screens.rpy	1129
+		OK	game/screens.rpy	1202
+		确定	game/screens.rpy	1259
+		取消	game/screens.rpy	1260
+		正在快进	game/screens.rpy	1305
+		菜单	game/screens.rpy	1524
 		旁白	game/script.rpy	5
 		EXPLORER	game/script.rpy	7
 		Monika	game/script.rpy	8
