@@ -397,7 +397,7 @@ screen main_menu():
             text "[config.name!t]":
                 style "main_menu_title"
 
-            text "[config.version]":
+            text "[config.version] [version_name]":
                 style "main_menu_version"
 
 
@@ -576,7 +576,7 @@ screen about():
         vbox:
 
             label "[config.name!t]"
-            text _("版本 [config.version!t]\n")
+            text _("版本 [config.version!t] [version_name!t]\n")
 
             ## “gui.about”通常在 options.rpy 中设置。
             if gui.about:

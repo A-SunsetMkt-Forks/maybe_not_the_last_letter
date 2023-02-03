@@ -23,6 +23,9 @@ define config.name = _("也许不是最后一封信")
 
 define config.version = "0.2.5"
 
+## 游戏版本名称。此名称将显示在游戏“关于”屏幕中。在screens.rpy中使用[version_name]。不是RenPy得标准配置项目，所以不用config。
+
+define version_name = _("Hannah")
 
 ## 放置在游戏“关于”屏幕的文本。将文本放在三个引号之间，并在段落之间留一个空行。
 
