@@ -308,8 +308,10 @@ style quick_button_text:
 
 init python:
     def FinishEnterName():
-        if not player: return
-        persistent.playername = player
+        if not player: # 默认名 Player
+            persistent.playername = "Player"
+        else:
+            persistent.playername = player
         renpy.hide_screen("name_input")
         renpy.jump_out_of_context("start")
 
