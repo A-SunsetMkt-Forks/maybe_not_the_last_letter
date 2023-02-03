@@ -358,3 +358,11 @@ translate english strings:
     old "语言"
     new "Language"
 
+# TODO: Translation updated at 2023-02-03 23:43
+
+translate english strings:
+
+    # game/screens.rpy:579
+    old "版本 [config.version!t] [version_name!t]\n"
+    new "Version [config.version!t] [version_name!t]\n"
+

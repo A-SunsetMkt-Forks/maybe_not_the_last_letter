@@ -18,3 +18,11 @@ translate english strings:
     old "基于Ren'Py的互动小说游戏测试。 仅用于概念展示。"
     new "Interactive novel game based on Ren'Py. PoC only."
 
+# TODO: Translation updated at 2023-02-03 23:43
+
+translate english strings:
+
+    # game/options.rpy:28
+    old "Hannah"
+    new "Hannah"
+

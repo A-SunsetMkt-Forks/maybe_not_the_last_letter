@@ -23,8 +23,8 @@ translate english strings:
     new "Music\nEasy Breeze (StarSight Remix)  Player_275x / Thomas Greenberg\n穏やかに過ぎゆく時  小林俊太郎\n【Animenz】secret base 〜你给我的所有〜 - 未闻花名 ED 钢琴版  Bilibili User@Animenzzz\nLeaves in the Wind  Isaac Shepard\nMidday Prospects 午日的眺望 陈致逸 / HOYO-MiX[persistent.expsongname]\n[zsongname]\n【神里绫华】过场动画“夜场跳舞” 纯音乐  miHoYo"
 
     # game/zcredits.rpy:123
-    old "特别感谢\nPrincess Celestia\nMonika\n[player]\n[gtext]（[gstr]：5[gchar]45[gchar]18[gchar]2[gchar]98[gchar]8[gchar]2[gchar]）[gchar]"
-    new "Special Thanks to\nPrincess Celestia\nMonika\n[player]\n[gtext]（[gstr]：5[gchar]45[gchar]18[gchar]2[gchar]98[gchar]8[gchar]2[gchar]）[gchar]"
+    old "特别感谢\nPrincess Celestia\nMonika\n[player]\n[gtext][gchar]"
+    new "Special Thanks to\nPrincess Celestia\nMonika\n[player]\n[gtext][gchar]"
 
     # game/zcredits.rpy:175
     old "很久很久以前，珀普乐王国的公主望向漫天星辰。\n公主的面容似被精心雕刻过，比任何雕塑都精致完美。简单柔和的线条勾勒出王国里最美丽的身影。她拥有来自远近千千万万的追随者。\n她微微低下头，好像在思索什么的样子，轻语呼唤着自己的首相，“星星有什么用呢？”"

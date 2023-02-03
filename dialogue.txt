@@ -44,6 +44,7 @@ os.remove("game/script.rpy")
 游戏结束...？
 「在夜空里所有星星熄灭的时候，所有溪流、所有的梦想，都能汇入同一片大海之中。那时我们终会再见的。」
 游戏结束，请重启游戏并删除存档，否则可能发生意料之外的错误。
+Hannah
 基于Ren'Py的互动小说游戏测试。 仅用于概念展示。
 这是一次紧急更新，我们暂不准备为此更新提供多语言支持、立绘和背景匹配。
 我，作为开发者，在此借用旁白的角色发声。
@@ -617,7 +618,7 @@ import Hannah
 帮助
 退出
 返回
-版本 [config.version!t]
+版本 [config.version!t] [version_name!t]
 
 引擎：{a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only]
 

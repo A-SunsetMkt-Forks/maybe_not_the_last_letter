@@ -21,7 +21,8 @@ Identifier	Character	Dialogue	Filename	Line Number	Ren'Py Script
 		带着爱创作	game/credits.rpy	180
 		游戏结束...？\n「在夜空里所有星星熄灭的时候，所有溪流、所有的梦想，都能汇入同一片大海之中。那时我们终会再见的。」	game/credits.rpy	204
 		游戏结束，请重启游戏并删除存档，否则可能发生意料之外的错误。	game/credits.rpy	211
-		基于Ren'Py的互动小说游戏测试。 仅用于概念展示。	game/options.rpy	29
+		Hannah	game/options.rpy	28
+		基于Ren'Py的互动小说游戏测试。 仅用于概念展示。	game/options.rpy	32
 		开发环境跳过Care	game/rpy/care.rpy	17
 		不跳过	game/rpy/care.rpy	17
 care_aa013e1c	n	这是一次紧急更新，我们暂不准备为此更新提供多语言支持、立绘和背景匹配。	game/rpy/care.rpy	24	n "[what]"
@@ -582,7 +583,7 @@ youknowwhoerror_a06d20ff	"（未知）"	你无法离开。	game/rpy/ykherror.rpy
 		帮助	game/screens.rpy	353
 		退出	game/screens.rpy	358
 		返回	game/screens.rpy	497
-		版本 [config.version!t]\n	game/screens.rpy	579
+		版本 [config.version!t] [version_name!t]\n	game/screens.rpy	579
 		引擎：{a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only]\n\n[renpy.license!t]	game/screens.rpy	585
 		第 {} 页	game/screens.rpy	620
 		自动存档	game/screens.rpy	620
