@@ -72,7 +72,10 @@ label testmenu:
             jump testmenu
         "import Hannah":
             $ import Hannah
-            $ Hannah.Hannah()
+            if renpy.emscripten:
+                $ renpy.run(OpenURL(Hannah.HannahURL))
+            else:
+                $ Hannah.Hannah()
             jump testmenu
         "设置config.developer为True":
             $ config.developer = True
