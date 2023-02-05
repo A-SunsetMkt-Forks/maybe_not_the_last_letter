@@ -62,6 +62,8 @@ label ch5contact:
 
 label ch5exp:
     # 我承认这种啰嗦的对话/选项很不好
+    # 但是程序没想出更好的表现方式，故事也没想出更好的解释
+    # 还能怎么办呢？
     show sunset explain5
     s "虽然听起来有点牵强..."
     s "但在他出现之前..."

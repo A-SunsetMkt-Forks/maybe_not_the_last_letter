@@ -11,6 +11,7 @@ init python:
 # Team Salvato Logo
 image credits_ts:
     "gui/splash-white.png"
+    # 其实，这个logo可以用纯文字，但是当时懒得改。
     xalign 0.5 yalign 0.6
     zoom 0.65 alpha 0 subpixel True
     linear 2.0 alpha 1

@@ -107,7 +107,7 @@ label program0:
     s "本来是个用于回忆和[gtext]的经历的项目..."
     $ gtext = glitchtext(60)
     # 也许是...我们都没办法真的放下吧...
-    # 也许，时间会让一切都变得好起来...
+    # 也许，时间会让一切都变得好起来...（我就要破坏气氛）
     show sunset upset3
     s "[gtext]"
     $ zeggcount = zeggcount + 1

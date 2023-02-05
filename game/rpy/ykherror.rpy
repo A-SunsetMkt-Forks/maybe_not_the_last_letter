@@ -1,5 +1,6 @@
 label youknowwhoerror:
     # 其实完全没必要单独放在一个文件里，但是我就是想这么做
+    # 这种结构有利于以后的扩展，以及阅读代码。
     stop music
     $ persistent.autoload = "youknowwhoerror"
     $ config.keymap['game_menu'] = []
