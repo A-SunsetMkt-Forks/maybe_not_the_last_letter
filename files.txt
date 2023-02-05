@@ -248,6 +248,7 @@ images\sunset\spirit\sunset upset3.png
 images\sunset\spirit\sunset upset4.png
 images\sunset\spirit\sunset upset5.png
 python-packages\Hannah.py
+python-packages\donut.py
 python-packages\singleton.py
 rpy\.gitkeep
 rpy\care.rpy
@@ -274,7 +275,6 @@ rpy\test.rpy
 rpy\test.rpyc
 rpy\ykherror.rpy
 rpy\ykherror.rpyc
-saves\_reload-2-LT1.save
 saves\auto-1-LT1.save
 saves\auto-10-LT1.save
 saves\auto-2-LT1.save

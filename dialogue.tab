@@ -1,26 +1,26 @@
 Identifier	Character	Dialogue	Filename	Line Number	Ren'Py Script
-		也许不是最后一封信	game/credits.rpy	119
-		ProjectZ Studio出品	game/credits.rpy	120
-		理念和游戏设计	game/credits.rpy	124
-		余晖	game/credits.rpy	125
-		故事	game/credits.rpy	129
-		余晖\nEXPLORER	game/credits.rpy	130
-		主要程序员	game/credits.rpy	134
-		lwd-temp	game/credits.rpy	135
-		音乐\nEasy Breeze (StarSight Remix)  Player_275x / Thomas Greenberg\n穏やかに過ぎゆく時  小林俊太郎\n【Animenz】secret base 〜你给我的所有〜 - 未闻花名 ED 钢琴版  Bilibili用户@Animenzzz\nLeaves in the Wind  Isaac Shepard\nMidday Prospects 午日的眺望 陈致逸 / HOYO-MiX[persistent.expsongname]\n所念皆星河  CMJ	game/credits.rpy	140
-		策划	game/credits.rpy	144
-		早期测试人员\n840a8dbdddece6a56fb9b1f925eac7a75cb274b85e7eddafdfb97573170e5a8b\nEXPLORER\n83235ec96fa3b9c0631863c5e3f998aef8e89c28698a8fc2843509627cb0d295	game/credits.rpy	150
-		特别感谢\nRen'Py\nTeam Salvato\nHasbro, Inc\nSCP Foundation\nUniverse of My Own\n米哈游\n创造音乐和立绘的艺术家们	game/credits.rpy	155
-		此项目的部分代码来自DDLCModTemplate2.0，原则上禁止用于除《心跳文学部》第三方模组的其他用途\n除此之外的其他代码使用 GNU General Public License v3.0 发布\n此项目的部分故事和文案使用 Creative Commons Attribution Share Alike 4.0 International 协议授权\n更多信息请查看项目存储库	game/credits.rpy	162
-		特别感谢\nPrincess Celestia\nMonika\n[player]	game/credits.rpy	167
-		os.remove("game/screens.rpy")	game/credits.rpy	171
-		Permission Denied.	game/credits.rpy	171
-		os.remove("game/gui.rpy")	game/credits.rpy	172
-		os.remove("game/menu.rpy")	game/credits.rpy	173
-		os.remove("game/script.rpy")	game/credits.rpy	174
-		带着爱创作	game/credits.rpy	180
-		游戏结束...？\n「在夜空里所有星星熄灭的时候，所有溪流、所有的梦想，都能汇入同一片大海之中。那时我们终会再见的。」	game/credits.rpy	204
-		游戏结束，请重启游戏并删除存档，否则可能发生意料之外的错误。	game/credits.rpy	211
+		也许不是最后一封信	game/credits.rpy	120
+		ProjectZ Studio出品	game/credits.rpy	121
+		理念和游戏设计	game/credits.rpy	125
+		余晖	game/credits.rpy	126
+		故事	game/credits.rpy	130
+		余晖\nEXPLORER	game/credits.rpy	131
+		主要程序员	game/credits.rpy	135
+		lwd-temp	game/credits.rpy	136
+		音乐\nEasy Breeze (StarSight Remix)  Player_275x / Thomas Greenberg\n穏やかに過ぎゆく時  小林俊太郎\n【Animenz】secret base 〜你给我的所有〜 - 未闻花名 ED 钢琴版  Bilibili用户@Animenzzz\nLeaves in the Wind  Isaac Shepard\nMidday Prospects 午日的眺望 陈致逸 / HOYO-MiX[persistent.expsongname]\n所念皆星河  CMJ	game/credits.rpy	141
+		策划	game/credits.rpy	145
+		早期测试人员\n840a8dbdddece6a56fb9b1f925eac7a75cb274b85e7eddafdfb97573170e5a8b\nEXPLORER\n83235ec96fa3b9c0631863c5e3f998aef8e89c28698a8fc2843509627cb0d295	game/credits.rpy	151
+		特别感谢\nRen'Py\nTeam Salvato\nHasbro, Inc\nSCP Foundation\nUniverse of My Own\n米哈游\n创造音乐和立绘的艺术家们	game/credits.rpy	156
+		此项目的部分代码来自DDLCModTemplate2.0，原则上禁止用于除《心跳文学部》第三方模组的其他用途\n除此之外的其他代码使用 GNU General Public License v3.0 发布\n此项目的部分故事和文案使用 Creative Commons Attribution Share Alike 4.0 International 协议授权\n更多信息请查看项目存储库	game/credits.rpy	163
+		特别感谢\nPrincess Celestia\nMonika\n[player]	game/credits.rpy	168
+		os.remove("game/screens.rpy")	game/credits.rpy	172
+		Permission Denied.	game/credits.rpy	172
+		os.remove("game/gui.rpy")	game/credits.rpy	173
+		os.remove("game/menu.rpy")	game/credits.rpy	174
+		os.remove("game/script.rpy")	game/credits.rpy	175
+		带着爱创作	game/credits.rpy	181
+		游戏结束...？\n「在夜空里所有星星熄灭的时候，所有溪流、所有的梦想，都能汇入同一片大海之中。那时我们终会再见的。」	game/credits.rpy	205
+		游戏结束，请重启游戏并删除存档，否则可能发生意料之外的错误。	game/credits.rpy	212
 		Hannah	game/options.rpy	28
 		基于Ren'Py的互动小说游戏测试。 仅用于概念展示。	game/options.rpy	32
 		开发环境跳过Care	game/rpy/care.rpy	17
@@ -101,10 +101,10 @@ care_50323f26	n	还有摇摆着的向日葵，	game/rpy/care.rpy	107	n "[what]"
 care_62772643	n	还有夜之城中与资本的抗争，	game/rpy/care.rpy	109	n "[what]"
 care_b6fdccb5	n	还有提瓦特的飞鸟、诗和城邦，女皇、愚人和怪物，	game/rpy/care.rpy	111	n "[what]"
 care_28ae2f25	n	还有身穿白袍的标准纤弱东方女性研究员，和她在逆境中的人性之光...	game/rpy/care.rpy	124	n "[what]"
-care_4b8fb521	n	那么，请不要旁观...	game/rpy/care.rpy	130	n "[what]"
-care_ee706421	n	永远保持独立思考的能力并保持对事物的中立看法...	game/rpy/care.rpy	131	n "[what]"
-care_04d9bcab	n	做自己认为正确，而不只是“合适”的事。	game/rpy/care.rpy	132	n "[what]"
-care_afe15fed	n	谢谢你能看到这里，让我们继续游戏吧。	game/rpy/care.rpy	133	n "[what]"
+care_4b8fb521	n	那么，请不要旁观...	game/rpy/care.rpy	252	n "[what]"
+care_ee706421	n	永远保持独立思考的能力并保持对事物的中立看法...	game/rpy/care.rpy	253	n "[what]"
+care_04d9bcab	n	做自己认为正确，而不只是“合适”的事。	game/rpy/care.rpy	254	n "[what]"
+care_afe15fed	n	谢谢你能看到这里，让我们继续游戏吧。	game/rpy/care.rpy	255	n "[what]"
 ch0_e9f8ab5e	n	你好，[player]！	game/rpy/ch0.rpy	5	n "[what]"
 ch0_b08c4d4b	n	这是一个...互动小说游戏。	game/rpy/ch0.rpy	6	n "[what]"
 ch0_70a6b771	n	呃...	game/rpy/ch0.rpy	7	n "[what]"
@@ -134,19 +134,19 @@ reason_ec0aa07b	s	（清嗓）	game/rpy/ch0.rpy	53	s "[what]"
 reason_b0085be3	s	项目创作理由也很简单。	game/rpy/ch0.rpy	54	s "[what]"
 reason_0bafbe64	s	我一直想写个毕业总结，但总是在拖延。	game/rpy/ch0.rpy	56	s "[what]"
 reason_1cb251f7	s	又发生了一些事故，所以一直没有信心把它写出来。	game/rpy/ch0.rpy	57	s "[what]"
-reason_4fd0f93c	s	不过，最近想了想...	game/rpy/ch0.rpy	60	s "[what]"
-reason_b462a28b	s	再不写都开学了，那就真的没机会了。	game/rpy/ch0.rpy	62	s "[what]"
-reason_3a9da3ff	s	所以，这就是我争取在开学前发布的项目，也许也是本假期的最后一个。	game/rpy/ch0.rpy	63	s "[what]"
-reason_03a3a47f	s	这个项目的快速成型离不开《心跳文学部》——一个优秀的使用相同引擎的饱受误解的meta类视觉小说游戏。	game/rpy/ch0.rpy	64	s "[what]"
-reason_6b1881cf	s	本项目未经许可地使用了项目DDLCModTemplate2.0的部分源码和《心跳文学部》的部分资源文件。	game/rpy/ch0.rpy	67	s "[what]"
-reason_419f4613	s	这在严格上是违背职业道德，甚至是非法的...	game/rpy/ch0.rpy	69	s "[what]"
-reason_4750a479	s	再次向《心跳文学部》的制作项目组Team Salvato表示感谢。	game/rpy/ch0.rpy	70	s "[what]"
-reason_da075030	s	貌似废话太多了点...	game/rpy/ch0.rpy	72	s "[what]"
-reason_d1e759bf	s	这是一个互动类的“毕业总结”、或者“问答”描述得更合适一些。	game/rpy/ch0.rpy	73	s "[what]"
-reason_63ef0b1d	s	这个程序记录了我认为可能会被问到的问题和我对它们的答案。	game/rpy/ch0.rpy	74	s "[what]"
-reason_b3e6f14f	s	你只需要选择，然后阅读屏幕上显示的文字。	game/rpy/ch0.rpy	75	s "[what]"
-reason_05fe424b	s	这就是本游戏的全部内容——没有成就、没有彩蛋、存档无意义。	game/rpy/ch0.rpy	76	s "[what]"
-reason_d9c12821	s	让我们开始吧。	game/rpy/ch0.rpy	79	s "[what]"
+reason_4fd0f93c	s	不过，最近想了想...	game/rpy/ch0.rpy	61	s "[what]"
+reason_b462a28b	s	再不写都开学了，那就真的没机会了。	game/rpy/ch0.rpy	63	s "[what]"
+reason_3a9da3ff	s	所以，这就是我争取在开学前发布的项目，也许也是本假期的最后一个。	game/rpy/ch0.rpy	64	s "[what]"
+reason_03a3a47f	s	这个项目的快速成型离不开《心跳文学部》——一个优秀的使用相同引擎的饱受误解的meta类视觉小说游戏。	game/rpy/ch0.rpy	65	s "[what]"
+reason_6b1881cf	s	本项目未经许可地使用了项目DDLCModTemplate2.0的部分源码和《心跳文学部》的部分资源文件。	game/rpy/ch0.rpy	68	s "[what]"
+reason_419f4613	s	这在严格上是违背职业道德，甚至是非法的...	game/rpy/ch0.rpy	70	s "[what]"
+reason_4750a479	s	再次向《心跳文学部》的制作项目组Team Salvato表示感谢。	game/rpy/ch0.rpy	71	s "[what]"
+reason_da075030	s	貌似废话太多了点...	game/rpy/ch0.rpy	73	s "[what]"
+reason_d1e759bf	s	这是一个互动类的“毕业总结”、或者“问答”描述得更合适一些。	game/rpy/ch0.rpy	74	s "[what]"
+reason_63ef0b1d	s	这个程序记录了我认为可能会被问到的问题和我对它们的答案。	game/rpy/ch0.rpy	75	s "[what]"
+reason_b3e6f14f	s	你只需要选择，然后阅读屏幕上显示的文字。	game/rpy/ch0.rpy	76	s "[what]"
+reason_05fe424b	s	这就是本游戏的全部内容——没有成就、没有彩蛋、存档无意义。	game/rpy/ch0.rpy	77	s "[what]"
+reason_d9c12821	s	让我们开始吧。	game/rpy/ch0.rpy	80	s "[what]"
 		你的简介上写着...你是计算机科学初学者？谈谈你的作品吧。	game/rpy/ch1.rpy	12
 		你有想怀念的人吗？	game/rpy/ch1.rpy	12
 program0_a488a298	s	[player]，我就等着你谈这个呢~	game/rpy/ch1.rpy	21	s "[what]"
@@ -459,15 +459,15 @@ ch5contact_37cfad55	s	你可以直接在此项目的GitHub仓库下发issue...	g
 ch5contact_59eb0f49	s	我们会直接与你取得联系。	game/rpy/ch5.rpy	56	s "[what]"
 		还没出现的角色？	game/rpy/ch5.rpy	57
 		了解了。	game/rpy/ch5.rpy	57
-ch5exp_c57a8ae8	s	虽然听起来有点牵强...	game/rpy/ch5.rpy	66	s "[what]"
-ch5exp_b044dcac	s	但在他出现之前...	game/rpy/ch5.rpy	67	s "[what]"
-ch5exp_1de82449	s	这个名字是保密的。	game/rpy/ch5.rpy	68	s "[what]"
-		无聊...	game/rpy/ch5.rpy	69
-		所以...我还可以见到他？	game/rpy/ch5.rpy	69
-		有趣的解释。	game/rpy/ch5.rpy	69
-		确实有点...	game/rpy/ch5.rpy	69
-ch5expmeet_cb65a031	s	也许吧...	game/rpy/ch5.rpy	80	s "[what]"
-ch5expmeet_e3657728	s	也许能看到和他的对话也说不定呢...	game/rpy/ch5.rpy	82	s "[what]"
+ch5exp_c57a8ae8	s	虽然听起来有点牵强...	game/rpy/ch5.rpy	68	s "[what]"
+ch5exp_b044dcac	s	但在他出现之前...	game/rpy/ch5.rpy	69	s "[what]"
+ch5exp_1de82449	s	这个名字是保密的。	game/rpy/ch5.rpy	70	s "[what]"
+		无聊...	game/rpy/ch5.rpy	71
+		所以...我还可以见到他？	game/rpy/ch5.rpy	71
+		有趣的解释。	game/rpy/ch5.rpy	71
+		确实有点...	game/rpy/ch5.rpy	71
+ch5expmeet_cb65a031	s	也许吧...	game/rpy/ch5.rpy	82	s "[what]"
+ch5expmeet_e3657728	s	也许能看到和他的对话也说不定呢...	game/rpy/ch5.rpy	84	s "[what]"
 		\nCornfield Chase  Hans Zimmer	game/rpy/chexp.rpy	8
 chexp_b2974e1e	e	哦到我了么	game/rpy/chexp.rpy	14	e "[what]"
 chexp_1ca20311	e	啊感觉挺有趣的……	game/rpy/chexp.rpy	16	e "[what]"
@@ -556,16 +556,16 @@ testwelcome_43721392	s	好吧...	game/rpy/test.rpy	47	s "[what]"
 		设置config.developer为True	game/rpy/test.rpy	61
 		设置config.developer为False	game/rpy/test.rpy	61
 		跳转结局	game/rpy/test.rpy	61
-youknowwhoerror_48ed4d5e	"（未知）"	你是...	game/rpy/ykherror.rpy	11	"（未知）" "[what]"
-youknowwhoerror_eb87c948	"（未知）"	...	game/rpy/ykherror.rpy	12	"（未知）" "[what]"
-youknowwhoerror_116bbf82	"（未知）"	我以为你不会...	game/rpy/ykherror.rpy	13	"（未知）" "[what]"
-youknowwhoerror_3440bd3e	"（未知）"	...无论你真的是...	game/rpy/ykherror.rpy	14	"（未知）" "[what]"
-youknowwhoerror_0835ce9c	"（未知）"	还是冒用别人名字的家伙...	game/rpy/ykherror.rpy	15	"（未知）" "[what]"
-youknowwhoerror_86af949f	"（未知）"	这里都不适合你...	game/rpy/ykherror.rpy	16	"（未知）" "[what]"
-youknowwhoerror_90a88690	"（未知）"	这个设备上的存档已经被标记了，	game/rpy/ykherror.rpy	17	"（未知）" "[what]"
-youknowwhoerror_d260afe1	"（未知）"	请直接关闭游戏。	game/rpy/ykherror.rpy	19	"（未知）" "[what]"
-youknowwhoerror_8f076490	"（未知）"	这是个循环对话...	game/rpy/ykherror.rpy	20	"（未知）" "[what]"
-youknowwhoerror_a06d20ff	"（未知）"	你无法离开。	game/rpy/ykherror.rpy	21	"（未知）" "[what]"
+youknowwhoerror_48ed4d5e	"（未知）"	你是...	game/rpy/ykherror.rpy	12	"（未知）" "[what]"
+youknowwhoerror_eb87c948	"（未知）"	...	game/rpy/ykherror.rpy	13	"（未知）" "[what]"
+youknowwhoerror_116bbf82	"（未知）"	我以为你不会...	game/rpy/ykherror.rpy	14	"（未知）" "[what]"
+youknowwhoerror_3440bd3e	"（未知）"	...无论你真的是...	game/rpy/ykherror.rpy	15	"（未知）" "[what]"
+youknowwhoerror_0835ce9c	"（未知）"	还是冒用别人名字的家伙...	game/rpy/ykherror.rpy	16	"（未知）" "[what]"
+youknowwhoerror_86af949f	"（未知）"	这里都不适合你...	game/rpy/ykherror.rpy	17	"（未知）" "[what]"
+youknowwhoerror_90a88690	"（未知）"	这个设备上的存档已经被标记了，	game/rpy/ykherror.rpy	18	"（未知）" "[what]"
+youknowwhoerror_d260afe1	"（未知）"	请直接关闭游戏。	game/rpy/ykherror.rpy	20	"（未知）" "[what]"
+youknowwhoerror_8f076490	"（未知）"	这是个循环对话...	game/rpy/ykherror.rpy	21	"（未知）" "[what]"
+youknowwhoerror_a06d20ff	"（未知）"	你无法离开。	game/rpy/ykherror.rpy	22	"（未知）" "[what]"
 		回退	game/screens.rpy	275
 		历史	game/screens.rpy	276
 		快进	game/screens.rpy	277
@@ -687,13 +687,13 @@ after_load_5d5ea18a		你在尝试作弊吗？	game/splash.rpy	257	"[what]"
 		特别感谢\nPrincess Celestia\nMonika\n[player]\n[gtext]	game/zcredits.rpy	130
 		游戏结束。	game/zcredits.rpy	171
 		游戏结束？	game/zcredits.rpy	178
-		很久很久以前，珀普乐王国的公主望向漫天星辰。\n公主的面容似被精心雕刻过，比任何雕塑都精致完美。简单柔和的线条勾勒出王国里最美丽的身影。她拥有来自远近千千万万的追随者。\n她微微低下头，好像在思索什么的样子，轻语呼唤着自己的首相，“星星有什么用呢？”	game/zcredits.rpy	195
-		这个年代里会猎星星的几乎没有。猎星星的男孩在朦胧的夜里盗走星星的光芒，用天上的微光点亮派森国的夜。孤独着，他捕捉着光，一切都好似仅仅是乐趣，直到一天，他注意到了珀普乐王国的佳人。	game/zcredits.rpy	202
-		猎星者在公主身上看到了自己向往的样子。\n他尝试着与其交流。\n每一个夜幕降下后，星星点点的闪光如钻石般镶嵌在暗色里，等待着，呼唤着。长夜不再寂寞，猎星者为公主献上自己捕捉到的最优雅动人的星光。他把它们封在可爱的细口瓶里，与自己最真挚的心意一起。	game/zcredits.rpy	209
-		久而久之，公主厌烦了。\n她召来大臣皖，让他把那些来自数亿光年外的礼物一并处理。\n“说真的，星星到底有什么用呢？”	game/zcredits.rpy	216
-		据说，那一晚，珀普乐王国外的森林很亮。	game/zcredits.rpy	223
-		猎星者再一次送上青蓝的微光，这来自遥远的天狼星。纯洁的蓝光映衬出一切安宁美好，与深邃的天穹一同共振。\n她会喜欢的，她一定会。	game/zcredits.rpy	230
-		公主接过后打碎了瓶子。\n蓝色悬浮在空中，就像猎星者的心情。	game/zcredits.rpy	237
-		猎星者一次又一次地寄信，他渴望得到公主的原谅。\n公主的大臣仝为她拦下了这些信件，并抛进光之池中。\n猎星者对接触的尝试每一次都落了空。\n猎星星的男孩永远不能用天上的星星换来一个人的心。	game/zcredits.rpy	244
-		他口袋里藏着最后一颗星。\n他希望，但愿……	game/zcredits.rpy	251
-		游戏结束。\n「请...好好地看着我。」	game/zcredits.rpy	268
+		很久很久以前，珀普乐王国的公主望向漫天星辰。\n公主的面容似被精心雕刻过，比任何雕塑都精致完美。简单柔和的线条勾勒出王国里最美丽的身影。她拥有来自远近千千万万的追随者。\n她微微低下头，好像在思索什么的样子，轻语呼唤着自己的首相，“星星有什么用呢？”	game/zcredits.rpy	203
+		这个年代里会猎星星的几乎没有。猎星星的男孩在朦胧的夜里盗走星星的光芒，用天上的微光点亮派森国的夜。孤独着，他捕捉着光，一切都好似仅仅是乐趣，直到一天，他注意到了珀普乐王国的佳人。	game/zcredits.rpy	210
+		猎星者在公主身上看到了自己向往的样子。\n他尝试着与其交流。\n每一个夜幕降下后，星星点点的闪光如钻石般镶嵌在暗色里，等待着，呼唤着。长夜不再寂寞，猎星者为公主献上自己捕捉到的最优雅动人的星光。他把它们封在可爱的细口瓶里，与自己最真挚的心意一起。	game/zcredits.rpy	217
+		久而久之，公主厌烦了。\n她召来大臣皖，让他把那些来自数亿光年外的礼物一并处理。\n“说真的，星星到底有什么用呢？”	game/zcredits.rpy	224
+		据说，那一晚，珀普乐王国外的森林很亮。	game/zcredits.rpy	231
+		猎星者再一次送上青蓝的微光，这来自遥远的天狼星。纯洁的蓝光映衬出一切安宁美好，与深邃的天穹一同共振。\n她会喜欢的，她一定会。	game/zcredits.rpy	238
+		公主接过后打碎了瓶子。\n蓝色悬浮在空中，就像猎星者的心情。	game/zcredits.rpy	245
+		猎星者一次又一次地寄信，他渴望得到公主的原谅。\n公主的大臣仝为她拦下了这些信件，并抛进光之池中。\n猎星者对接触的尝试每一次都落了空。\n猎星星的男孩永远不能用天上的星星换来一个人的心。	game/zcredits.rpy	252
+		他口袋里藏着最后一颗星。\n他希望，但愿……	game/zcredits.rpy	259
+		游戏结束。\n「请...好好地看着我。」	game/zcredits.rpy	276
