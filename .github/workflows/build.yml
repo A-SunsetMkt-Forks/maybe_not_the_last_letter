@@ -3,9 +3,9 @@ name: Build
 on:
   push:
     branches: [master, main]
-  pull_request:
-    branches: [master, main]
   workflow_dispatch:
+
+permissions: write-all
 
 jobs:
   build:
@@ -27,3 +27,11 @@ jobs:
         with:
           name: dist
           path: ${{steps.build.outputs.dir}}
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: true
+          title: "Build"
+          files: |
+            ${{steps.build.outputs.dir}}/*
