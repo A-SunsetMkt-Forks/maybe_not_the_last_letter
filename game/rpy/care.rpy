@@ -122,7 +122,7 @@ label care:
                     Hannah.Hannah()
 
     n "还有身穿白袍的标准纤弱东方女性研究员，和她在逆境中的人性之光..."
-    # 这个描述来自Hannah得某个作品，忘记具体来源了，不过应该是Creative Commons Attribution-ShareAlike 3.0
+    # 这个描述来自Hannah的某个作品，忘记具体来源了，不过应该是Creative Commons Attribution-ShareAlike 3.0
     # http://scp-wiki-cn.wikidot.com/dailylifeinsite34 作者自删，
     # Archive: https://web.archive.org/web/20191028233606/http://scp-wiki-cn.wikidot.com/dailylifeinsite34
     # 被我引用在这里之后显得有点奇怪，但是我还是想留下这个角色，所以没修改
