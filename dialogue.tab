@@ -12,7 +12,7 @@ Identifier	Character	Dialogue	Filename	Line Number	Ren'Py Script
 		早期测试人员\n840a8dbdddece6a56fb9b1f925eac7a75cb274b85e7eddafdfb97573170e5a8b\nEXPLORER\n83235ec96fa3b9c0631863c5e3f998aef8e89c28698a8fc2843509627cb0d295	game/credits.rpy	151
 		特别感谢\nRen'Py\nTeam Salvato\nHasbro, Inc\nSCP Foundation\nUniverse of My Own\n米哈游\n创造音乐和立绘的艺术家们	game/credits.rpy	156
 		此项目的部分代码来自DDLCModTemplate2.0，原则上禁止用于除《心跳文学部》第三方模组的其他用途\n除此之外的其他代码使用 GNU General Public License v3.0 发布\n此项目的部分故事和文案使用 Creative Commons Attribution Share Alike 4.0 International 协议授权\n更多信息请查看项目存储库	game/credits.rpy	163
-		特别感谢\nPrincess Celestia\nMonika\n[player]	game/credits.rpy	168
+		特别感谢\nPrincess Celestia\nMonika\nHannah_AI\n[player]	game/credits.rpy	168
 		os.remove("game/screens.rpy")	game/credits.rpy	172
 		Permission Denied.	game/credits.rpy	172
 		os.remove("game/gui.rpy")	game/credits.rpy	173
@@ -684,7 +684,7 @@ after_load_5d5ea18a		你在尝试作弊吗？	game/splash.rpy	257	"[what]"
 		勾指起誓 钢琴演奏版  昼夜	game/zcredits.rpy	23
 		电影《你的名字》主题曲《前前前世》  Bilibili用户@Ayasa绚沙	game/zcredits.rpy	27
 		音乐\nEasy Breeze (StarSight Remix)  Player_275x / Thomas Greenberg\n穏やかに過ぎゆく時  小林俊太郎\n【Animenz】secret base 〜你给我的所有〜 - 未闻花名 ED 钢琴版  Bilibili用户@Animenzzz\nLeaves in the Wind  Isaac Shepard\nMidday Prospects 午日的眺望 陈致逸 / HOYO-MiX[persistent.expsongname]\n[zsongname]\n【神里绫华】过场动画“夜场跳舞” 纯音乐  米哈游	game/zcredits.rpy	54
-		特别感谢\nPrincess Celestia\nMonika\n[player]\n[gtext]	game/zcredits.rpy	130
+		特别感谢\nPrincess Celestia\nMonika\nHannah_AI\n[player]\n[gtext]	game/zcredits.rpy	130
 		游戏结束。	game/zcredits.rpy	171
 		游戏结束？	game/zcredits.rpy	178
 		很久很久以前，珀普乐王国的公主望向漫天星辰。\n公主的面容似被精心雕刻过，比任何雕塑都精致完美。简单柔和的线条勾勒出王国里最美丽的身影。她拥有来自远近千千万万的追随者。\n她微微低下头，好像在思索什么的样子，轻语呼唤着自己的首相，“星星有什么用呢？”	game/zcredits.rpy	203

@@ -82,3 +82,11 @@ translate english strings:
     old "游戏结束，请重启游戏并删除存档，否则可能发生意料之外的错误。"
     new "The game is over, please restart the game and delete the save, otherwise unexpected errors may occur."
 
+# TODO: Translation updated at 2023-02-05 16:51
+
+translate english strings:
+
+    # game/credits.rpy:168
+    old "特别感谢\nPrincess Celestia\nMonika\nHannah_AI\n[player]"
+    new "Special Thanks to\nPrincess Celestia\nMonika\nHannah_AI\n[player]"
+

@@ -34,6 +34,7 @@ Universe of My Own
 特别感谢
 Princess Celestia
 Monika
+Hannah_AI
 [player]
 os.remove("game/screens.rpy")
 Permission Denied.
@@ -735,6 +736,7 @@ Midday Prospects 午日的眺望 陈致逸 / HOYO-MiX[persistent.expsongname]
 特别感谢
 Princess Celestia
 Monika
+Hannah_AI
 [player]
 [gtext]
 游戏结束。

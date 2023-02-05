@@ -82,3 +82,11 @@ translate english strings:
     old "游戏结束？"
     new "Game Over?"
 
+# TODO: Translation updated at 2023-02-05 16:51
+
+translate english strings:
+
+    # game/zcredits.rpy:130
+    old "特别感谢\nPrincess Celestia\nMonika\nHannah_AI\n[player]\n[gtext]"
+    new "Special Thanks to\nPrincess Celestia\nMonika\nHannah_AI\n[player]\n[gtext]"
+
