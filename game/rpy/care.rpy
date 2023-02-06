@@ -205,17 +205,34 @@ label care:
     # 我个人研究了《SCP-CN维基反抄袭政策》，但没有从本部找到对应的规定，只有
     # “如果一个页面被认为是从本维基或其他地方的另一作品部分或全部复制的，或者如果它在概念上大量借鉴了另一作品，并且如果新作品没有努力注明原作品或其创作者”
     # 我想，也许我不能强求一个业余写作爱好者网站的规定有法律条文般的精确度。
+    # EXPLORER和我认为，站点规则存在不清楚，裁决可能存在强烈的主观性。
     #
     # 我和Sunset不是专业的写手，我们无法判断我们对“抄袭”的定义是否正确，也不能保证上述内容没有感情因素影响。
     # 对于我来说，整个通告看起来就像我在绍兴看到的某个上面印着“我和你困觉”的鲁迅“文创”书签，
     # 合规、确实合规，但似乎不太对劲。
     #
+    # EXPLORER的意见是，三篇文章都一定构成抄袭/借鉴，可能存在处理问题（证据提供问题）。
+    # “我觉得其实你没有必要感到尴尬”
+    # “其实没有人没犯过错”
+    # “她好的地方确实非常耀眼，但我们也要批评她不好的地方”
+    # 
     # 无论如何，Hannah仍然是我最欣赏的SCP作者。
     #
     # 我们决定把这些内容放在这里，但我们不打算让任何人满意。
     # 如果这能让读者有一些思考，那再好不过了。
     # 时光飞逝，我们都增长了年龄，也很容易变得疲劳。
     # 
+    # 其他有趣的事实：
+    # 1. 我们检查了近一年的因抄袭封禁，
+    # 对控方有利的判例有：
+    # http://05command-cn.wikidot.com/forum/t-14382137/stwjin
+    # http://05command-cn.wikidot.com/forum/t-14209003/dr-ling
+    # 其余的案例的抄袭字数平均值和相似度都远高于《分手》一文（且存活时间大部分大于两小时）。
+    # EXPLOERE认为，大部分被认定抄袭的文章均为“完全摘抄”，
+    # 2. 另一个异议：http://05command-cn.wikidot.com/forum/t-14149605/yoghurt-rescuer
+    # 政府文件是否有版权？
+    #
+    #
     # 有关参考材料链接：
     # http://05command-cn.wikidot.com/forum/t-15088930/hannah-ai
     # https://web.archive.org/web/20230205032916/http://05command-cn.wikidot.com/forum/t-15088930/hannah-ai
@@ -246,6 +263,12 @@ label care:
     # （由于SCP中分限制未登录用户访问讨论区，无Archive）
     # http://scpsandboxcn.wdfiles.com/local--files/why-we-fight-how-we-fight/20220913000632.png
     # https://web.archive.org/web/20230205052528/http://scpsandboxcn.wdfiles.com/local--files/why-we-fight-how-we-fight/20220913000632.png
+    # http://05command-cn.wikidot.com/forum/t-14382137/stwjin
+    # https://web.archive.org/web/20230206050523/http://05command-cn.wikidot.com/forum/t-14382137/stwjin
+    # http://05command-cn.wikidot.com/forum/t-14209003/dr-ling
+    # https://web.archive.org/web/20230206050253/http://05command-cn.wikidot.com/forum/t-14209003/dr-ling
+    # http://05command-cn.wikidot.com/forum/t-14149605/yoghurt-rescuer
+    # https://web.archive.org/web/20230206050448/http://05command-cn.wikidot.com/forum/t-14149605/yoghurt-rescuer
 
 
 
