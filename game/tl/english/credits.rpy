@@ -90,3 +90,11 @@ translate english strings:
     old "特别感谢\nPrincess Celestia\nMonika\nHannah_AI\n[player]"
     new "Special Thanks to\nPrincess Celestia\nMonika\nHannah_AI\n[player]"
 
+# TODO: Translation updated at 2023-02-07 20:02
+
+translate english strings:
+
+    # game/credits.rpy:131
+    old "余晖\nEXPLORER\n9c5a446d7852de572f319257dc58776e0a72937b8d4dd6cebf286693246f04a5"
+    new "Sunset\nEXPLORER\n9c5a446d7852de572f319257dc58776e0a72937b8d4dd6cebf286693246f04a5"
+

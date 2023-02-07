@@ -41,7 +41,7 @@ label zcredits2:
     $ pause(26.05 - (datetime.datetime.now() - starttime).total_seconds())
     
     show credits_header _("故事") as credits_header_1 at credits_text_scroll_middle
-    show credits_text _("余晖\nEXPLORER") as credits_text_1 at credits_text_scroll_middle
+    show credits_text _("余晖\nEXPLORER\n9c5a446d7852de572f319257dc58776e0a72937b8d4dd6cebf286693246f04a5") as credits_text_1 at credits_text_scroll_middle
     
     $ pause(35.15 - (datetime.datetime.now() - starttime).total_seconds())
     
