@@ -4,7 +4,7 @@ Identifier	Character	Dialogue	Filename	Line Number	Ren'Py Script
 		理念和游戏设计	game/credits.rpy	125
 		余晖	game/credits.rpy	126
 		故事	game/credits.rpy	130
-		余晖\nEXPLORER	game/credits.rpy	131
+		余晖\nEXPLORER\n9c5a446d7852de572f319257dc58776e0a72937b8d4dd6cebf286693246f04a5	game/credits.rpy	131
 		主要程序员	game/credits.rpy	135
 		lwd-temp	game/credits.rpy	136
 		音乐\nEasy Breeze (StarSight Remix)  Player_275x / Thomas Greenberg\n穏やかに過ぎゆく時  小林俊太郎\n【Animenz】secret base 〜你给我的所有〜 - 未闻花名 ED 钢琴版  Bilibili用户@Animenzzz\nLeaves in the Wind  Isaac Shepard\nMidday Prospects 午日的眺望 陈致逸 / HOYO-MiX[persistent.expsongname]\n所念皆星河  CMJ	game/credits.rpy	141
@@ -101,10 +101,10 @@ care_50323f26	n	还有摇摆着的向日葵，	game/rpy/care.rpy	107	n "[what]"
 care_62772643	n	还有夜之城中与资本的抗争，	game/rpy/care.rpy	109	n "[what]"
 care_b6fdccb5	n	还有提瓦特的飞鸟、诗和城邦，女皇、愚人和怪物，	game/rpy/care.rpy	111	n "[what]"
 care_28ae2f25	n	还有身穿白袍的标准纤弱东方女性研究员，和她在逆境中的人性之光...	game/rpy/care.rpy	124	n "[what]"
-care_4b8fb521	n	那么，请不要旁观...	game/rpy/care.rpy	252	n "[what]"
-care_ee706421	n	永远保持独立思考的能力并保持对事物的中立看法...	game/rpy/care.rpy	253	n "[what]"
-care_04d9bcab	n	做自己认为正确，而不只是“合适”的事。	game/rpy/care.rpy	254	n "[what]"
-care_afe15fed	n	谢谢你能看到这里，让我们继续游戏吧。	game/rpy/care.rpy	255	n "[what]"
+care_4b8fb521	n	那么，请不要旁观...	game/rpy/care.rpy	281	n "[what]"
+care_ee706421	n	永远保持独立思考的能力并保持对事物的中立看法...	game/rpy/care.rpy	282	n "[what]"
+care_04d9bcab	n	做自己认为正确，而不只是“合适”的事。	game/rpy/care.rpy	283	n "[what]"
+care_afe15fed	n	谢谢你能看到这里，让我们继续游戏吧。	game/rpy/care.rpy	284	n "[what]"
 ch0_e9f8ab5e	n	你好，[player]！	game/rpy/ch0.rpy	5	n "[what]"
 ch0_b08c4d4b	n	这是一个...互动小说游戏。	game/rpy/ch0.rpy	6	n "[what]"
 ch0_70a6b771	n	呃...	game/rpy/ch0.rpy	7	n "[what]"
