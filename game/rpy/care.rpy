@@ -168,7 +168,9 @@ label care:
     # 只有自觉遵守内心的道德律令，我们才能自由。自由决定的道德才是真正的道德，服从道德的自由才是真正的自由。 -> 只有自觉遵循内心的对于道德和善的向往，人类才能真正的获得自由。自由决定的追寻才是真正的道德。
     # 只有根据绝对命令式行善才能赢得自由。只有自由人才有尊严。 -> 只有根据绝对命令式行善的人才能赢得自由。只有自由人才有尊严。
     # ```
-    # 在一场在线民意调查中，大部分人在“原创/仅参考思想”、“洗稿”、“不当引用”、“抄袭”中选择了“洗稿”（43.9%），其次为“不当引用”（24.4%）、“抄袭”（17.1%）和“原创/仅参考思想”（14.6%）。
+    # 针对相关段落，在一场在线投票中，大部分人在“原创/仅参考思想”、“洗稿”、“不当引用”、“抄袭”中选择了“洗稿”（47.8%），其次为“不当引用”（21.7%）、“抄袭”（15.2%）和“原创/仅参考思想”（15.2%），总票数46。
+    # （我们抹除了作者信息，并只提供了涉嫌抄袭的两个段落）
+    # 当被问及“如果被指抄袭作者在两年前发布此文章，在发布两小时后自行删除，阅读人数不大于30人，您认为是否有惩罚此作者的必要？”时，大部分人（76.9%）选择“否”，其次为“是”（23.1%），总票数13。
     # 
     # 
     # 《中国██大学2018年春季学期异常心理学教学大纲》，2018-02-06 02:10发布，2022-09-01 16:20在SCP的爬虫中最后一次出现，120 (+122 / -2)。
@@ -258,7 +260,7 @@ label care:
     # https://web.archive.org/web/20230205035358/http://scp-wiki-cn.wikidot.com/anti-plagiarism-policy
     # http://scpsandboxcn.wikidot.com/confucious
     # https://web.archive.org/web/20230205045423/http://scpsandboxcn.wikidot.com/confucious
-    # （尽管“调色盘”PDF中对链接“打码”，但是只打码链接文字内容，不移除href有什么用呢？）
+    # （尽管“调色盘”PDF中对链接“打码”，但是只打码链接中的文章标题，不移除文章ID有什么用呢？）
     # https://www.coursehero.com/file/75559340/Psy346A-Fall20-Abnormal-Psychology-Handojo-Vpdf/
     # https://web.archive.org/web/20230205035917/https://www.coursehero.com/file/75559340/Psy346A-Fall20-Abnormal-Psychology-Handojo-Vpdf/
     # https://www.cbuonline.edu/articles/a-deeper-look-psy-346-abnormal-psychology
